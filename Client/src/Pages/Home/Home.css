@@ -1,0 +1,453 @@
+.homebody {
+	overflow: hidden;
+}
+
+/* Swiper */
+.homebody .emptycontainer{
+	margin-top: 5rem;
+}
+
+.homebody .firstsection .swiper-button-next {
+	right: 0%;
+	color: #000 !important;
+	fill: black !important;
+	stroke: black !important;
+	background-color: white;
+	width: 75px;
+	height: 75px;
+	border-radius: 50%;
+	box-sizing: border-box;
+}
+
+.homebody .firstsection .swiper-button-prev {
+	left: 0%;
+	color: #000 !important;
+	fill: black !important;
+	stroke: black !important;
+	background-color: white;
+	width: 75px;
+	height: 75px;
+	border-radius: 50%;
+	box-sizing: border-box;
+}
+
+.homebody .carousel .swiper-button-next {
+	top: 90%;
+	right: 40%;
+	color: #000 !important;
+	fill: black !important;
+	stroke: black !important;
+	background-color: white;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	box-sizing: border-box;
+}
+
+.homebody .carousel .swiper-button-prev {
+	top: 90%;
+	left: 40%;
+	color: #000 !important;
+	fill: black !important;
+	stroke: black !important;
+	background-color: white;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	box-sizing: border-box;
+}
+
+/* FirstSection */
+.firstsection {
+	background-color: #2a2a2a;
+	background-image: url(../../SVG/MalaysiaMap.svg);
+	background-repeat: no-repeat;
+	overflow: hidden;
+	background-size: cover;
+	background-position: -100%;
+	padding-bottom: 5%;
+	background-size: 120%;
+}
+
+.mobile-first-section {
+	display: none;
+}
+
+.carousel-mobile {
+	display: none;
+}
+
+@media (max-width: 850px) {
+	.homebody .mySwiper {
+		width: 21.5rem;
+	}
+
+	.homebody .mobile-first-section .swiper-button-next {
+		right: 0%;
+		color: #000 !important;
+		fill: black !important;
+		stroke: black !important;
+		background-color: white;
+		width: 60px;
+		height: 60px;
+		border-radius: 50%;
+		box-sizing: border-box;
+	}
+	
+	.homebody .mobile-first-section .swiper-button-prev {
+		left: 0%;
+		color: #000 !important;
+		fill: black !important;
+		stroke: black !important;
+		background-color: white;
+		width: 60px;
+		height: 60px;
+		border-radius: 50%;
+		box-sizing: border-box;
+	}
+
+	.homebody .carousel-mobile .swiper-button-next {
+		right: 0%;
+		color: #000 !important;
+		fill: black !important;
+		stroke: black !important;
+		background-color: white;
+		width: 60px;
+		height: 60px;
+		border-radius: 50%;
+		box-sizing: border-box;
+	}
+	
+	.homebody .carousel-mobile .swiper-button-prev {
+		left: 0%;
+		color: #000 !important;
+		fill: black !important;
+		stroke: black !important;
+		background-color: white;
+		width: 60px;
+		height: 60px;
+		border-radius: 50%;
+		box-sizing: border-box;
+	}
+
+	.firstsectioncontainerfive {
+		margin-right: 0% !important;
+	}
+
+	.homebody .mySwiper {
+		width: 34.5rem;
+	}
+
+	.homebody .card-body {
+		width: fit-content;
+		align-self: center;
+	}
+}
+
+@media (max-width: 650px) {
+	.firstsection {
+		display: none;
+	}
+
+	.homebody .carousel {
+		display: none;
+	}
+
+	.mobile-first-section {
+		display: block;
+	}
+
+	.carousel-mobile {
+		display: block;
+	}
+
+	.mobile-first-section .product-card-image {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 90% !important;
+	}
+
+	.homebody .product-card-description {
+		font-size: 0.5rem;
+	}
+
+	.homebody .np-card-image {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 15rem;
+		height: 11rem;
+		border-radius: 16px !important;
+	}
+
+	.homebody .np-card-by {
+		opacity: 0.5;
+		font-family: "Arimo", sans-serif;
+		font-size: 12px;
+		margin-left: 2rem;
+	}
+
+	.homebody .np-card-date {
+		opacity: 0.5;
+		font-family: "Arimo", sans-serif;
+		font-size: 12px;
+		margin-right: 2rem;
+		
+	}
+
+	.homebody .np-card-title {
+		font-family: "Arimo", sans-serif;
+		width: 16rem;
+		margin-left: 2rem;
+		font-size: 12px;
+	}
+
+	.homebody .np-card-description {
+		font-family: "Arimo", sans-serif;
+		width: 14rem;
+		margin-left: 2rem;
+		font-size: 12px;
+	}
+
+	.homebody .np-read-more {
+		color: #fcc018;
+		font-size: 12px;
+		font-family: "Arimo", sans-serif;
+		margin-left: 2rem;
+	}
+
+	.mobile-first-section .button-card-product {
+		font-size: 0.6rem;
+		font-weight: 700;
+	}
+
+	.homebody .thirdsection-HuntLogo {
+		width: 15rem;
+	}
+
+	.homebody .thirdsection-h {
+		font-size: 1.6rem;
+	}
+
+	.homebody .thirdsection-description {
+		text-align: center;
+		padding-left: 3%;
+		color: white;
+	}
+
+	.thirdsection-p {
+		font-size: 12px;
+		padding: 0rem 20rem;
+	}
+
+	.mobile-first-section .firstsectioncontainertwoHeader {
+		margin-top: 2rem;
+		margin-right: 4rem;
+		color: white;
+		font-size: 1rem;
+		font-family: "Arimo", sans-serif;
+	}
+
+	.mobile-first-section .firstsectioncontainerthreeHeader {
+		color: white;
+		margin-right: 4rem;
+		font-size: 2rem;
+		font-family: "Arimo", sans-serif;
+	}
+
+	.mobile-first-section .firstsectioncontainerfourImgOne {
+		width: 18rem;
+		margin-right: 1rem;
+		margin-top: -1.4rem;
+	}
+
+	.mobile-first-section .firstsectioncontainerfourImgTwo {
+		width: 14rem;
+		margin-right: 4rem;
+	}
+
+	.mobile-first-section .product-location {
+		font-size: 1.5rem;
+		margin-right: 0.2rem;
+	}
+
+	.mobile-first-section .product-sublocation {
+		font-size: 0.9rem;
+		align-self: center;
+		text-transform: capitalize;
+	}
+}
+
+.firstsectioncontaineroneHeader {
+	margin-top: 2%;
+	margin-left: 5%;
+	font-size: 20px;
+	font-family: "Arimo", sans-serif;
+	color: white;
+}
+
+.firstsectioncontainertwoHeader {
+	margin-top: 20%;
+	margin-left: 4rem;
+	color: white;
+	font-size: 26px;
+	font-family: "Arimo", sans-serif;
+}
+
+.firstsectioncontainerthreeHeader {
+	margin-left: 4rem;
+	color: white;
+	font-size: 50px;
+	font-family: "Arimo", sans-serif;
+}
+
+.firstsectioncontainerfourImgOne {
+	width: 25rem;
+	margin-left: 0rem;
+	margin-top: -1.9%;
+}
+
+.firstsectioncontainerfourImgTwo {
+	width: 20rem;
+	margin-left: 4rem;
+	margin-top: 1%;
+}
+
+.firstsectioncontainerfive {
+	text-align: center;
+	width: 35rem;
+	float: right;
+	margin-right: 5%;
+	margin-top: -35%;
+	background-color: transparent;
+}
+
+.product-card-location {
+	align-items: center;
+}
+
+.product-card-image {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100% !important;
+	border-radius: 10% !important;
+}
+
+.product-card-title {
+	text-align: center;
+	color: #fcc018;
+	font-size: 30px !important;
+}
+
+.product-btnContainer {
+	margin-bottom: 10%;
+}
+
+.product-location {
+	font-size: 2.5rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-right: 0.5rem;
+}
+
+.product-sublocation {
+	font-size: 1.2rem;
+	font-weight: 500;
+	align-self: center;
+	text-transform: capitalize;
+}
+
+
+/* SecondSection */
+
+.np-card-image {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 24rem;
+	height: 21rem;
+	border-radius: 16px !important;
+}
+
+.np-card-by {
+	opacity: 0.5;
+	font-family: "Arimo", sans-serif;
+}
+
+.np-card-date {
+	opacity: 0.5;
+	font-family: "Arimo", sans-serif;
+}
+
+.np-card-title {
+	font-family: "Arimo", sans-serif;
+	width: 22rem;
+}
+
+.homebody .np-card-description {
+	opacity: 0.5;
+	font-family: "Arimo", sans-serif;
+}
+
+.np-read-more {
+	color: #fcc018;
+	font-family: "Arimo", sans-serif;
+}
+
+.homebody .card {
+	background-color: transparent;
+	border-radius: 16px;
+	border-color: transparent;
+}
+
+/* ThirdSection */
+.thirdsection {
+	background-color: #2a2a2a;
+	overflow: hidden;
+}
+
+.firstsection .button-card-product {
+	font-size: 1.25rem;
+	font-weight: 700;
+	padding: 0.25rem 1.25rem;
+}
+
+.homebody .thirdsection-AppDemo {
+	width: 55rem;
+	margin-left: 4%;
+	margin-top: 5%;
+}
+
+.thirdsection-HuntLogo {
+	width: 24rem;
+}
+
+.thirdsection-h {
+	font-size: 55px;
+}
+
+.thirdsection-description {
+	width: 60rem;
+	padding-left: 3%;
+	color: white;
+}
+
+@media (min-width: 925px) {
+	.homebody .thirdsection-p {
+		width: 30rem;
+	}
+}
+
+.homebody .mySwiper {
+	width: 24.5rem;
+	margin-top: -3.5rem;
+}
+
+.homebody .text{
+	color: white;
+	font-size: 1.5rem;
+	margin-left: 4rem;
+	margin-top: 1rem;
+}
