@@ -50,7 +50,7 @@ export const TheHunts = () => {
                                             {/* Mobile Carousel Card */}
                                             <section className='mobile'>
                                             <div class="carousel-inner  ">
-                                            <Swiper
+                                            {/* <Swiper
                                                 slidesPerView={1}
                                                 spaceBetween={2}
                                                 slidesPerGroup={1}
@@ -58,7 +58,7 @@ export const TheHunts = () => {
                                                 navigation={true}                                          
                                                 modules={[Navigation]} 
                                                 allowTouchMove={false}      
-                                            >
+                                            > */}
                                             <SwiperSlide>
                                                 <div class="carousel-item active">
                                                     <div class="row">
@@ -74,7 +74,7 @@ export const TheHunts = () => {
                                                                                 src={LogoCircle}
                                                                                 alt="circle"
                                                                             />
-                                                                            GeorgeTown 1
+                                                                            Penang
                                                                         </p>
                                                                     </div>
 
@@ -89,6 +89,9 @@ export const TheHunts = () => {
                                                                     <p class="card-text">
                                                                         With supporting text below as a natural
                                                                         lead-in to additional content.
+                                                                    </p>
+                                                                    <p class="card-text">
+                                                                        RM68
                                                                     </p>
                                                                     <div class="text-center button-cta">
                                                                         <button
@@ -110,7 +113,7 @@ export const TheHunts = () => {
                                                             </div>
                                                         </div>
 
-                                                        <div class="col-md-4 mb-3">
+                                                        {/* <div class="col-md-4 mb-3">
                                                             <div class="card">
                                                                 <div class="card-body">
                                                                     <div class="container-fluid">
@@ -493,19 +496,19 @@ export const TheHunts = () => {
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                        </div>
+                                                        </div> */}
                                                     </div>
                                                 </div>
                                                 </SwiperSlide>
                                                 <div className='emptycontainer '></div>
-                                                </Swiper>
+                                                {/* </Swiper> */}
                                             </div>
                                             </section>
 
                                             {/* Carousel Card */}
                                             <section className='web'>
                                             <div class="carousel-inner  ">
-                                            <Swiper
+                                            {/* <Swiper
                                                 slidesPerView={1}
                                                 spaceBetween={2}
                                                 slidesPerGroup={1}
@@ -514,7 +517,7 @@ export const TheHunts = () => {
                                                 modules={[Navigation]} 
                                                 allowTouchMove={false}      
 
-                                            >
+                                            > */}
                                             <SwiperSlide>
                                                 <div class="carousel-item active">
                                                     <div class="row">
@@ -530,7 +533,7 @@ export const TheHunts = () => {
                                                                                 src={LogoCircle}
                                                                                 alt="circle"
                                                                             />
-                                                                            GeorgeTown 1
+                                                                            Penang
                                                                         </p>
                                                                     </div>
 
@@ -545,6 +548,9 @@ export const TheHunts = () => {
                                                                     <p class="card-text">
                                                                         With supporting text below as a natural
                                                                         lead-in to additional content.
+                                                                    </p>
+                                                                    <p class="card-text" style={{ fontSize:'2rem' }}>
+                                                                        RM68
                                                                     </p>
                                                                     <div class="text-center button-cta">
                                                                         <button
@@ -566,7 +572,7 @@ export const TheHunts = () => {
                                                             </div>
                                                         </div>
 
-                                                        <div class="col-md-4 mb-3">
+                                                        {/* <div class="col-md-4 mb-3">
                                                             <div class="card">
                                                                 <div class="card-body">
                                                                     <div class="container-fluid">
@@ -949,12 +955,12 @@ export const TheHunts = () => {
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                        </div>
+                                                        </div> */}
                                                     </div>
                                                 </div>
                                                 </SwiperSlide>
                                                 <div className='emptycontainer '></div>
-                                                </Swiper>
+                                                {/* </Swiper> */}
                                             </div>
                                             </section>                                                                  
                                         </div>

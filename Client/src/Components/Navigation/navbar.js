@@ -68,6 +68,10 @@ export default function Navbar() {
                                             <Link className="nav-link" to="/enquiry"
                                             >Enquiry</Link>
                                         </li>
+                                        <li className="nav-item">
+                                            <Link className="nav-link" to='/terms&condition'
+                                            >Terms&Condition</Link>
+                                        </li>
                                     </ul>
                                 </div>
                                 <div
@@ -75,7 +79,7 @@ export default function Navbar() {
                                     style={{ padding: '2rem', paddingTop: '0.75rem' }}
                                 >
                                     <Link className="btn btn-default btn-no-fill" to='/login'>Log In</Link>
-                                    <Link className="btn btn-fill border-0" to='/register'>Join The Hunt</Link>
+                                    <Link className="btn btn-fill border-0" to='/thehunts'>Join The Hunt</Link>
                                 </div>
                             </div>
                         </div>
@@ -101,9 +105,13 @@ export default function Navbar() {
                                 <Link className="nav-link" to='/enquiry'
                                 >Enquiry</Link>
                             </li>
+                            <li className="nav-item">
+                                <Link className="nav-link" to='/terms&condition'
+                                >Terms&Condition</Link>
+                            </li>
                         </ul>
                         <div className='container-fluid m-2 ' style={{ width: '19rem', }}>
-                            <Link className="btn btn-fill border-0" to='/register' style={{ marginRight: '2rem', }}>Join The Hunt</Link>
+                            <Link className="btn btn-fill border-0" to='/thehunts' style={{ marginRight: '2rem', }}>Join The Hunt</Link>
                             <Link className='login' to='/login'><img
                                 src={usericon}
                                 style={{ width: '3.3rem' }}

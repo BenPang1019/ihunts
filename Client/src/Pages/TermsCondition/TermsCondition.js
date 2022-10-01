@@ -1,9 +1,12 @@
 import React from 'react'
+import Footer from '../../Components/Footer/Footer.js'
+import Navbar from '../../Components/Navigation/navbar.js'
 import "../TermsCondition/TermsCondition.css";
 
 export const TermsCondition = () => {
   return (
     <div className='tnc'>
+    <Navbar />
       <h4 style={{ textAlign:'center' }}>Terms and Conditions</h4>
       <p>
       Please read the terms and conditions (“Terms and Conditions”) set out below carefully before booking events listed on our website. (www.ihunts.co). By purchasing a ticket from our platform, you (“customer”) agree that you have read and understood the Terms and Conditions and that you have accepted and agreed to be bound by them. Their agents or employees shall not be liable for any personal injury, loss, damage or death caused or occurring while in the venue, location or place related.
@@ -164,7 +167,7 @@ export const TermsCondition = () => {
       Email: info@ihunts.co
       H/P: 013-9272628
       </p>
-      <a href='/'>Back to Home</a>
+      <Footer />
     </div>
   )
 }

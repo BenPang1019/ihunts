@@ -226,6 +226,9 @@ export default function Footer() {
                             <p>
                                 Copyright © 2022 IEC International Sdn Bhd | All Right Reserved
                             </p>
+                            <p style={{ paddingLeft:'24rem' }}>
+                                Assigned By WDA Technology
+                            </p>
                         </nav>
                     </div>
                 </div>
