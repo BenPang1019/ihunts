@@ -20,6 +20,9 @@ export const Enquiry = () => {
     setSelected(event.target.value);
   };
 
+  const scrollToTop = () => {
+    window.scrollTo(0, 0)
+  }
   return (
     <div>
       <Navbar />
@@ -141,23 +144,63 @@ export const Enquiry = () => {
             </div>
           </div>
 
-          <div className="border-color info-footer">
-            <div className="">
-              <hr className="hr" />
-            </div>
+          <div className="web border-color info-footer">
+                    <div className="">
+                        <hr className="hr" />
+                    </div>
+                    <div style={{textAlign:'center' }}>
+                    <Link 
+                    to='/terms&condition' 
+                    style={{ color:'white' }}
+                    onClick={scrollToTop}
+                    >
+                    Term&Conditions
+                    </Link>
+                    </div>
+                    <div
+                        className="mx-auto d-flex flex-column flex-lg-row align-items-center footer-info-space gap-4"
+                        style={{ marginTop:'-2rem' }}
+                    >
+                        <nav
+                            className="d-flex flex-lg-row flex-column align-items-center justify-content-center"
+                        >
+                            <p>
+                                Copyright © 2022 IEC International Sdn Bhd | All Right Reserved
+                            </p>
+                            <p style={{ paddingLeft:'26rem' }}>
+                                Build By WDA Technology
+                            </p>
+                        </nav>
+                    </div>
+                </div>
 
-            <div
-              className="mx-auto d-flex flex-column flex-lg-row align-items-center footer-info-space gap-4"
-            >
-              <nav
-                className="d-flex flex-lg-row flex-column align-items-center justify-content-center"
-              >
-                <p>
-                  Copyright © 2022 IEC International Sdn Bhd | All Right Reserved
-                </p>
-              </nav>
-            </div>
-          </div>
+                <div className="mobile border-color info-footer">
+                    <div className="">
+                        <hr className="hr" />
+                    </div>
+                    <div style={{textAlign:'center' }}>
+                    <Link 
+                    to='/terms&condition' 
+                    style={{ color:'white' }}
+                    onClick={scrollToTop}
+                    >
+                    Term&Conditions
+                    </Link>
+                    </div>
+                    <div
+                        className="mx-auto d-flex flex-column flex-lg-row align-items-center footer-info-space gap-4"
+                        style={{ marginTop:'-2rem' }}
+                    >
+                        <nav
+                            className="d-flex flex-lg-row flex-column align-items-center justify-content-center"
+                        >
+                            <p>
+                                Copyright © 2022 IEC International Sdn Bhd | All Right Reserved <br/><br/>
+                                Build By WDA Technology
+                            </p>
+                        </nav>
+                    </div>
+                </div>
         </div>
       </div>
     </div>

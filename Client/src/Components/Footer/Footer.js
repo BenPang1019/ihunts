@@ -1,8 +1,12 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import '../Footer/Footer.css'
+import { Link } from 'react-router-dom'
 
 export default function Footer() {
+    const scrollToTop = () => {
+        window.scrollTo(0, 0)
+      }
     return (
         <div className="h-100 w-100" style={{ boxSizing: 'border-box', backgroundColor: '#2a2a2a' }}>
             <div className="footer-2-1 container-xxl mx-auto position-relative p-0" style={{ fontFamily: 'Poppins, sans-serif' }}>
@@ -129,15 +133,16 @@ export default function Footer() {
                                 <nav className="list-unstyled">
                                     <li className="list-group">
                                         <p className="list-menu">
-                                            hello@reallygreatsite.com<br />+6012 236 9087
+                                            info@ihunts.co<br />+6013 9272628
                                         </p>
                                     </li>
                                     <li className="list-menu">
                                         <p>
-                                            No 19, Jln Awani Park 2/1<br />
-                                            Taman Resort City<br />
-                                            47123 Bukit Jalil<br />
-                                            Selangor, Malaysia
+                                            IEC International Sdn Bhd (1473596-A)<br />
+                                            OG Business Park 85-1B,<br />
+                                            Jalan Taman Tan Yew Lai,<br />
+                                            Off Jalan Puchong,<br />
+                                            58200 Kuala Lumpur Malaysia.
                                         </p>
                                     </li>
                                 </nav>
@@ -212,13 +217,38 @@ export default function Footer() {
                     </div>
                 </div>
 
-                <div className="border-color info-footer">
+                <div className="web border-color info-footer">
                     <div className="">
                         <hr className="hr" />
                     </div>
-
+                    <div style={{textAlign:'center' }}>
+                    <Link 
+                    to='/terms&condition' 
+                    style={{ color:'white' }}
+                    onClick={scrollToTop}
+                    >
+                    Term&Conditions
+                    </Link>
+                    {' '}
+                    <Link 
+                    to='/returnpolicy' 
+                    style={{ color:'white' }}
+                    onClick={scrollToTop}
+                    >
+                    ReturnPolicy
+                    </Link>
+                    {' '}
+                    <Link 
+                    to='/privacypolicy' 
+                    style={{ color:'white' }}
+                    onClick={scrollToTop}
+                    >
+                    PrivacyPolicy
+                    </Link>
+                    </div>
                     <div
                         className="mx-auto d-flex flex-column flex-lg-row align-items-center footer-info-space gap-4"
+                        style={{ marginTop:'-2rem' }}
                     >
                         <nav
                             className="d-flex flex-lg-row flex-column align-items-center justify-content-center"
@@ -226,8 +256,52 @@ export default function Footer() {
                             <p>
                                 Copyright © 2022 IEC International Sdn Bhd | All Right Reserved
                             </p>
-                            <p style={{ paddingLeft:'24rem' }}>
-                                Assigned By WDA Technology
+                            <p style={{ paddingLeft:'26rem' }}>
+                                Build By WDA Technology
+                            </p>
+                        </nav>
+                    </div>
+                </div>
+
+                <div className="mobile border-color info-footer">
+                    <div className="">
+                        <hr className="hr" />
+                    </div>
+                    <div style={{textAlign:'center' }}>
+                    <Link 
+                    to='/terms&condition' 
+                    style={{ color:'white' }}
+                    onClick={scrollToTop}
+                    >
+                    Term&Conditions
+                    </Link>
+                    {' '}
+                    <Link 
+                    to='/returnpolicy' 
+                    style={{ color:'white' }}
+                    onClick={scrollToTop}
+                    >
+                    ReturnPolicy
+                    </Link>
+                    {' '}
+                    <Link 
+                    to='/privacypolicy' 
+                    style={{ color:'white' }}
+                    onClick={scrollToTop}
+                    >
+                    PrivacyPolicy
+                    </Link>
+                    </div>
+                    <div
+                        className="mx-auto d-flex flex-column flex-lg-row align-items-center footer-info-space gap-4"
+                        style={{ marginTop:'-2rem' }}
+                    >
+                        <nav
+                            className="d-flex flex-lg-row flex-column align-items-center justify-content-center"
+                        >
+                            <p>
+                                Copyright © 2022 IEC International Sdn Bhd | All Right Reserved <br/><br/>
+                                Build By WDA Technology
                             </p>
                         </nav>
                     </div>

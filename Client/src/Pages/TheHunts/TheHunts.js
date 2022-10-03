@@ -84,14 +84,13 @@ export const TheHunts = () => {
                                                                         src="https://images.unsplash.com/photo-1532781914607-2031eca2f00d?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=7c625ea379640da3ef2e24f20df7ce8d"
                                                                     />
                                                                     <h4 class="card-title">
-                                                                        Special title treatment
+                                                                        WALK HUNT
                                                                     </h4>
                                                                     <p class="card-text">
-                                                                        With supporting text below as a natural
-                                                                        lead-in to additional content.
+                                                                        Treasure Hunt in Penang Heritage Area
                                                                     </p>
                                                                     <p class="card-text">
-                                                                        RM68
+                                                                        RM48
                                                                     </p>
                                                                     <div class="text-center button-cta">
                                                                         <button
@@ -543,14 +542,13 @@ export const TheHunts = () => {
                                                                         src="https://images.unsplash.com/photo-1532781914607-2031eca2f00d?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=7c625ea379640da3ef2e24f20df7ce8d"
                                                                     />
                                                                     <h4 class="card-title">
-                                                                        Special title treatment
+                                                                        WALK HUNT
                                                                     </h4>
                                                                     <p class="card-text">
-                                                                        With supporting text below as a natural
-                                                                        lead-in to additional content.
+                                                                        Treasure Hunt in Penang Heritage Area
                                                                     </p>
                                                                     <p class="card-text" style={{ fontSize:'2rem' }}>
-                                                                        RM68
+                                                                        RM48
                                                                     </p>
                                                                     <div class="text-center button-cta">
                                                                         <button

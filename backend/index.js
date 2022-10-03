@@ -1,17 +1,17 @@
-// import express from "express";
-// import mysql from "mysql";
-// import cors from "cors";
+import express from "express";
+import mysql from "mysql";
+import cors from "cors";
 
-const express = require("express");
-const mysql = require("mysql");
-const cors = require("cors");
+// const express = require("express");
+// const mysql = require("mysql");
+// const cors = require("cors");
 
 const app = express();
 app.use(cors());
 app.use(express.json());
 
 const db = mysql.createConnection({
-  host: "ihunts.co",
+  host: "179.61.188.38",
   user: "u811623433_ihunts",
   password: "Ihunts1234",
   database: "u811623433_ihunt",
@@ -83,6 +83,6 @@ app.post("/register", (req, res) => {
 //   });
 // });
 
-app.listen(8800, () => {
+app.listen(2000, () => {
   console.log("Connected to backend.");
 });

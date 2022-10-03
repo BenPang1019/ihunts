@@ -42,12 +42,12 @@ export default function Navbar() {
                         <div className="modal-dialog" role="document">
                             <div
                                 className="modal-content border-0"
-                                style={{ backgroundcolor: '#2a2a2a' }}
+                                style={{ backgroundcolor: '#2a2a2a',marginTop:'8rem' }}
                             >
                              
                                 <div
                                     className="modal-body"
-                                    style={{ padding: '2rem', paddingTop: 0, paddingBottom: 0 }}
+                                    style={{ marginTop:'0rem' }}
                                 >
                                     <ul className="navbar-nav responsive me-auto mt-2 mt-lg-0">
                                         <li className="nav-item">
@@ -68,10 +68,10 @@ export default function Navbar() {
                                             <Link className="nav-link" to="/enquiry"
                                             >Enquiry</Link>
                                         </li>
-                                        <li className="nav-item">
+                                        {/* <li className="nav-item">
                                             <Link className="nav-link" to='/terms&condition'
                                             >Terms&Condition</Link>
-                                        </li>
+                                        </li> */}
                                     </ul>
                                 </div>
                                 <div
@@ -105,10 +105,10 @@ export default function Navbar() {
                                 <Link className="nav-link" to='/enquiry'
                                 >Enquiry</Link>
                             </li>
-                            <li className="nav-item">
+                            {/* <li className="nav-item">
                                 <Link className="nav-link" to='/terms&condition'
                                 >Terms&Condition</Link>
-                            </li>
+                            </li> */}
                         </ul>
                         <div className='container-fluid m-2 ' style={{ width: '19rem', }}>
                             <Link className="btn btn-fill border-0" to='/thehunts' style={{ marginRight: '2rem', }}>Join The Hunt</Link>

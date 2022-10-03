@@ -9,11 +9,15 @@ import  {Register}  from "./Pages/Register/Register";
 import {TheHunts} from './Pages/TheHunts/TheHunts';
 import { UserDashboard } from "./Pages/UserDashboard/UserDashboard";
 import { TermsCondition } from "./Pages/TermsCondition/TermsCondition";
+import { ReturnPolicy } from "./Pages/ReturnPolicy/ReturnPolicy";
+import { PrivacyPolicy } from "./Pages/PrivacyPolicy/PrivacyPolicy";
+
 
 
 function App() {
+
   return (
-    <Router hashType='noslash' >
+    <Router hashType={'nohash'}>
       <Routes>
         <Route exact path="/"  element={<Home />} />
         <Route path="/thehunts" element={<TheHunts />} />
@@ -22,8 +26,10 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/register"  element={<Register />} />
         <Route path="/about" element={<About />} />
-        <Route path="/userdashboard" element={<UserDashboard />} />
+        {/* <Route path="/userdashboard" element={<UserDashboard />} /> */}
         <Route path="/terms&condition" element={<TermsCondition />} />
+        <Route path="/returnpolicy" element={<ReturnPolicy />} />
+        <Route path="/privacypolicy" element={<PrivacyPolicy />} />
       </Routes>
     </Router>
   );

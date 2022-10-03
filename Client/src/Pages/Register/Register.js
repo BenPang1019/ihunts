@@ -30,7 +30,7 @@ export const Register = () => {
   const handleClick = async (e) => {
     e.preventDefault();
     try {
-      await axios.post("http://179.61.188.38/register", register);
+      await axios.post("http://179.61.188.38:9000/register", register);
       navigate("/login");
     } catch (err) {
       console.log(err);
