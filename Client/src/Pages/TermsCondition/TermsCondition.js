@@ -7,7 +7,8 @@ export const TermsCondition = () => {
   return (
     <div className='tnc'>
     <Navbar />
-      <h1 style={{ textAlign:'center',color:'yellow' }}>Terms and Conditions</h1>
+    <div style={{ paddingLeft:'1rem',paddingRight:'1rem',paddingBottom:'1rem' }}>
+      <h1 style={{ textAlign:'center',color:'yellow',paddingTop:'1rem' }}>Terms and Conditions</h1>
       <p>
       Please read the terms and conditions (“Terms and Conditions”) set out below carefully before booking events listed on our website. (www.ihunts.co). By purchasing a ticket from our platform, you (“customer”) agree that you have read and understood the Terms and Conditions and that you have accepted and agreed to be bound by them. Their agents or employees shall not be liable for any personal injury, loss, damage or death caused or occurring while in the venue, location or place related.
       We reserve the right to modify or update our Terms and Conditions at any time without prior notice. Updated versions of the Terms and Conditions will appear on this Platform and are effective immediately. You are responsible for reviewing the Terms and Conditions regularly. If you do not agree to be bound by these Terms and Conditions, please refrain from using our services.
@@ -111,6 +112,7 @@ export const TermsCondition = () => {
       <p>
       6.1 We take all complaints very seriously and aim at responding to your complaints as soon as possible. All complaints should be addressed to customercare @ihunts.co or you may call 013-9272628.
       </p>
+      </div>
       <Footer />
     </div>
   )

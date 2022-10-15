@@ -221,7 +221,7 @@ export default function Footer() {
                     <div className="">
                         <hr className="hr" />
                     </div>
-                    <div style={{textAlign:'center' }}>
+                    <div style={{}}>
                     <Link 
                     to='/terms&condition' 
                     style={{ color:'white' }}
@@ -232,15 +232,15 @@ export default function Footer() {
                     {' '}
                     <Link 
                     to='/returnpolicy' 
-                    style={{ color:'white' }}
+                    style={{ color:'white',paddingLeft:'23rem' }}
                     onClick={scrollToTop}
                     >
-                    ReturnPolicy
+                    RefundPolicy
                     </Link>
                     {' '}
                     <Link 
                     to='/privacypolicy' 
-                    style={{ color:'white' }}
+                    style={{ color:'white',paddingLeft:'25rem' }}
                     onClick={scrollToTop}
                     >
                     PrivacyPolicy

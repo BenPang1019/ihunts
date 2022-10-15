@@ -1,40 +1,43 @@
 import axios from "axios";
-import { useContext, useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useState } from "react";
 // import { RegisterContext } from "../../context/RegisterContext";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import NavbarRegister from "../../Components/Navigation/navbarregister";
-
 import "../Register/register.css"
 
 export const Register = () => {
-  // const axiosInstance=axios.create({
-  //   baseURL:process.env.REACT_APP_REGISTER_URL,
-  // })
+  const [agree,setAgree] = useState(false);
+  const checkboxHandler = () => {
+    // if agree === true, it will be set to false
+    // if agree === false, it will be set to true
+    setAgree(!agree);
+    // Don't miss the exclamation mark
+  }
 
-  const [register, setRegister] = useState({
+  const [inputs, setInputs] = useState({
     username: "",
     fullName: "",
     phone: "",
     email: "",
     password: "",
   });
-  const [error,setError] = useState(false)
+  const [err, setErr] = useState(null);
 
   const navigate = useNavigate();
 
   const handleChange = (e) => {
-    setRegister((prev) => ({ ...prev, [e.target.name]: e.target.value }));
+    setInputs((prev) => ({ ...prev, [e.target.name]: e.target.value }));
   };
 
   const handleClick = async (e) => {
     e.preventDefault();
     try {
-      await axios.post("http://179.61.188.38:9000/register", register);
+      const res = await axios.post("/auth/register", inputs);
+      console.log(res)
       navigate("/login");
     } catch (err) {
-      console.log(err);
-      setError(true)
+      setErr(err.response.data);
+    console.log(err)
     }
   };
 
@@ -53,20 +56,22 @@ export const Register = () => {
                 <label class="label">Username</label>
                 <input
                   type="text"
-                  placeholder="username"
+                  placeholder="Enter Username"
                   name='username'
                   onChange={handleChange}
                   className="form-control"
-                />
+                  required
+                /> 
               </div>
               <div class="form-group col-lg-6">
                 <label class="label">Full Name</label>
                 <input
                   type="text"
-                  placeholder="fullname"
-                  name='fullname'
+                  placeholder="Enter FullName"
+                  name='fullName'
                   onChange={handleChange}
                   className="form-control"
+                  required
                 />
               </div>
             </div>
@@ -75,20 +80,22 @@ export const Register = () => {
                 <label class="label">Phone Number</label>
                 <input
                   type="text"
-                  placeholder="phone"
+                  placeholder="Enter PhoneNumber"
                   name='phone'
                   onChange={handleChange}
                   className="form-control"
+                  required
                 />
               </div>
               <div class="form-group col-lg-6">
                 <label class="label">Email</label>
                 <input
-                  type="text"
-                  placeholder="email"
+                  type="email"
+                  placeholder="Enter Email"
                   name='email'
                   onChange={handleChange}
                   className="form-control"
+                  required
                 />
               </div>
             </div>
@@ -96,27 +103,29 @@ export const Register = () => {
               <div class="form-group col-lg-6">
                 <label class="label">Password</label>
                 <input
-                  type="password"
-                  placeholder="password"
+                  type="text"
+                  placeholder="Enter Password"
                   name='password'
                   onChange={handleChange}
                   className="form-control"
+                  required
                 />
               </div>
             </div>
             <div class="form-group mx-auto col-lg-12 text-center">
-              <input type="checkbox" class="form-check-input" id="check" />
-              <label class="text-forgot-info" for="exampleCheck1" style={{ marginLeft: '0.5rem' }}>I agree to <Link to='/terms&condition' style={{ color: '#ffcc4d' }}>Terms and Conditions</Link></label>
+              <input type="checkbox" class="form-check-input" id="agree" onChange={checkboxHandler} />
+              <label class="text-forgot-info" htmlFor="agree" style={{ marginLeft: '0.5rem' }}>I agree to <Link to='/terms&condition' style={{ color: '#ffcc4d' }}>Terms and Conditions</Link></label>
             </div>
             <div class="text-center mb-5">
               <button
                 type="submit"
+                disabled={!agree}
                 class="submit-btn btn mb-0 btn-join border-0"
                 onClick={handleClick}
               >
-                Join the Hunt
+                Register
               </button>
-              {error && "Something went wrong!"}
+              {err && <p>{err}</p>}
             </div>
             </form>
           </div>

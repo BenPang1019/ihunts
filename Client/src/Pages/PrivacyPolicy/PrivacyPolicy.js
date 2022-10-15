@@ -7,7 +7,8 @@ export const PrivacyPolicy = () => {
   return (
     <div className='privacy'>
     <Navbar />
-      <h1 style={{ textAlign:'center',color:'yellow' }}>Privacy Policy</h1>
+    <div style={{ paddingLeft:'1rem',paddingRight:'1rem',paddingBottom:'1rem'  }}>
+      <h1 style={{ textAlign:'center',color:'yellow',paddingTop:'1rem' }}>Privacy Policy</h1>
       <p>
       This Privacy Policy describes how your personal information is collected, used, and shared when you visit or make booking with IEC International Sdn Bhd:
       </p>
@@ -56,6 +57,7 @@ export const PrivacyPolicy = () => {
       Email: info@ihunts.co
       H/P: 013-9272628
       </p>
+      </div>
       <Footer />
     </div>
   )

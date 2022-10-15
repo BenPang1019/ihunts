@@ -1,39 +1,40 @@
-// import axios from "axios";
-// import { useContext, useState } from "react";
+import axios from "axios";
+import { useContext, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-// import Footer from "../../Components/Footer/Footer";
-
 import NavbarLogin from "../../Components/Navigation/navbarlogin";
-// import { AuthContext } from "../../context/AuthContext";
-import UserIcon from '../../SVG/user account icon.svg'
+import { AuthContext } from "../../context/AuthContext";
+import UserIcon from '../../SVG/user account icon.svg';
+import { useForm } from "react-hook-form";
 import "../Login/login.css";
-
+ 
 export const Login = () => {
-  // const [credentials, setCredentials] = useState({
-  //   username: undefined,
-  //   password: undefined,
-  // });
+  const [inputs, setInputs] = useState({
+    username: "",
+    password: "", 
+  });
+  const [err, setError] = useState(null);
 
-  // const { loading, error, dispatch } = useContext(AuthContext);
+  const navigate = useNavigate();
+
+  const {login} = useContext(AuthContext);
 
 
-  // const navigate = useNavigate()
+  const handleChange = (e) => {
+    setInputs((prev) => ({ ...prev, [e.target.name]: e.target.value }));
+  };
 
-  // const handleChange = (e) => {
-  //   setCredentials((prev) => ({ ...prev, [e.target.id]: e.target.value }));
-  // };
-
-  // const handleClick = async (e) => {
-  //   e.preventDefault();
-  //   dispatch({ type: "LOGIN_START" });
-  //   try {
-  //     const res = await axios.post("/auth/login", credentials);
-  //     dispatch({ type: "LOGIN_SUCCESS", payload: res.data });
-  //     navigate("/")
-  //   } catch (err) {
-  //     dispatch({ type: "LOGIN_FAILURE", payload: err.response.data });
-  //   }
-  // };
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      await login(inputs)
+      const res = await axios.post("/auth/login", inputs);
+      console.log(res)
+      navigate("/");
+    } catch (err) {
+      setError(err.response.data);
+      console.log(err)
+    }
+  };
 
   return (
     <div className="login">
@@ -55,21 +56,21 @@ export const Login = () => {
             <div class="form-group mx-auto">
               <label for="exampleInputEmail1" class="label">Username</label>
               <input 
-                // onChange={handleChange} 
+                onChange={handleChange} 
                 type="text" 
                 class="form-control" 
-                id="username" 
+                name="username"
                 aria-describedby="emailHelp" 
-                placeholder="Enter email" />
+                placeholder="Enter Username" />
             </div>
             <div class="form-group mx-auto">
               <label for="exampleInputPassword1" class="label">Password</label>
               <input 
-                // onChange={handleChange} 
+                onChange={handleChange} 
                 type="password" 
                 class="form-control" 
-                id="password" 
-                placeholder="Password" />
+                name="password"
+                placeholder="Password" /> 
             </div>
             <div class="form-group mx-auto">
               <input type="checkbox" class="form-check-input" id="check" />
@@ -79,12 +80,12 @@ export const Login = () => {
             <div class="text-center mb-5">
               <button
                 class="submit-btn btn mb-0 btn-join border-0"
-                // onClick={handleClick}
+                onClick={handleSubmit}
               >
                 Log In
               </button>
             </div>
-            {/* {error && <span>{error.message}</span>} */}
+            {err && <p>{err}</p>}
             <div class="text-center mb-5">
               <div className="text-forgot-info"> — &nbsp;&nbsp;&nbsp;&nbsp;Or&nbsp;&nbsp;&nbsp;&nbsp; — </div>
             </div>

@@ -1,14 +1,16 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React from 'react'
+import React, { useContext } from 'react'
 import '../Navigation/navbar.css'
 import Logo from '../Navigation/IECLogo.png'
 import { Link } from 'react-router-dom'
 import usericon from '../../SVG/user account icon.svg'
 import $ from 'jquery'
-
+import { AuthContext } from "../../context/AuthContext";
+ 
 export default function Navbar() {
     $('.modal-backdrop').remove();
     $('body').removeClass("modal-open");
+    const { currentUser, logout } = useContext(AuthContext);
 
     return (
         <div className="" style={{backgroundColor: '#2a2a2a', }}>
@@ -112,12 +114,15 @@ export default function Navbar() {
                         </ul>
                         <div className='container-fluid m-2 ' style={{ width: '19rem', }}>
                             <Link className="btn btn-fill border-0" to='/thehunts' style={{ marginRight: '2rem', }}>Join The Hunt</Link>
+                            <span>{currentUser?.username}</span>
+                            {currentUser ? (<span onClick={logout}>Logout</span>) : (
                             <Link className='login' to='/login'><img
                                 src={usericon}
                                 style={{ width: '3.3rem' }}
                                 alt="usericon"
                             />
                             </Link>
+                                )}
                         </div>
                     </div>
                 </nav>
