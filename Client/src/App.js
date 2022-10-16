@@ -11,6 +11,7 @@ import { UserDashboard } from "./Pages/UserDashboard/UserDashboard";
 import { TermsCondition } from "./Pages/TermsCondition/TermsCondition";
 import { ReturnPolicy } from "./Pages/ReturnPolicy/ReturnPolicy";
 import { PrivacyPolicy } from "./Pages/PrivacyPolicy/PrivacyPolicy";
+import { TicketPage } from "./Pages/TicketPage/TicketPage";
 
 
 
@@ -30,6 +31,7 @@ function App() {
         <Route path="/terms&condition" element={<TermsCondition />} />
         <Route path="/returnpolicy" element={<ReturnPolicy />} />
         <Route path="/privacypolicy" element={<PrivacyPolicy />} />
+        <Route path="/ticket" element={<TicketPage />} />
       </Routes>
     </Router>
   );

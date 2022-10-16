@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import Footer from '../../Components/Footer/Footer.js'
 import Navbar from '../../Components/Navigation/navbar.js'
 import Hero from '../../Components/Hero/Hero.js'
@@ -15,7 +16,11 @@ import SwiperCore from "swiper/core";
 SwiperCore.use([Navigation]);
 
 export const TheHunts = () => {
-    
+
+    const scrollToTop = () => {
+        window.scrollTo(0, 0)
+      }
+
     return (
         <div className='thehunts'>
             <Navbar />
@@ -551,13 +556,15 @@ export const TheHunts = () => {
                                                                         RM48
                                                                     </p>
                                                                     <div class="text-center button-cta">
-                                                                        <button
+                                                                        <Link
+                                                                            to='/ticket'
                                                                             type="button"
                                                                             class="btn btn-light"
                                                                             style={{ fontWeight: 500, fontSize: '18px', marginRight: '1rem' }}
+                                                                            onClick={scrollToTop}
                                                                         >
                                                                             Join Hunt
-                                                                        </button>
+                                                                        </Link>
                                                                         <button
                                                                             type="button"
                                                                             class="btn btn-outline-light"

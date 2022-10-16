@@ -27,10 +27,6 @@ import AppStore from '../../Components/Button/AppStore';
 
 SwiperCore.use([Navigation]);
 
-const scrollToTop = () => {
-  window.scrollTo(0, 0)
-}
-
 export const Home = () => {
   return (
     <body className='homebody'>

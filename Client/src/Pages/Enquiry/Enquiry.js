@@ -189,7 +189,6 @@ export const Enquiry = () => {
                     </div>
                     <div
                         className="mx-auto d-flex flex-column flex-lg-row align-items-center footer-info-space gap-4"
-                        style={{ marginTop:'-2rem' }}
                     >
                         <nav
                             className="d-flex flex-lg-row flex-column align-items-center justify-content-center"
