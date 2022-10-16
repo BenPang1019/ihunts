@@ -1,4 +1,4 @@
-import { HashRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import './App.css';
 import {About} from './Pages/About/About';
 import {Enquiry} from "./Pages/Enquiry/Enquiry";
@@ -18,7 +18,7 @@ import { TicketPage } from "./Pages/TicketPage/TicketPage";
 function App() {
 
   return (
-    <Router hashType={'nohash'}>
+    <Router >
       <Routes>
         <Route exact path="/"  element={<Home />} />
         <Route path="/thehunts" element={<TheHunts />} />
