@@ -12,6 +12,7 @@ import { TermsCondition } from "./Pages/TermsCondition/TermsCondition";
 import { ReturnPolicy } from "./Pages/ReturnPolicy/ReturnPolicy";
 import { PrivacyPolicy } from "./Pages/PrivacyPolicy/PrivacyPolicy";
 import { TicketPage } from "./Pages/TicketPage/TicketPage";
+import { ThankYouPage } from "./Pages/Thankyou/ThankYouPage";
 
 
 
@@ -32,6 +33,7 @@ function App() {
         <Route path="/returnpolicy" element={<ReturnPolicy />} />
         <Route path="/privacypolicy" element={<PrivacyPolicy />} />
         <Route path="/ticket" element={<TicketPage />} />
+        <Route path="/thankyou" element={<ThankYouPage />} />
       </Routes>
     </Router>
   );

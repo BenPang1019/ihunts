@@ -256,6 +256,7 @@ export const TicketPage = () => {
             </div>
             <div class="text-center mb-5">
               <button
+                onClick={()=>setActive("fourth")}
                 type="submit"
                 class="submit-btn btn mb-0 btn-join border-0"
               >
@@ -266,8 +267,63 @@ export const TicketPage = () => {
           </div>
             </div>
             }
+          </div>
 
+          <div>
+            {active === "fourth" &&
+            <div style={{ color:'white',width:'50%',backgroundColor:"#2a2a2a",marginTop:'-70rem',marginLeft:'50rem',position:'relative'}}>
+            <img src={CalendarIcon} style={{ width:'4rem',marginBottom:'3rem' }}/>
+            <img src={PhoneIcon} style={{ width:'4rem',marginBottom:'3rem',marginLeft:'2rem',backgroundColor:'grey' }}/>
+            <h1>Contact Information</h1>
+            <label>FirstName</label><label>FirstName</label>
+            <br/>
+            <label>LastName</label><label>LastName</label>
+            <br/>
+            <label>Email</label><label>Email</label>
+            <br/>
+            <label>PhoneNumber</label><label>PhoneNumber</label>
+            <br/>
+            <label>Address</label><label>Address</label>
+            <br/>
+            <label>PostalCode</label><label>PostalCode</label>
+            <br/>
+            <label>State</label><label>State</label>
+            <br/>
+            <button onClick={()=>setActive("five")}>Purchase</button>
             </div>
+            }
+          </div>
+
+          <div>
+            {active === "five" &&
+            <div style={{ color:'white',width:'50%',backgroundColor:"#2a2a2a",marginTop:'-70rem',marginLeft:'50rem',position:'relative'}}>
+            <img src={CalendarIcon} style={{ width:'4rem',marginBottom:'3rem' }}/>
+            <img src={PhoneIcon} style={{ width:'4rem',marginBottom:'3rem',marginLeft:'2rem',backgroundColor:'grey' }}/>
+            <h1>Contact Information</h1>
+            <label>FirstName</label><label>FirstName</label>
+            <br/>
+            <label>LastName</label><label>LastName</label>
+            <br/>
+            <label>Email</label><label>Email</label>
+            <br/>
+            <label>PhoneNumber</label><label>PhoneNumber</label>
+            <br/>
+            <label>Address</label><label>Address</label>
+            <br/>
+            <label>PostalCode</label><label>PostalCode</label>
+            <br/>
+            <label>State</label><label>State</label>
+            <br/>
+            <label>Date</label><label>Date</label>
+            <br/>
+            <label>Event Title</label><label>EventTitle</label>
+            <br/>
+            <label>Member</label><label>Member</label>
+            <br/>
+            <a href='/thankyou'>Confirm</a>
+            </div>
+            }
+          </div>
         </div>         
   )
 }

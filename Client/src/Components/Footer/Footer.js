@@ -146,7 +146,7 @@ export default function Footer() {
                                         </p>
                                     </li>
                                 </nav>
-                            </div>
+                            </div> 
                         </div>
 
                         <div className="col-lg-6 col-md-6">

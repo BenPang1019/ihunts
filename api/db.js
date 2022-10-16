@@ -7,9 +7,9 @@ export const db = mysql.createConnection({
     database: "test",
 
 
-    // host: "auth-db343.hstgr.io",
-    // user: "u811623433_ihunts",
-    // password: "Ihunts123",
-    // database: "u811623433_ihunts",
+    // host: "www.ihunts.co",
+    // user: "u811623433_ihuntsdatabase",
+    // password: "Admin1234",
+    // database: "u811623433_ihuntsdatabase",
 
 })

@@ -43,23 +43,25 @@ export const Enquiry = () => {
                   <nav className="list-unstyled rrcontainer">
                     <li className="list-group">
                       <Link class="navbar-brand" to='/'>
-                        <img src={Envelope} alt='email' style={{ width: '5%', display: 'inline-block', marginRight: '1rem' }} /><span className='menu-caption'>hello@reallygreatsite.com</span>
+                        <img src={Envelope} alt='email' style={{ width: '5%', display: 'inline-block', marginRight: '1rem' }} /><span className='menu-caption'>info@ihunts.co</span>
                       </Link>
                     </li>
                     <li className="list-group">
                       <Link class="navbar-brand" to='/'>
-                        <img src={Phone} alt='phone' style={{ width: '5%', display: 'inline-block', marginRight: '1rem' }} /><span className='menu-caption'>+123-456-7890</span>
+                        <img src={Phone} alt='phone' style={{ width: '5%', display: 'inline-block', marginRight: '1rem' }} /><span className='menu-caption'>+6013 9272628</span>
                       </Link>
                     </li>
                     <li className="list-group">
                       <Link class="navbar-brand" to='/'>
-                        <img src={Website} alt='website' style={{ width: '5%', display: 'inline-block', marginRight: '1rem' }} /><span className='menu-caption'>reallygreatsite.com</span>
+                        <img src={Website} alt='website' style={{ width: '5%', display: 'inline-block', marginRight: '1rem' }} /><span className='menu-caption'>www.ihunts.co</span>
                       </Link>
                     </li>
                     <li className="list-group">
                       <Link class="navbar-brand" to='/'>
-                        <img src={Location} alt='location' style={{ width: '5%', display: 'inline-block', marginRight: '1rem' }} /><span className='menu-caption'>123 Anywhere St., Any City,
-                          ST 12345</span>
+                        <img src={Location} alt='location' style={{ width: '5%', display: 'inline-block', marginRight: '1rem' }} />
+                        <span className='menu-caption'>
+                        EC International Sdn Bhd (1473596-A)<br/>OG Business Park 85-1B,<br />Jalan Taman Tan Yew Lai,<br />Off Jalan Puchong,<br />58200 Kuala Lumpur Malaysia.ST 12345
+                        </span>
                       </Link>
                     </li>
                   </nav>
@@ -156,6 +158,22 @@ export const Enquiry = () => {
                     >
                     Term&Conditions
                     </Link>
+                    {' '}
+                    <Link 
+                    to='/returnpolicy' 
+                    style={{ color:'white',paddingLeft:'23rem' }}
+                    onClick={scrollToTop}
+                    >
+                    RefundPolicy
+                    </Link>
+                    {' '}
+                    <Link 
+                    to='/privacypolicy' 
+                    style={{ color:'white',paddingLeft:'25rem' }}
+                    onClick={scrollToTop}
+                    >
+                    PrivacyPolicy
+                    </Link>
                     </div>
                     <div
                         className="mx-auto d-flex flex-column flex-lg-row align-items-center footer-info-space gap-4"
@@ -185,6 +203,22 @@ export const Enquiry = () => {
                     onClick={scrollToTop}
                     >
                     Term&Conditions
+                    </Link>
+                    {' '}
+                    <Link 
+                    to='/returnpolicy' 
+                    style={{ color:'white' }}
+                    onClick={scrollToTop}
+                    >
+                    ReturnPolicy
+                    </Link>
+                    {' '}
+                    <Link 
+                    to='/privacypolicy' 
+                    style={{ color:'white' }}
+                    onClick={scrollToTop}
+                    >
+                    PrivacyPolicy
                     </Link>
                     </div>
                     <div

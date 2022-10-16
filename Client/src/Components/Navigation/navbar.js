@@ -114,8 +114,7 @@ export default function Navbar() {
                         </ul>
                         <div className='container-fluid m-2 ' style={{ width: '19rem', }}>
                             <Link className="btn btn-fill border-0" to='/thehunts' style={{ marginRight: '2rem', }}>Join The Hunt</Link>
-                            <span>{currentUser?.username}</span>
-                            {currentUser ? (<span onClick={logout}>Logout</span>) : (
+                            {currentUser ? (<span style={{ color:'white' }} onClick={logout}>Logout</span>) : (
                             <Link className='login' to='/login'><img
                                 src={usericon}
                                 style={{ width: '3.3rem' }}
