@@ -6,6 +6,7 @@ import NavbarRegister from "../../Components/Navigation/navbarregister";
 import "../Register/register.css"
 
 export const Register = () => {
+  const axiosInstance = axios.create({baseURL:process.env.REACT_APP_API_URL})
   const [agree,setAgree] = useState(false);
   const checkboxHandler = () => {
     // if agree === true, it will be set to false
@@ -32,7 +33,7 @@ export const Register = () => {
   const handleClick = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post("/auth/register", inputs);
+      const res = await axiosInstance.post("/auth/register", inputs);
       console.log(res)
       navigate("/login");
     } catch (err) {
