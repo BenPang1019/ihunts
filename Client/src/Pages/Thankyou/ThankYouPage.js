@@ -14,7 +14,5 @@ export const ThankYouPage = () => {
     ThankYou<br/>
     <a href='/'> Auto Redirecting to HomePage, If Not, Click Me</a>
     </div>
-    
   )
-  
 }

@@ -4,18 +4,55 @@ import Navbar from '../../Components/Navigation/navbar.js'
 import Footer from '../../Components/Footer/Footer.js'
 import { Link } from 'react-router-dom';
 import '../TicketPage/TicketPage.css'
-import Calendar from 'react-calendar'
+import DatePicker from "react-datepicker";
+import Calendar from 'react-calendar';
 import CalendarIcon from '../../SVG/calander.png'
 import PhoneIcon from '../../SVG/phone.png'
+import { useNavigate } from "react-router-dom";
+import axios from "axios";
 // import 'react-calendar/dist/Calendar.css';
 
 
 export const TicketPage = () => {
-    const [active,setActive] = useState('second');
-    const [value, onChange] = useState(new Date());
-    const tileDisabled = ({ activeStartDate, date, view }) => {
-        return date < new Date()
-     }
+  const [inputs, setInputs] = useState({
+    firstName: "",
+    lastName: "",
+    phone: "",
+    email: "",
+    address: "",
+    state: "",
+    postal: "",
+    ticketQuantity:"",
+    date: "",
+  });
+  const [err, setError] = useState(null);
+  const navigate = useNavigate();
+
+  const handleChange = (e) => {
+    setInputs((prev) => ({ ...prev, [e.target.name]: e.target.value}));
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      const res = await axios.post("/auth/Book", inputs);
+      console.log(res)
+      navigate("/");
+    } catch (err) {
+      setError(err.response.data);
+    console.log(err.response)
+    }
+  };
+
+  const [active,setActive] = useState('second');
+  const [date, setDate] = useState(new Date());
+  const tileDisabled = ({ activeStartDate, date, view }) => {
+      return date < new Date()
+    }
+
+  const onChange = date =>{
+    setDate(date)
+  }
 
   return (
     <div className='ticketpage'>
@@ -147,15 +184,18 @@ export const TicketPage = () => {
             <img src={PhoneIcon} style={{ width:'4rem',marginBottom:'3rem',marginLeft:'2rem' }}/>
                 <h1>Ticket Quantity</h1>
                 <label>Number of participant</label>
-                <input type='number'/>
+                <input type='number' name='ticketQuantity' onChange={handleChange}/>
                 <h1>Schedule Event</h1>
                 <Calendar 
-                    onChange={onChange} 
-                    value={value} 
+                    onChange={onChange}
+                    // onClick={handleChange}
+                    // value={date}
                     tileDisabled={tileDisabled}
                 />
+                {/* {console.log(date)} */}
                 <br/>
-                <button onClick={()=>setActive("third")}>Next</button>
+                <button onClick={()=>{setActive("third")
+                console.log(date)}}>Next</button>
             </div>
             }
             </div>
@@ -173,9 +213,9 @@ export const TicketPage = () => {
                 <label class="label">FirstName</label>
                 <input
                   type="text"
-                  placeholder="Enter Username"
-                  name='username'
-                //   onChange={handleChange}
+                  placeholder="firstName"
+                  name='firstName'
+                  onChange={handleChange}
                   className="form-control"
                   required
                 /> 
@@ -184,9 +224,9 @@ export const TicketPage = () => {
                 <label class="label">LastName</label>
                 <input
                   type="text"
-                  placeholder="Enter FullName"
-                  name='fullName'
-                //   onChange={handleChange}
+                  placeholder="lastName"
+                  name='lastName'
+                  onChange={handleChange}
                   className="form-control"
                   required
                 />
@@ -197,9 +237,9 @@ export const TicketPage = () => {
                 <label class="label">ContactNumber</label>
                 <input
                   type="text"
-                  placeholder="Enter PhoneNumber"
+                  placeholder="PhoneNumber"
                   name='phone'
-                //   onChange={handleChange}
+                  onChange={handleChange}
                   className="form-control"
                   required
                 />
@@ -208,9 +248,9 @@ export const TicketPage = () => {
                 <label class="label">Email</label>
                 <input
                   type="email"
-                  placeholder="Enter Email"
+                  placeholder="Email"
                   name='email'
-                //   onChange={handleChange}
+                  onChange={handleChange}
                   className="form-control"
                   required
                 />
@@ -222,9 +262,9 @@ export const TicketPage = () => {
                 <input
                   style={{ width:'205%',marginLeft:'-12rem' }}
                   type="text"
-                  placeholder="Enter Password"
-                  name='password'
-                //   onChange={handleChange}
+                  placeholder="Address"
+                  name='address'
+                  onChange={handleChange}
                   className="form-control"
                   required
                 />
@@ -235,9 +275,9 @@ export const TicketPage = () => {
                 <label class="label">State</label>
                 <input
                   type="text"
-                  placeholder="Enter Username"
-                  name='username'
-                //   onChange={handleChange}
+                  placeholder="State"
+                  name='state'
+                  onChange={handleChange}
                   className="form-control"
                   required
                 /> 
@@ -246,9 +286,9 @@ export const TicketPage = () => {
                 <label class="label">Postal Code</label>
                 <input
                   type="text"
-                  placeholder="Enter FullName"
-                  name='fullName'
-                //   onChange={handleChange}
+                  placeholder="postal"
+                  name='postal'
+                  onChange={handleChange}
                   className="form-control"
                   required
                 />
@@ -275,19 +315,19 @@ export const TicketPage = () => {
             <img src={CalendarIcon} style={{ width:'4rem',marginBottom:'3rem' }}/>
             <img src={PhoneIcon} style={{ width:'4rem',marginBottom:'3rem',marginLeft:'2rem',backgroundColor:'grey' }}/>
             <h1>Contact Information</h1>
-            <label>FirstName</label><label>FirstName</label>
+            <label>FirstName</label><label>{inputs.firstName}</label>
             <br/>
-            <label>LastName</label><label>LastName</label>
+            <label>LastName</label><label>{inputs.lastName}</label>
             <br/>
-            <label>Email</label><label>Email</label>
+            <label>Email</label><label>{inputs.email}</label>
             <br/>
-            <label>PhoneNumber</label><label>PhoneNumber</label>
+            <label>PhoneNumber</label><label>{inputs.phone}</label>
             <br/>
-            <label>Address</label><label>Address</label>
+            <label>Address</label><label>{inputs.address}</label>
             <br/>
-            <label>PostalCode</label><label>PostalCode</label>
+            <label>PostalCode</label><label>{inputs.postal}</label>
             <br/>
-            <label>State</label><label>State</label>
+            <label>State</label><label>{inputs.state}</label>
             <br/>
             <button onClick={()=>setActive("five")}>Purchase</button>
             </div>
@@ -300,27 +340,27 @@ export const TicketPage = () => {
             <img src={CalendarIcon} style={{ width:'4rem',marginBottom:'3rem' }}/>
             <img src={PhoneIcon} style={{ width:'4rem',marginBottom:'3rem',marginLeft:'2rem',backgroundColor:'grey' }}/>
             <h1>Contact Information</h1>
-            <label>FirstName</label><label>FirstName</label>
+            <label>FirstName</label><label>{inputs.firstName}</label>
             <br/>
-            <label>LastName</label><label>LastName</label>
+            <label>LastName</label><label>{inputs.lastName}</label>
             <br/>
-            <label>Email</label><label>Email</label>
+            <label>Email</label><label>{inputs.email}</label>
             <br/>
-            <label>PhoneNumber</label><label>PhoneNumber</label>
+            <label>PhoneNumber</label><label>{inputs.phone}</label>
             <br/>
-            <label>Address</label><label>Address</label>
+            <label>Address</label><label>{inputs.address}</label>
             <br/>
-            <label>PostalCode</label><label>PostalCode</label>
+            <label>PostalCode</label><label>{inputs.postal}</label>
             <br/>
-            <label>State</label><label>State</label>
+            <label>State</label><label>{inputs.state}</label>
             <br/>
-            <label>Date</label><label>Date</label>
+            <label>Date</label><label>{JSON.stringify(date+1)}</label>
             <br/>
-            <label>Event Title</label><label>EventTitle</label>
+            <label>Event Title</label><label>Walk Hunt</label>
             <br/>
-            <label>Member</label><label>Member</label>
+            <label>Member</label><label>{inputs.ticketQuantity}</label>
             <br/>
-            <a href='/thankyou'>Confirm</a>
+            <a href='/thankyou' onClick={handleSubmit}>Confirm</a>
             </div>
             }
           </div>

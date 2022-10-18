@@ -28,7 +28,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/register"  element={<Register />} />
         <Route path="/about" element={<About />} />
-        {/* <Route path="/userdashboard" element={<UserDashboard />} /> */}
+        <Route path="/userdashboard" element={<UserDashboard />} />
         <Route path="/terms&condition" element={<TermsCondition />} />
         <Route path="/returnpolicy" element={<ReturnPolicy />} />
         <Route path="/privacypolicy" element={<PrivacyPolicy />} />
