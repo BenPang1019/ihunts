@@ -30,7 +30,45 @@ export const Enquiry = () => {
         <div className="enquiry-page container-xxl mx-auto position-relative p-0" style={{ fontFamily: 'Poppins, sans-serif' }}>
           <div className="list-footer">
             <div className="row gap-md-0 gap-3">
-              <div className="col-lg-6 col-md-6">
+              <div className="web col-lg-6 col-md-6">
+                <div className="">
+                  <div className="list-space">
+                    <p className="footer-memorable">
+                      Get In Touch
+                    </p>
+                    <p className='footer-text-title'>
+                      We’re here to help and answer any questions you might have. We will answer your inquiries in a maximum of 48 hours.
+                    </p>
+                  </div>
+                  <nav className="list-unstyled rrcontainer">
+                    <li className="list-group">
+                      <Link class="navbar-brand" to='/'>
+                        <img src={Envelope} alt='email' style={{ width: '5%', display: 'inline-block', marginRight: '1rem' }} /><span className='menu-caption'>info@ihunts.co</span>
+                      </Link>
+                    </li>
+                    <li className="list-group">
+                      <Link class="navbar-brand" to='/'>
+                        <img src={Phone} alt='phone' style={{ width: '5%', display: 'inline-block', marginRight: '1rem' }} /><span className='menu-caption'>+6013 9272628</span>
+                      </Link>
+                    </li>
+                    <li className="list-group">
+                      <Link class="navbar-brand" to='/'>
+                        <img src={Website} alt='website' style={{ width: '5%', display: 'inline-block', marginRight: '1rem' }} /><span className='menu-caption'>www.ihunts.co</span>
+                      </Link>
+                    </li>
+                    <li className="list-group">
+                      <Link class="navbar-brand" to='/'>
+                        <img src={Location} alt='location' style={{ width: '5%', display: 'inline-block', marginRight: '1rem' }} />
+                        <span className='menu-caption'>
+                        EC International Sdn Bhd (1473596-A)<br/>OG Business Park 85-1B,<br />Jalan Taman Tan Yew Lai,<br />Off Jalan Puchong,<br />58200 Kuala Lumpur Malaysia.ST 12345
+                        </span>
+                      </Link>
+                    </li>
+                  </nav>
+                </div>
+              </div>
+
+              <div className="mobile col-lg-6 col-md-6">
                 <div className="">
                   <div className="list-space">
                     <p className="footer-memorable">

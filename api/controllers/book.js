@@ -19,7 +19,7 @@ export const book = (req, res) => {
       req.body.state,  
       req.body.postal, 
       req.body.ticketQuantity, 
-      req.body.date
+      req.body.date,
     ];
 
     db.query(q, [values], (err, data) => {
