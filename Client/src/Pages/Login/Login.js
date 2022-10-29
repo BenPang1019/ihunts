@@ -28,6 +28,12 @@ export const Login = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    if(inputs.username==0){
+      alert('Username are required!')
+    }
+    else if (inputs.password==0){
+      alert('Password are required!')
+    }else{
     try {
       await login(inputs)
       const res = await axios.post("/auth/login", inputs);
@@ -36,16 +42,15 @@ export const Login = () => {
     } catch (err) {
       setError(err.response.data);
       console.log(err)
-    }
+    }}
   };
 
   return (
     <div className="login">
     <NavbarLogin/>
-      <div class="h-100 w-100 formdiv" style={{ boxSizing: 'border-box', backgroundColor: '#2a2a2a', paddingBottom: '6.5rem' }}>
+      <div class=" formdiv" style={{backgroundColor: '#2a2a2a', paddingBottom: '6.5rem' }}>
         <div
           class="content-2-3  mx-auto p-0 position-relative"
-          style={{ fontFamily: 'Poppins, sans-serif' }}
         >
           <div class="text-center mb-4">
             <img
@@ -88,7 +93,6 @@ export const Login = () => {
                 Log In
               </button>
             </div>
-            {err && <p>{err}</p>}
             <div class="text-center mb-5">
               <div className="text-forgot-info"> — &nbsp;&nbsp;&nbsp;&nbsp;Or&nbsp;&nbsp;&nbsp;&nbsp; — </div>
             </div>

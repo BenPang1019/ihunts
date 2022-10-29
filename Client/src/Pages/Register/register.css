@@ -1,12 +1,5 @@
-.register .mobilenavtext{
-	color: white;
-	font-size: 2rem;
-	padding-left: 2rem;
-}
-
 .register .formdiv{
-	padding-top: 5rem;
-	padding-bottom: 8rem;
+	margin-top: 5rem;
 } 
 
 .content-2-3 .btn:focus,
@@ -72,4 +65,12 @@
 	outline: none;
 	border-radius: 3px;
 	padding: 30px;
+}
+
+
+.register 
+.form-control::-webkit-outer-spin-button,
+.form-control::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }

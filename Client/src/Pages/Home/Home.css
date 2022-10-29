@@ -2,12 +2,16 @@
 	overflow: hidden;
 }
 
-/* Swiper */
-.homebody .emptycontainer{
-	margin-top: 5rem;
+/* First Section */
+.web-product{
+	display: block;
 }
 
-.homebody .firstsection .swiper-button-next {
+.mobile-product{
+	display: none;
+}
+
+.web-product .swiper-button-next {
 	right: 0%;
 	color: #000 !important;
 	fill: black !important;
@@ -19,7 +23,7 @@
 	box-sizing: border-box;
 }
 
-.homebody .firstsection .swiper-button-prev {
+.web-product .swiper-button-prev {
 	left: 0%;
 	color: #000 !important;
 	fill: black !important;
@@ -31,148 +35,662 @@
 	box-sizing: border-box;
 }
 
-.homebody .carousel .swiper-button-next {
-	top: 90%;
-	right: 40%;
-	color: #000 !important;
-	fill: black !important;
-	stroke: black !important;
-	background-color: white;
-	width: 80px;
-	height: 80px;
-	border-radius: 50%;
-	box-sizing: border-box;
-}
-
-.homebody .carousel .swiper-button-prev {
-	top: 90%;
-	left: 40%;
-	color: #000 !important;
-	fill: black !important;
-	stroke: black !important;
-	background-color: white;
-	width: 80px;
-	height: 80px;
-	border-radius: 50%;
-	box-sizing: border-box;
-}
-
-/* FirstSection */
-.firstsection {
-	background-color: #2a2a2a;
+.web-product{
 	background-image: url(../../SVG/MalaysiaMap.svg);
 	background-repeat: no-repeat;
+	background-position: 25rem;
+	padding-bottom: 5rem;
+	background-size: 145rem;
+}
+
+.web-product .firstsectioncontainertwoHeader {
+	margin-top: 24rem;
+	margin-left: 4rem;
+	color: white;
+	font-size: 26px;
+	font-family: "Arimo", sans-serif;
+}
+
+.web-product .firstsectioncontainerthreeHeader {
+	margin-left: 4rem;
+	color: white;
+	font-size: 50px;
+	font-family: "Arimo", sans-serif;
+}
+
+.web-product .firstsectioncontainerfourImgOne {
+	width: 25rem;
+	margin-top: -2.1rem;
+}
+
+.web-product .firstsectioncontainerfourImgTwo {
+	width: 20rem;
+	margin-left: 4rem;
+	margin-top: 1rem;
+}
+
+.web-product .firstsectioncontainerfive {
+	text-align: center;
+	width: 35rem;
+	margin-left: 78rem;
+	margin-top: -42rem;
+}
+
+.web-product .product-card-image {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100% !important;
+	border-radius: 10% !important;
+}
+
+.web-product .product-card-title {
+	text-align: center;
+	color: #fcc018;
+	font-size: 30px !important;
+}
+
+.web-product .product-btnContainer {
+	margin-bottom: 10%;
+}
+
+.web-product .product-location {
+	font-size: 2.5rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-right: 0.5rem;
+}
+
+.web-product .product-sublocation {
+	font-size: 1.2rem;
+	font-weight: 500;
+	align-self: center;
+	text-transform: capitalize;
+}
+
+.web-product .button-card-product {
+	font-size: 1.25rem;
+	font-weight: 700;
+	padding: 0.25rem 1.25rem;
+}
+
+.web-product .text{
+	color: white;
+	font-size: 1.5rem;
+	margin-left: 4rem;
+	margin-top: 1rem;
+}
+
+
+/* Second Section */
+.web-carousel{
+	display: block;
+}
+
+.mobile-carousel {
+	display: none;
+}
+
+.web-carousel .swiper-button-next {
+	top: 90%;
+	right: 45%;
+	color: #000 !important;
+	fill: black !important;
+	stroke: black !important;
+	background-color: white;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	box-sizing: border-box;
+}
+
+.web-carousel .swiper-button-prev {
+	top: 90%;
+	left: 39%;
+	color: #000 !important;
+	fill: black !important;
+	stroke: black !important;
+	background-color: white;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	box-sizing: border-box;
+}
+
+.web-carousel .firstcontainer{
+	width: 100rem;
+	margin-left: 12.5rem;
+}
+
+.web-carousel .emptycontainer{
+	margin-top: 5rem;
+}
+
+.web-carousel .np-card-image {
+	width: 24rem;
+	height: 21rem;
+	border-radius: 16px !important;
+}
+
+.web-carousel .np-card-by {
+	opacity: 0.5;
+	font-family: "Arimo", sans-serif;
+}
+
+.web-carousel .np-card-date {
+	opacity: 0.5;
+	margin-left: 10rem;
+	font-family: "Arimo", sans-serif;
+}
+
+.web-carousel .np-card-title {
+	font-family: "Arimo", sans-serif;
+	width: 22rem;
+}
+
+.web-carousel .np-card-description {
+	opacity: 0.5;
+	font-family: "Arimo", sans-serif;
+	width: 25rem;
+}
+
+.web-carousel .np-read-more {
+	color: #fcc018;
+	font-family: "Arimo", sans-serif;
+}
+
+.web-carousel .card {
+	background-color: transparent;
+	border-radius: 16px;
+	border-color: transparent;
+}
+
+/* Third Section */
+.web-thirdsection{
+	display: block;
+}
+
+.mobile-thirdsection{
+	display: none;
+}
+
+.web-thirdsection {
 	overflow: hidden;
-	background-size: cover;
-	background-position: -100%;
-	padding-bottom: 5%;
-	background-size: 120%;
+	margin-top: 5rem;
 }
 
-.mobile-first-section {
-	display: none;
+.web-thirdsection .thirdsection-HuntLogo {
+	width: 24rem;
 }
 
-.carousel-mobile {
-	display: none;
+.web-thirdsection .thirdsection-h {
+	font-size: 55px;
 }
 
-@media (max-width: 850px) {
-	.homebody .mySwiper {
-		width: 21.5rem;
+.web-thirdsection .thirdsection-description {
+	width: 70rem;
+	padding-left: 3%;
+	color: white;
+}
+
+.web-thirdsection .island-image-hunt{
+	width: 40rem;
+	margin-left: 20rem;
+}
+
+.web-thirdsection .thirdsection-description{
+	height: 45rem;
+	margin-left: 60rem;
+	margin-top: -35rem;
+}
+
+.web-thirdsection .thirdsection-p{
+	width: 26rem;
+}
+
+.web-thirdsection .thirdsectioncontainer{
+	width: 70rem;
+	margin-top: 5rem;
+}
+
+@media (min-width: 350px) and (max-width: 399px)  {
+	/* First Section */
+	.web-product {
+		display: none;
 	}
 
-	.homebody .mobile-first-section .swiper-button-next {
-		right: 0%;
+	.mobile-product {
+		display: block;
+	}
+
+	.mobile-product .swiper-button-next {
+		right: 4%;
 		color: #000 !important;
 		fill: black !important;
 		stroke: black !important;
 		background-color: white;
-		width: 60px;
-		height: 60px;
+		width: 55px;
+		height: 55px;
 		border-radius: 50%;
 		box-sizing: border-box;
 	}
 	
-	.homebody .mobile-first-section .swiper-button-prev {
-		left: 0%;
+	.mobile-product .swiper-button-prev {
+		left: 4%;
 		color: #000 !important;
 		fill: black !important;
 		stroke: black !important;
 		background-color: white;
-		width: 60px;
-		height: 60px;
-		border-radius: 50%;
-		box-sizing: border-box;
-	}
-
-	.homebody .carousel-mobile .swiper-button-next {
-		right: 0%;
-		color: #000 !important;
-		fill: black !important;
-		stroke: black !important;
-		background-color: white;
-		width: 60px;
-		height: 60px;
+		width: 55px;
+		height: 55px;
 		border-radius: 50%;
 		box-sizing: border-box;
 	}
 	
-	.homebody .carousel-mobile .swiper-button-prev {
-		left: 0%;
-		color: #000 !important;
-		fill: black !important;
-		stroke: black !important;
-		background-color: white;
-		width: 60px;
-		height: 60px;
-		border-radius: 50%;
-		box-sizing: border-box;
+	.mobile-product{
+		background-image: url(../../SVG/MalaysiaMap.svg);
+		background-repeat: no-repeat;
+		background-position: 1rem;
+		background-size: 70rem;
+		background-position-y: 1rem;
+	}
+	
+	.mobile-product .firstsectioncontainertwoHeader {
+		text-align: center;
+		color: white;
+		font-size: 15px;
+		font-family: "Arimo", sans-serif;
+	}
+	
+	.mobile-product .firstsectioncontainerthreeHeader {
+		text-align: center;
+		color: white;
+		font-size: 33px;
+		font-family: "Arimo", sans-serif;
+	}
+	
+	.mobile-product .firstsectioncontainerfourImgOne {
+		width: 16rem;
+		margin-left: 3.5rem;
+		margin-top: -1.5rem;
+	}
+	
+	.mobile-product .firstsectioncontainerfourImgTwo {
+		width: 13rem;	
+		margin-left: 5rem;
+		margin-bottom: 5rem;
+	}
+	
+	.mobile-product .firstsectioncontainerfive {
+		text-align: center;
+		width: 22rem;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 20rem;
+	}
+	
+	.mobile-product .product-card-image {
+		display: block;
+		margin-left: -0.3rem;
+		width: 13rem ;
+		border-radius: 10% !important;
+	}
+	
+	.mobile-product .product-card-title {
+		text-align: center;
+		color: #fcc018;
+		font-size: 30px !important;
 	}
 
-	.firstsectioncontainerfive {
-		margin-right: 0% !important;
+	.mobile-product .product-card-description {
+		font-size: 0.5rem;
 	}
-
-	.homebody .mySwiper {
-		width: 34.5rem;
+	
+	.mobile-product .product-btnContainer {
+		margin-bottom: 10%;
 	}
-
-	.homebody .card-body {
-		width: fit-content;
+	
+	.mobile-product .product-location {
+		font-size: 1.5rem;
+		font-weight: 700;
+		text-transform: uppercase;
+		margin-right: 0.5rem;
+	}
+	
+	.mobile-product .product-sublocation {
+		font-size: 1rem;
+		font-weight: 500;
 		align-self: center;
+		text-transform: capitalize;
 	}
-}
+	
+	.mobile-product .button-card-product {
+		font-size: 0.7rem;
+		font-weight: 700;
+	}	
 
-@media (max-width: 650px) {
-	.firstsection {
+	/* Second Section */
+	.web-carousel{
 		display: none;
 	}
 
-	.homebody .carousel {
-		display: none;
-	}
-
-	.mobile-first-section {
+	.mobile-carousel {
 		display: block;
 	}
 
-	.carousel-mobile {
-		display: block;
+	.mobile-carousel .swiper-button-next {
+		top: 45%;
+		right: 1%;
+		color: #000 !important;
+		fill: black !important;
+		stroke: black !important;
+		background-color: white;
+		width: 55px;
+		height: 55px;
+		border-radius: 50%;
+		box-sizing: border-box;
 	}
 
-	.mobile-first-section .product-card-image {
+	.mobile-carousel .swiper-button-prev {
+		top: 45%;
+		left: 1%;
+		color: #000 !important;
+		fill: black !important;
+		stroke: black !important;
+		background-color: white;
+		width: 55px;
+		height: 55px;
+		border-radius: 50%;
+		box-sizing: border-box;
+	}
+
+	.mobile-carousel .firstcontainer{
+		width: 100rem;
+		margin-left: 12.5rem;
+	}
+
+	.mobile-carousel .emptycontainer{
+		margin-top: 5rem;
+	}
+
+	.mobile-carousel .np-card-image {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		width: 90% !important;
+		width: 13rem;
+		height: 11rem;
+		border-radius: 16px !important;
 	}
 
-	.homebody .product-card-description {
+	.mobile-carousel .np-card-by {
+		opacity: 0.5;
+		font-family: "Arimo", sans-serif;
+		font-size: 12px;
+		margin-left: 3rem;
+	}
+
+	.mobile-carousel .np-card-date {
+		opacity: 0.5;
+		font-family: "Arimo", sans-serif;
+		font-size: 12px;
+		margin-left: 3rem;
+	}
+
+	.mobile-carousel .np-card-title {
+		font-family: "Arimo", sans-serif;
+		width: 13rem;
+		margin-left: 3rem;
+		font-size: 12px;
+	}
+
+	.mobile-carousel .np-card-description {
+		font-family: "Arimo", sans-serif;
+		width: 14rem;
+		margin-left: 3rem;
+		font-size: 12px;
+	}
+
+	.mobile-carousel .np-read-more {
+		color: #fcc018;
+		font-size: 12px;
+		font-family: "Arimo", sans-serif;
+		margin-left: 3rem;
+	}
+
+	.mobile-carousel .card {
+		background-color: transparent;
+		border-radius: 16px;
+		border-color: transparent;
+	}
+
+	.mobile-carousel .carousel-container{
+		width: 22rem;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	/* Third Section */
+	.web-thirdsection{
+		display: none;
+	}
+
+	.mobile-thirdsection{
+		display: block;
+	}
+
+	.mobile-thirdsection {
+		overflow: hidden;
+		margin-top: 5rem;
+	}
+
+	.mobile-thirdsection .thirdsection-HuntLogo {
+		width: 16rem;
+		margin-left: 1rem;
+		margin-top: 2rem;
+	}
+
+	.mobile-thirdsection .thirdsection-h {
+		font-size: 27px;
+		margin-left: 2.8rem;
+	}
+
+	.mobile-thirdsection .thirdsection-description {
+		width: 50rem;
+		color: white;
+		height: 25rem;
+		margin-left: 1rem;
+		margin-top: 3rem;
+	}
+
+	.mobile-thirdsection .island-image-hunt{
+		width: 20rem;
+		margin-left: 0rem;
+	}
+
+	.mobile-thirdsection .thirdsection-p{
+		width: 20rem;
+		font-size: 13px;
+	}
+
+	.mobile-thirdsection .thirdsectioncontainer{
+		width: 20rem;
+		margin-top: 5rem;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.mobile-thirdsection .fortesting{
+		margin-left: 0rem;
+	}
+}
+
+@media (min-width: 400px) and (max-width: 699px) {
+	/* First Section */
+	.web-product {
+		display: none;
+	}
+
+	.mobile-product {
+		display: block;
+	}
+
+	.mobile-product .swiper-button-next {
+		right: 3%;
+		color: #000 !important;
+		fill: black !important;
+		stroke: black !important;
+		background-color: white;
+		width: 60px;
+		height: 60px;
+		border-radius: 50%;
+		box-sizing: border-box;
+	}
+	
+	.mobile-product .swiper-button-prev {
+		left: 3%;
+		color: #000 !important;
+		fill: black !important;
+		stroke: black !important;
+		background-color: white;
+		width: 60px;
+		height: 60px;
+		border-radius: 50%;
+		box-sizing: border-box;
+	}
+	
+	.mobile-product{
+		background-image: url(../../SVG/MalaysiaMap.svg);
+		background-repeat: no-repeat;
+		background-position: 0.5rem;
+		background-size: 85rem;
+		background-position-y: -3rem;
+	}
+	
+	.mobile-product .firstsectioncontainertwoHeader {
+		text-align: center;
+		color: white;
+		font-size: 17px;
+		font-family: "Arimo", sans-serif;
+	}
+	
+	.mobile-product .firstsectioncontainerthreeHeader {
+		text-align: center;
+		color: white;
+		font-size: 35px;
+		font-family: "Arimo", sans-serif;
+	}
+	
+	.mobile-product .firstsectioncontainerfourImgOne {
+		width: 18rem;
+		margin-left: 3.5rem;
+		margin-top: -1.5rem;
+	}
+	
+	.mobile-product .firstsectioncontainerfourImgTwo {
+		width: 15rem;	
+		margin-left: 5rem;
+		margin-bottom: 10rem;
+	}
+	
+	.mobile-product .firstsectioncontainerfive {
+		text-align: center;
+		width: 24.5rem;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 20rem;
+	}
+
+	.mobile-product .firstsectioncontainerone{
+		width: 25rem;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.mobile-product .product-card-image {
+		margin-left: auto;
+		margin-right: auto;
+		width: 14rem ;
+		border-radius: 10% !important;
+	}
+	
+	.mobile-product .product-card-title {
+		text-align: center;
+		color: #fcc018;
+		font-size: 30px !important;
+	}
+
+	.mobile-product .product-card-description {
 		font-size: 0.5rem;
 	}
+	
+	.mobile-product .product-btnContainer {
+		margin-bottom: 10%;
+	}
+	
+	.mobile-product .product-location {
+		font-size: 1.5rem;
+		font-weight: 700;
+		text-transform: uppercase;
+		margin-right: 0.5rem;
+	}
+	
+	.mobile-product .product-sublocation {
+		font-size: 1rem;
+		font-weight: 500;
+		align-self: center;
+		text-transform: capitalize;
+	}
+	
+	.mobile-product .button-card-product {
+		font-size: 0.7rem;
+		font-weight: 700;
+		
+	}	
 
-	.homebody .np-card-image {
+	/* Second Section */
+	.web-carousel{
+		display: none;
+	}
+
+	.mobile-carousel {
+		display: block;
+	}
+
+	.mobile-carousel .swiper-button-next {
+		top: 50%;
+		right: 0%;
+		color: #000 !important;
+		fill: black !important;
+		stroke: black !important;
+		background-color: white;
+		width: 60px;
+		height: 60px;
+		border-radius: 50%;
+		box-sizing: border-box;
+	}
+
+	.mobile-carousel .swiper-button-prev {
+		top: 50%;
+		left: 0%;
+		color: #000 !important;
+		fill: black !important;
+		stroke: black !important;
+		background-color: white;
+		width: 60px;
+		height: 60px;
+		border-radius: 50%;
+		box-sizing: border-box;
+	}
+
+	.mobile-carousel .firstcontainer{
+		width: 100rem;
+		margin-left: 12.5rem;
+	}
+
+	.mobile-carousel .emptycontainer{
+		margin-top: 5rem;
+	}
+
+	.mobile-carousel .np-card-image {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
@@ -181,273 +699,457 @@
 		border-radius: 16px !important;
 	}
 
-	.homebody .np-card-by {
+	.mobile-carousel .np-card-by {
 		opacity: 0.5;
 		font-family: "Arimo", sans-serif;
 		font-size: 12px;
-		margin-left: 2rem;
+		margin-left: 3.5rem;
 	}
 
-	.homebody .np-card-date {
+	.mobile-carousel .np-card-date {
 		opacity: 0.5;
 		font-family: "Arimo", sans-serif;
 		font-size: 12px;
-		margin-right: 2rem;
-		
+		margin-left: 4.5rem;
 	}
 
-	.homebody .np-card-title {
+	.mobile-carousel .np-card-title {
 		font-family: "Arimo", sans-serif;
 		width: 16rem;
-		margin-left: 2rem;
+		margin-left: 3.5rem;
 		font-size: 12px;
 	}
 
-	.homebody .np-card-description {
+	.mobile-carousel .np-card-description {
 		font-family: "Arimo", sans-serif;
-		width: 14rem;
-		margin-left: 2rem;
+		width: 15rem;
+		margin-left: 3.5rem;
 		font-size: 12px;
 	}
 
-	.homebody .np-read-more {
+	.mobile-carousel .np-read-more {
 		color: #fcc018;
 		font-size: 12px;
 		font-family: "Arimo", sans-serif;
-		margin-left: 2rem;
+		margin-left: 3.5rem;
 	}
 
-	.mobile-first-section .button-card-product {
-		font-size: 0.6rem;
-		font-weight: 700;
+	.mobile-carousel .card {
+		background-color: transparent;
+		border-radius: 16px;
+		border-color: transparent;
 	}
 
-	.homebody .thirdsection-HuntLogo {
-		width: 15rem;
+	.mobile-carousel .carousel-container{
+		width: 25rem;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
-	.homebody .thirdsection-h {
-		font-size: 1.6rem;
+	/* Third Section */
+	.web-thirdsection{
+		display: none;
+	}
+	
+	.mobile-thirdsection{
+		display: block;
+	}
+	
+	.mobile-thirdsection {
+		overflow: hidden;
+		margin-top: 5rem;
+	}
+	
+	.mobile-thirdsection .thirdsection-HuntLogo {
+		width: 20rem;
+		margin-left: 1rem;
+		margin-top: 2rem;
+	}
+	
+	.mobile-thirdsection .thirdsection-h {
+		font-size: 35px;
+		margin-left: 2.5rem;
 	}
 
-	.homebody .thirdsection-description {
-		text-align: center;
+	.mobile-thirdsection .thirdsection-description {
+		width: 60rem;
 		padding-left: 3%;
 		color: white;
+		height: 25rem;
+		margin-left: 1rem;
+	}
+	
+	.mobile-thirdsection .island-image-hunt{
+		width: 25rem;
+	}
+	
+	.mobile-thirdsection .thirdsection-p{
+		font-size: 13px;
+		width: 20rem;
+		margin-left: 1.5rem;
+	}
+	
+	.mobile-thirdsection .thirdsectioncontainer{
+		width: 24rem;
+		margin-top: 5rem;
+		margin-left: auto;
+		margin-right: auto;
+
+	}
+	
+	.mobile-thirdsection .fortesting{
+		margin-left: 1rem;
+	}
+}
+
+@media (min-width: 700px) and (max-width:991px) {
+	/* First Section */
+	.web-product {
+		display: none;
 	}
 
-	.thirdsection-p {
-		font-size: 12px;
-		padding: 0rem 20rem;
+	.mobile-product {
+		display: block;
 	}
 
-	.mobile-first-section .firstsectioncontainertwoHeader {
-		margin-top: 2rem;
-		margin-right: 4rem;
+	.mobile-product .swiper-button-next {
+		right: 0%;
+		color: #000 !important;
+		fill: black !important;
+		stroke: black !important;
+		background-color: white;
+		width: 80px;
+		height: 80px;
+		border-radius: 50%;
+		box-sizing: border-box;
+	}
+	
+	.mobile-product .swiper-button-prev {
+		left: 0%;
+		color: #000 !important;
+		fill: black !important;
+		stroke: black !important;
+		background-color: white;
+		width: 80px;
+		height: 80px;
+		border-radius: 50%;
+		box-sizing: border-box;
+	}
+	
+	.mobile-product{
+		background-image: url(../../SVG/MalaysiaMap.svg);
+		background-repeat: no-repeat;
+		background-position: 4rem;
+		background-size: 130rem;
+		background-position-y: -0.1rem;
+	}
+	
+	.mobile-product .firstsectioncontainertwoHeader {
+		text-align: center;
 		color: white;
+		font-size: 25px;
+		font-family: "Arimo", sans-serif;
+	}
+	
+	.mobile-product .firstsectioncontainerthreeHeader {
+		text-align: center;
+		color: white;
+		font-size: 45px;
+		font-family: "Arimo", sans-serif;
+	}
+	
+	.mobile-product .firstsectioncontainerfourImgOne {
+		width: 23rem;
+		margin-left: 6rem;
+		margin-top: -2rem;
+	}
+	
+	.mobile-product .firstsectioncontainerfourImgTwo {
+		width: 20rem;	
+		margin-left: 8rem;
+		margin-bottom: 10rem;
+	}
+	
+	.mobile-product .firstsectioncontainerfive {
+		text-align: center;
+		width: 35rem;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 35rem;
+	}
+
+	.mobile-product .firstsectioncontainerone{
+		width: 35rem;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.mobile-product .product-card-image {
+		margin-left: auto;
+		margin-right: auto;
+		width: 25rem ;
+		border-radius: 10% !important;
+	}
+	
+	.mobile-product .product-card-title {
+		text-align: center;
+		color: #fcc018;
+		font-size: 35px !important;
+	}
+
+	.mobile-product .product-card-description {
 		font-size: 1rem;
-		font-family: "Arimo", sans-serif;
 	}
-
-	.mobile-first-section .firstsectioncontainerthreeHeader {
-		color: white;
-		margin-right: 4rem;
-		font-size: 2rem;
-		font-family: "Arimo", sans-serif;
+	
+	.mobile-product .product-btnContainer {
+		margin-bottom: 10%;
 	}
-
-	.mobile-first-section .firstsectioncontainerfourImgOne {
-		width: 18rem;
-		margin-right: 1rem;
-		margin-top: -1.4rem;
+	
+	.mobile-product .product-location {
+		font-size: 2.5rem;
+		font-weight: 700;
+		text-transform: uppercase;
+		margin-right: 0.5rem;
 	}
-
-	.mobile-first-section .firstsectioncontainerfourImgTwo {
-		width: 14rem;
-		margin-right: 4rem;
-	}
-
-	.mobile-first-section .product-location {
+	
+	.mobile-product .product-sublocation {
 		font-size: 1.5rem;
-		margin-right: 0.2rem;
-	}
-
-	.mobile-first-section .product-sublocation {
-		font-size: 0.9rem;
+		font-weight: 500;
 		align-self: center;
 		text-transform: capitalize;
 	}
+	
+	.mobile-product .button-card-product {
+		font-size: 1.2rem;
+		font-weight: 700;
+		
+	}	
+
+	/* Second Section */
+	.web-carousel{
+		display: none;
+	}
+
+	.mobile-carousel {
+		display: block;
+	}
+
+	.mobile-carousel .carousel-container{
+		width: 45rem;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.mobile-carousel .swiper-button-next {
+		top: 50%;
+		right: 5%;
+		color: #000 !important;
+		fill: black !important;
+		stroke: black !important;
+		background-color: white;
+		width: 80px;
+		height: 80px;
+		border-radius: 50%;
+		box-sizing: border-box;
+	}
+
+	.mobile-carousel .swiper-button-prev {
+		top: 50%;
+		left: 5%;
+		color: #000 !important;
+		fill: black !important;
+		stroke: black !important;
+		background-color: white;
+		width: 80px;
+		height: 80px;
+		border-radius: 50%;
+		box-sizing: border-box;
+	}
+
+	.mobile-carousel .firstcontainer{
+		width: 100rem;
+		margin-left: 12.5rem;
+	}
+
+	.mobile-carousel .emptycontainer{
+		margin-top: 5rem;
+	}
+
+	.mobile-carousel .np-card-image {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 25rem;
+		height: 20rem;
+		border-radius: 16px !important;
+	}
+
+	.mobile-carousel .np-card-by {
+		opacity: 0.5;
+		font-family: "Arimo", sans-serif;
+		font-size: 18px;
+		margin-left: 8.5rem;
+	}
+
+	.mobile-carousel .np-card-date {
+		opacity: 0.5;
+		font-family: "Arimo", sans-serif;
+		font-size: 18px;
+		margin-left: 10rem;
+	}
+
+	.mobile-carousel .np-card-title {
+		font-family: "Arimo", sans-serif;
+		width: 26rem;
+		margin-left: 8.5rem;
+		font-size: 18px;
+	}
+
+	.mobile-carousel .np-card-description {
+		font-family: "Arimo", sans-serif;
+		width: 25rem;
+		margin-left: 8.5rem;
+		font-size: 18px;
+	}
+
+	.mobile-carousel .np-read-more {
+		color: #fcc018;
+		font-size: 18px;
+		font-family: "Arimo", sans-serif;
+		margin-left: 8.5rem;
+	}
+
+	.mobile-carousel .card {
+		background-color: transparent;
+		border-radius: 16px;
+		border-color: transparent;
+	}
+
+	/* Third Section */
+	.web-thirdsection{
+		display: none;
+	}
+	
+	.mobile-thirdsection{
+		display: block;
+	}
+	
+	.mobile-thirdsection {
+		overflow: hidden;
+		margin-top: 5rem;
+	}
+	
+	.mobile-thirdsection .thirdsection-HuntLogo {
+		width: 24rem;
+	}
+	
+	.mobile-thirdsection .thirdsection-h {
+		font-size: 45px;
+		margin-left: 1.3rem;
+	}
+
+	.mobile-thirdsection .thirdsection-description {
+		width: 70rem;
+		color: white;
+		height: 35rem;
+		margin-left: 10rem;
+		margin-top: 3rem;
+	}
+	
+	.mobile-thirdsection .island-image-hunt{
+		width: 40rem;
+		margin-left: 2rem;
+	}
+	
+	.mobile-thirdsection .thirdsection-p{
+		width: 25rem;
+		margin-left: 1rem;
+	}
+	
+	.mobile-thirdsection .thirdsectioncontainer{
+		width: 80rem;
+		margin-top: 5rem;
+	}
+	
+	.mobile-thirdsection .fortesting{
+		margin-left: 2.5rem;
+	}
+
+	.mobile-thirdsection .thirdsectioncontainer{
+		width: 45rem;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
 }
 
-.firstsectioncontaineroneHeader {
-	margin-top: 2%;
-	margin-left: 5%;
-	font-size: 20px;
-	font-family: "Arimo", sans-serif;
-	color: white;
-}
 
-.firstsectioncontainertwoHeader {
-	margin-top: 20%;
-	margin-left: 4rem;
-	color: white;
-	font-size: 26px;
-	font-family: "Arimo", sans-serif;
-}
-
-.firstsectioncontainerthreeHeader {
-	margin-left: 4rem;
-	color: white;
-	font-size: 50px;
-	font-family: "Arimo", sans-serif;
-}
-
-.firstsectioncontainerfourImgOne {
-	width: 25rem;
-	margin-left: 0rem;
-	margin-top: -1.9%;
-}
-
-.firstsectioncontainerfourImgTwo {
-	width: 20rem;
-	margin-left: 4rem;
-	margin-top: 1%;
-}
-
-.firstsectioncontainerfive {
-	text-align: center;
-	width: 35rem;
-	float: right;
-	margin-right: 5%;
-	margin-top: -35%;
-	background-color: transparent;
-}
-
-.product-card-location {
-	align-items: center;
-}
-
-.product-card-image {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 100% !important;
-	border-radius: 10% !important;
-}
-
-.product-card-title {
-	text-align: center;
-	color: #fcc018;
-	font-size: 30px !important;
-}
-
-.product-btnContainer {
-	margin-bottom: 10%;
-}
-
-.product-location {
-	font-size: 2.5rem;
-	font-weight: 700;
-	text-transform: uppercase;
-	margin-right: 0.5rem;
-}
-
-.product-sublocation {
-	font-size: 1.2rem;
-	font-weight: 500;
-	align-self: center;
-	text-transform: capitalize;
-}
-
-
-/* SecondSection */
-
-.np-card-image {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 24rem;
-	height: 21rem;
-	border-radius: 16px !important;
-}
-
-.np-card-by {
-	opacity: 0.5;
-	font-family: "Arimo", sans-serif;
-}
-
-.np-card-date {
-	opacity: 0.5;
-	font-family: "Arimo", sans-serif;
-}
-
-.np-card-title {
-	font-family: "Arimo", sans-serif;
-	width: 22rem;
-}
-
-.homebody .np-card-description {
-	opacity: 0.5;
-	font-family: "Arimo", sans-serif;
-}
-
-.np-read-more {
-	color: #fcc018;
-	font-family: "Arimo", sans-serif;
-}
-
-.homebody .card {
-	background-color: transparent;
-	border-radius: 16px;
-	border-color: transparent;
-}
-
-/* ThirdSection */
-.thirdsection {
-	background-color: #2a2a2a;
-	overflow: hidden;
-}
-
-.firstsection .button-card-product {
-	font-size: 1.25rem;
-	font-weight: 700;
-	padding: 0.25rem 1.25rem;
-}
-
-.homebody .thirdsection-AppDemo {
-	width: 55rem;
-	margin-left: 4%;
-	margin-top: 5%;
-}
-
-.thirdsection-HuntLogo {
-	width: 24rem;
-}
-
-.thirdsection-h {
-	font-size: 55px;
-}
-
-.thirdsection-description {
-	width: 60rem;
-	padding-left: 3%;
-	color: white;
-}
-
-@media (min-width: 925px) {
-	.homebody .thirdsection-p {
-		width: 30rem;
+@media (min-width:450px) and (max-width:500px){
+	.mobile-product{
+		background-image: url(../../SVG/MalaysiaMap.svg);
+		background-repeat: no-repeat;
+		background-position: 2rem;
+		background-size: 85rem;
+		background-position-y:-2rem;
 	}
 }
 
-.homebody .mySwiper {
-	width: 24.5rem;
-	margin-top: -3.5rem;
+@media (min-width:501px) and (max-width:550px){
+	.mobile-product{
+		background-image: url(../../SVG/MalaysiaMap.svg);
+		background-repeat: no-repeat;
+		background-position: 3rem;
+		background-size: 85rem;
+		background-position-y:-2rem;
+	}
 }
 
-.homebody .text{
-	color: white;
-	font-size: 1.5rem;
-	margin-left: 4rem;
-	margin-top: 1rem;
+@media (min-width:551px) and (max-width:600px){
+	.mobile-product{
+		background-image: url(../../SVG/MalaysiaMap.svg);
+		background-repeat: no-repeat;
+		background-position: 5rem;
+		background-size: 85rem;
+		background-position-y:-2rem;
+	}
+}
+
+@media (min-width:601px) and (max-width:670px){
+	.mobile-product{
+		background-image: url(../../SVG/MalaysiaMap.svg);
+		background-repeat: no-repeat;
+		background-position: 7rem;
+		background-size: 85rem;
+		background-position-y:-2rem;
+	}
+}
+
+@media (min-width:671px) and (max-width:699px){
+	.mobile-product{
+		background-image: url(../../SVG/MalaysiaMap.svg);
+		background-repeat: no-repeat;
+		background-position: 9rem;
+		background-size: 85rem;
+		background-position-y:-2rem;
+	}
+}
+
+@media (min-width:801px) and (max-width:949px){
+	.mobile-product{
+		background-image: url(../../SVG/MalaysiaMap.svg);
+		background-repeat: no-repeat;
+		background-position: 8rem;
+		background-size: 130rem;
+		background-position-y: -0.1rem;
+	}
+}
+
+@media (min-width:950px) and (max-width:991px){
+	.mobile-product{
+		background-image: url(../../SVG/MalaysiaMap.svg);
+		background-repeat: no-repeat;
+		background-position: 10rem;
+		background-size: 130rem;
+		background-position-y: -0.1rem;
+	}
 }

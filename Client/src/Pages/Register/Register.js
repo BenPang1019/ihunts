@@ -5,6 +5,7 @@ import { Link, useNavigate } from "react-router-dom";
 import NavbarRegister from "../../Components/Navigation/navbarregister";
 import "../Register/register.css"
 
+
 export const Register = () => {
   // const axiosInstance = axios.create({baseURL:process.env.REACT_APP_API_URL,});
   const [agree,setAgree] = useState(false);
@@ -21,7 +22,9 @@ export const Register = () => {
     phone: "",
     email: "",
     password: "",
+    confirmPassword:"",
   });
+
   const [err, setErr] = useState(null);
 
   const navigate = useNavigate();
@@ -32,23 +35,56 @@ export const Register = () => {
  
   const handleClick = async (e) => {
     e.preventDefault();
+    if(inputs.username==0){
+      alert('Username are required!')
+    }else
+    if(inputs.fullName==0)
+    {
+      alert('FullName are required!')
+    }else
+    if(inputs.phone==0)
+    {
+      alert('PhoneNumber are required!')
+    }else
+    if(inputs.email==0)
+    {
+      alert('Email are required!')
+    }else
+    if(inputs.password==0)
+    {
+      alert('Password are required!')
+    }else
+    if(inputs.confirmPassword==0){
+      alert('Confirm Password are required!')
+    }else
+    if(inputs.confirmPassword!=inputs.password){
+      alert('Password Does Not Match!')
+    }
+    if (inputs.password.length<8){
+      alert("Minimum 8 characters required for password!");
+    }else 
+    if (!((/[ `!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?~]/).test(inputs.password))){
+      alert("Use atleast 01 special character!!!");
+    }else 
+    if (((/[ ]/).test(inputs.password))){
+      alert("Don't include space in password!!!");
+    }
+    else{
     try {
       const res = await axios.post("/auth/register", inputs);
       console.log(res)
       navigate("/login");
     } catch (err) {
-      setErr(err.response.data);
-    console.log(err)
-    }
+      alert(err.response.data);
+    }}
   };
 
   return (
     <body className="register">
       <NavbarRegister/>      
-      <div class="h-100 w-100" style={{ boxSizing: 'border-box', backgroundColor: '#2a2a2a', paddingBottom: '6.5rem' }}>
+      <div class="h-100 w-100" style={{ backgroundColor: '#2a2a2a', paddingBottom: '6.5rem' }}>
         <div
           class="content-2-3 container-xxl mx-auto p-0 position-relative"
-          style={{ fontFamily: 'Poppins, sans-serif' }}
         >
           <div class="form-register mx-auto formdiv">
             <form>
@@ -80,7 +116,7 @@ export const Register = () => {
               <div class="form-group col-lg-6">
                 <label class="label">Phone Number</label>
                 <input
-                  type="text"
+                  type="number"
                   placeholder="Enter PhoneNumber"
                   name='phone'
                   onChange={handleChange}
@@ -104,9 +140,20 @@ export const Register = () => {
               <div class="form-group col-lg-6">
                 <label class="label">Password</label>
                 <input
-                  type="text"
+                  type="password"
                   placeholder="Enter Password"
                   name='password'
+                  onChange={handleChange}
+                  className="form-control"
+                  required
+                />
+              </div>
+              <div class="form-group col-lg-6">
+                <label class="label">Confirm Password</label>
+                <input
+                  type="password"
+                  placeholder="Enter Password Again"
+                  name='confirmPassword'
                   onChange={handleChange}
                   className="form-control"
                   required
@@ -126,7 +173,6 @@ export const Register = () => {
               >
                 Register
               </button>
-              {err && <p>{err}</p>}
             </div>
             </form>
           </div>

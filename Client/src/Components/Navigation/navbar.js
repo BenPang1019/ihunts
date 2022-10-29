@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useContext } from 'react'
 import '../Navigation/navbar.css'
-import Logo from '../Navigation/IECLogo.png'
+import Logo from '../Navigation/IECLogo.svg'
 import { Link } from 'react-router-dom'
 import usericon from '../../SVG/user account icon.svg'
 import $ from 'jquery'
@@ -14,7 +14,7 @@ export default function Navbar() {
 
     return (
         <div className="" style={{backgroundColor: '#2a2a2a', }}>
-            <div className=" p-0  header-2">
+            <div className=" header-2">
                 <nav className="navbar navbar-expand-lg navbar-dark">
                     <Link className='navbar-brand' to='/'>
                         <img
@@ -40,16 +40,15 @@ export default function Navbar() {
                         aria-labelledby="targetModalLabel"
                         aria-hidden="true"
                         data-backdrop=""
-                    >
+                    > 
                         <div className="modal-dialog" role="document">
                             <div
                                 className="modal-content border-0"
                                 style={{ backgroundcolor: '#2a2a2a',marginTop:'8rem' }}
                             >
-                             
                                 <div
                                     className="modal-body"
-                                    style={{ marginTop:'0rem' }}
+                                    style={{  }}
                                 >
                                     <ul className="navbar-nav responsive me-auto mt-2 mt-lg-0">
                                         <li className="nav-item">
@@ -70,34 +69,43 @@ export default function Navbar() {
                                             <Link className="nav-link" to="/enquiry"
                                             >Enquiry</Link>
                                         </li>
-                                        {/* <li className="nav-item">
-                                            <Link className="nav-link" to='/terms&condition'
-                                            >Terms&Condition</Link>
-                                        </li> */}
                                     </ul>
                                 </div>
                                 <div
                                     className="modal-footer border-0 gap-3"
-                                    style={{ padding: '2rem', paddingTop: '0.75rem' }}
+                                    style={{padding:'1rem' }}
                                 >
-                                    <Link className="btn btn-default btn-no-fill" to='/login'>Log In</Link>
-                                    <Link className="btn btn-fill border-0" to='/thehunts'>Join The Hunt</Link>
+                                    <Link className="btn btn-fill border-0" to='/thehunts' style={{ marginLeft:'2rem',marginRight: '2rem', }}>Join The Hunt</Link>
+                                    {currentUser ? (
+                                    <Link className='login' to='/userdashboard'><img
+                                        src={usericon}
+                                        style={{ width: '3.3rem' }}
+                                        alt="usericon"
+                                    />
+                                    </Link>) : (
+                                    <Link className='login' to='/login'><img
+                                        src={usericon}
+                                        style={{ width: '3.3rem' }}
+                                        alt="usericon"
+                                    />
+                                    </Link>
+                                        )}
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div className="collapse navbar-collapse align-self-start" id="navbarTogglerDemo">
+                    <div className="collapse navbar-collapse align-self-start" >
                         <ul className="navbar-nav me-auto mt-2 mt-lg-0">
                             <li className="nav-item">
                                 <Link className="nav-link" to='/'>Home</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to='/about'>Who is IEC</Link>
+                                <Link className="nav-link" to='/about'>Who&nbsp;is&nbsp;IEC</Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link" to='/thehunts'
-                                >The Hunts</Link>
+                                >The&nbsp;Hunts</Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link" to='/news'
@@ -107,15 +115,16 @@ export default function Navbar() {
                                 <Link className="nav-link" to='/enquiry'
                                 >Enquiry</Link>
                             </li>
-                            {/* <li className="nav-item">
-                                <Link className="nav-link" to='/terms&condition'
-                                >Terms&Condition</Link>
-                            </li> */}
-                        </ul>
-                        <div className='container-fluid m-2 ' style={{ width: '19rem', }}>
-                            <Link className="btn btn-fill border-0" to='/thehunts' style={{ marginRight: '2rem', }}>Join The Hunt</Link>
-                            {currentUser ? (<span style={{ color:'white' }} onClick={logout}>Logout</span>) : (
-                            <Link className='login' to='/login'><img
+                            <div className=' btncontainer ' >
+                            <Link className="btn btn-fill " to='/thehunts' style={{ marginRight: '2rem', }}>Join The Hunt</Link>
+                            {currentUser ? (
+                            <Link className='' to='/userdashboard'><img
+                                src={usericon}
+                                style={{ width: '3.3rem' }}
+                                alt="usericon"
+                            />
+                            </Link>) : (
+                            <Link className='' to='/login'><img
                                 src={usericon}
                                 style={{ width: '3.3rem' }}
                                 alt="usericon"
@@ -123,6 +132,7 @@ export default function Navbar() {
                             </Link>
                                 )}
                         </div>
+                        </ul>
                     </div>
                 </nav>
             </div >

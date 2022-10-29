@@ -10,9 +10,6 @@ import PhoneIcon from '../../SVG/phoneTwo.svg'
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 
-
-
-
 export const TicketPage = () => {
   const [inputs, setInputs] = useState({
     firstName: "",
@@ -36,14 +33,18 @@ export const TicketPage = () => {
     setDate(date.toLocaleDateString())
   }
 
-  const tileDisabled = ({ activeStartDate, date, view }) => {
-    return date < new Date()
- }
-  
+  const asd = () =>{
+    if(inputs.ticketQuantity<=0){
+      alert("Ticket Quantity Must Be 1 or Larger")
+    }else{
+      setActive("third")
+    }
+  }
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post("/auth/book", inputs);
+      const res = await axios.post("/book/book", inputs);
       console.log(res)
       navigate("/thankyou");
     } catch (err) {
@@ -181,10 +182,14 @@ export const TicketPage = () => {
                                                     <Calendar 
                                                         onChange={onChange}
                                                         view='month'
-                                                        tileDisabled={tileDisabled}    
+                                                        maxDetail='month'
+                                                        minDetail='month'
+                                                        tileDisabled={({ date }) => date.getDay() === 1||date.getDay() === 2||date.getDay() === 3||date.getDay() === 4||date.getDay() === 5|| date< new Date()}
+                                                        showFixedNumberOfWeeks
+                                                        
                                                     />
                                                     <br/>
-                                                    <button onClick={()=>{setActive("third")}}>Next</button>
+                                                    <button  onClick={asd}>Next</button>
                                                 </div>
                                                 }
                                                 </div>

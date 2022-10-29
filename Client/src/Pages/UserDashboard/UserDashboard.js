@@ -31,7 +31,7 @@ export const UserDashboard = () => {
             </li>
             <br/>
             <li className="nav-item">
-                <a className="nav-link" onClick={()=>setActive("first")} style={{paddingTop:'1rem'}}>Home</a>
+                <a className="nav-link" onClick={()=>setActive("first")} style={{paddingTop:'1rem'}}>My Hunts</a>
             </li>
             <br/>
             <li className="nav-item">

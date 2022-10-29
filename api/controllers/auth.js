@@ -3,38 +3,50 @@ import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
 
 export const register = (req, res) => {
-//   //CHECK EXISTING USER
-  const q = "SELECT * FROM user WHERE email = ? OR username = ?";
-
-  db.query(q, [req.body.email, req.body.username], (err, data) => {
-    if (err) return res.status(500).json(err);
-    if (data.length) return res.status(409).json("User already exists!");
-
-    //Hash the password and create a user
-    // const salt = bcrypt.genSaltSync(10);
-    // const hash = bcrypt.hashSync(req.body.password, salt);
-
-    const q = "INSERT INTO user(`username`,`fullName`,`phone`,`email`,`password`) VALUES (?)";
-    // const values = [
-    //     req.body.username, 
-    //     req.body.fullName,
-    //     req.body.phone, 
-    //     req.body.email,  
-    //     hash];
-     
-    const values = [
-      req.body.username, 
-      req.body.fullName,
-      req.body.phone, 
-      req.body.email,  
-      req.body.password];
-
-    db.query(q, [values], (err, data) => {
+  //   //CHECK EXISTING USER
+    const a = "SELECT * FROM user WHERE username = ?";
+    const b = "SELECT * FROM user WHERE email = ?";
+    const c = "SELECT * FROM user WHERE phone = ?";
+  
+    db.query(a, [req.body.username], (err, data) => {
       if (err) return res.status(500).json(err);
-      return res.status(200).json("User has been created.");
+      if (data.length) return res.status(409).json("Username already exists!");
+  
+      db.query(b, [req.body.email], (err, data) => {
+        if (err) return res.status(500).json(err);
+        if (data.length) return res.status(409).json("Email already exists!");
+  
+        db.query(c, [req.body.phone], (err, data) => {
+          if (err) return res.status(500).json(err);
+          if (data.length) return res.status(409).json("Phone Number already exists!");
+  
+      //Hash the password and create a user
+      // const salt = bcrypt.genSaltSync(10);
+      // const hash = bcrypt.hashSync(req.body.password, salt);
+  
+      const q = "INSERT INTO user(`username`,`fullName`,`phone`,`email`,`password`) VALUES (?)";
+      // const values = [
+      //     req.body.username, 
+      //     req.body.fullName,
+      //     req.body.phone, 
+      //     req.body.email,  
+      //     hash];
+       
+      const values = [
+        req.body.username, 
+        req.body.fullName,
+        req.body.phone, 
+        req.body.email,  
+        req.body.password];
+  
+      db.query(q, [values], (err, data) => {
+        if (err) return res.status(500).json(err);
+        return res.status(200).json("User has been created.");
+      });
+    });
     });
   });
-};
+  };
 
 export const login = (req, res) => {
   //CHECK USER

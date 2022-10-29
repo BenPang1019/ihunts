@@ -1,0 +1,42 @@
+.web {
+    display: block;
+    overflow-y: hidden; /* Hide vertical scrollbar */
+  overflow-x: hidden;
+}
+
+.mobile{
+    display: none;
+}
+
+.loginnav .text{
+    font-family: "Arimo", sans-serif;
+    color: white;
+    font-size: 2.5rem;
+    margin-left: 15rem;
+    margin-top: -3.5rem;
+}
+
+.loginnav .logo{
+    margin-left: 4rem;
+    top: 2rem;
+}
+
+@media(max-width:800px){
+    .web{
+        display: none;
+    }
+
+    .mobile{
+        display: block;
+    }
+
+    .mobiletext{
+        color: white;
+        font-size: 2.5rem;
+        margin-left: 14rem;
+        margin-top: -3.5rem;
+    }
+
+}
+
+

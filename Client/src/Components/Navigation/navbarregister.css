@@ -1,0 +1,42 @@
+.web {
+    display: block;
+    overflow-y: hidden; 
+    overflow-x: hidden;
+}
+
+.mobile{
+    display: none;
+}
+
+.registernav .text{
+    font-family: "Arimo", sans-serif;
+    color: white;
+    font-size: 2.5rem;
+    margin-left: 15rem;
+    margin-top: -3.5rem;
+}
+
+.registernav .logo{
+    margin-left: 4rem;
+    top: 2rem;
+}
+
+@media(max-width:500px){
+    .web{
+        display: none;
+    }
+
+    .mobile{
+        display: block;
+    }
+
+    .mobiletext{
+        color: white;
+        font-size: 2rem;
+        
+        
+    }
+
+}
+
+
