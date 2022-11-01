@@ -1,3 +1,16 @@
+.containerFixed{
+	max-width:120rem;
+	/* --bs-gutter-x:1.5rem;
+	--bs-gutter-y:0; */
+	/* width:100%; */
+	margin-right:auto;
+	margin-left:auto;
+	/* display:flex;
+	flex-wrap:inherit;
+	align-items:center;
+	justify-content:space-between; */
+}
+
 .homebody {
 	overflow: hidden;
 }
@@ -38,9 +51,10 @@
 .web-product{
 	background-image: url(../../SVG/MalaysiaMap.svg);
 	background-repeat: no-repeat;
-	background-position: 25rem;
-	padding-bottom: 5rem;
-	background-size: 145rem;
+	background-position: 30rem;
+	padding-bottom: 6rem;
+	background-size: 135rem; 
+
 }
 
 .web-product .firstsectioncontainertwoHeader {
@@ -60,6 +74,7 @@
 
 .web-product .firstsectioncontainerfourImgOne {
 	width: 25rem;
+	margin-left: 0rem;
 	margin-top: -2.1rem;
 }
 
@@ -72,8 +87,8 @@
 .web-product .firstsectioncontainerfive {
 	text-align: center;
 	width: 35rem;
-	margin-left: 78rem;
-	margin-top: -42rem;
+	margin-left: 75rem;
+	margin-top: -40rem;
 }
 
 .web-product .product-card-image {
@@ -132,7 +147,7 @@
 
 .web-carousel .swiper-button-next {
 	top: 90%;
-	right: 45%;
+	right: 40%;
 	color: #000 !important;
 	fill: black !important;
 	stroke: black !important;
@@ -145,7 +160,7 @@
 
 .web-carousel .swiper-button-prev {
 	top: 90%;
-	left: 39%;
+	left: 40%;
 	color: #000 !important;
 	fill: black !important;
 	stroke: black !important;
@@ -157,8 +172,7 @@
 }
 
 .web-carousel .firstcontainer{
-	width: 100rem;
-	margin-left: 12.5rem;
+	margin-left: 10.5rem;
 }
 
 .web-carousel .emptycontainer{
@@ -227,20 +241,15 @@
 }
 
 .web-thirdsection .thirdsection-description {
-	width: 70rem;
-	padding-left: 3%;
 	color: white;
+	height: 45rem;
+	margin-left: 45rem;
+	margin-top: -35rem;
 }
 
 .web-thirdsection .island-image-hunt{
 	width: 40rem;
-	margin-left: 20rem;
-}
-
-.web-thirdsection .thirdsection-description{
-	height: 45rem;
-	margin-left: 60rem;
-	margin-top: -35rem;
+	margin-left: 5rem;
 }
 
 .web-thirdsection .thirdsection-p{
@@ -248,7 +257,6 @@
 }
 
 .web-thirdsection .thirdsectioncontainer{
-	width: 70rem;
 	margin-top: 5rem;
 }
 

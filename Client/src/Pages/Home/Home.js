@@ -33,7 +33,7 @@ export const Home = () => {
     <body className='homebody'>
       <Navbar />
       {/* Web Product*/}
-      <section className='web-product'>
+      <section className='web-product containerFixed '>
         <div className='firstsectioncontainerone'>
         <div className='text'>
             <p className=''>Malaysia First</p>
@@ -92,7 +92,7 @@ export const Home = () => {
 
       {/*Web Carousel */}
       <section className="web-carousel" style={{backgroundColor: '#2a2a2a',marginTop:'5rem'}}>
-        <div className="firstcontainer ">
+        <div className="container-xxl ">
           <Swiper
             slidesPerView={3}
             spaceBetween={2}
@@ -142,7 +142,7 @@ export const Home = () => {
       
       {/*Web thirdsection */}
       <section className="web-thirdsection">
-          <div className='thirdsectioncontainer'>
+          <div className='container-xxl' style={{ marginTop:'10rem' }}>
                 <img
                   className="island-image-hunt "
                   src={AppDemo}

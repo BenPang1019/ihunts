@@ -9,7 +9,7 @@ export default function Footer() {
       }
     return (
         <body className="" >
-            <div className="webfooter ">
+            <div className="webfooter containerFixed">
                 <div className="list-footer">
                         <div className="container">
                                 <div className="list-space" >

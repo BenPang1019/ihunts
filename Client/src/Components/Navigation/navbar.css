@@ -1,6 +1,5 @@
 .navbar-brand{
 	margin-left: 2rem;
-
 }
 
 .header-2 .modal-item .modal-backdrop.show {
@@ -8,10 +7,6 @@
 	opacity: 0.8;
 	visibility: collapse !important;
 }
-
-/* .header-2 .modal-item.modal {
-	top:5rem;
-} */
 
 .header-2 .login {
 	width: max-content;

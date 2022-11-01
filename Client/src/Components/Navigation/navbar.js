@@ -13,7 +13,7 @@ export default function Navbar() {
     const { currentUser, logout } = useContext(AuthContext);
 
     return (
-        <div className="" style={{backgroundColor: '#2a2a2a', }}>
+        <div className="containerFixed" style={{backgroundColor: '#2a2a2a' }}>
             <div className=" header-2">
                 <nav className="navbar navbar-expand-lg navbar-dark">
                     <Link className='navbar-brand' to='/'>
