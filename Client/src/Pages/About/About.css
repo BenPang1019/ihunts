@@ -819,3 +819,188 @@
 		margin-top: 2rem;
 	}
 }
+
+
+@media (min-width:160rem){
+	.webContent{
+		margin-left: 20rem;
+	}
+
+	.webContent .title-text-about {
+		margin-bottom: 0.1rem;
+		font-size: 65px;
+		color: #a6a6a6;
+	}
+	
+	.webContent .text-title-about {
+		font-size: 35px;
+		color: #ffffff;
+		margin-bottom: 0.1rem;
+		margin-top: -8rem;
+	}
+	
+	.webContent .sub-title-text-about {
+		font-size: 15px;
+		color: #ffffff;
+		width: 37rem;
+		margin-left: 42rem;
+		line-height: 1.6;
+		margin-bottom: 1.5rem;
+	}
+	
+	.webContent .gold-element-top {
+		transform: rotateY(180deg);
+		margin-left: 70rem;
+	}
+	
+	.webContent .gold-element-bottom {
+		transform: rotateY(180deg);
+		margin-left: -5rem;
+		margin-top: -6rem;
+	}
+	
+	.webContent .wrapper {
+		height: 48px;
+		text-align: center;
+		background: #fff;
+		border: none;
+		outline: none;
+		border-radius: 3px;
+		margin: 15px;
+		position: relative;
+		display: inline-flex;
+	}
+	
+	.webContent .wrapper .icon {
+		margin-left: 1rem;
+	}
+	
+	
+	/* Section Two */
+	.webHeaderOne{
+		display: block;
+		margin-left: 20rem;
+	}
+	
+	.mobileHeaderOne{
+		display: none;
+	}
+	
+	.webHeaderOne{
+		margin-bottom: 30rem;
+	}
+	
+	.webHeaderOne .island-image {
+		margin-top: 5rem;
+		margin-left: 15rem;
+		width: 40rem;
+	}
+	
+	.webHeaderOne .containerOne{
+		width: 40rem;
+		margin-left: 60rem;
+		margin-top: -40rem;
+	}
+	
+	.webHeaderOne .title-text-about-big1 {
+		font-size: 60px;
+		color: #cbcbd2;
+	}
+	
+	.webHeaderOne .text-caption-about {
+		font-size: 15px;
+		margin-bottom: 2rem;
+		margin-left: 0.5rem;
+		color: #a6a6a6;
+	}
+	
+	
+	.webHeaderOne .text-list {
+		font-size: 16px;
+		line-height: 2rem;
+		margin-left: -0.3rem;
+		color: #ffffff;
+	}
+	
+	
+	/* Section Three */
+	.webHeaderTwo{
+		display: block;
+		margin-left: 20rem;
+	}
+	
+	.mobileHeaderTwo{
+		display: none;
+	}
+	
+	.webHeaderTwo .containerTwo{
+		width: 50rem;
+		margin-left: 10rem;
+	}
+	
+	.webHeaderTwo{
+		margin-bottom: 15rem;
+	}
+	
+	.webHeaderTwo .text-caption {
+		font-size: 15px;
+		margin-bottom: 1rem;
+		color: #ffffff;
+		text-align: center;
+	}
+	
+	.webHeaderTwo .text-quote {
+		font-size: 15px;
+		margin-bottom: 0.5rem;
+		color: #a6a6a6;
+		text-align: center;
+		border: #ffcc4d;
+		border-width: 0px 5px;
+		border-style: solid;
+	}
+	
+	.webHeaderTwo .title-text-about-big1 {
+		font-size: 30px;
+		line-height: 5rem;
+		text-transform: uppercase;
+		color: #ffffff;
+	}
+	
+	.webHeaderTwo .btn-join {
+		font-size: 20px;
+		padding: 0.75rem 2.5rem;
+		border-radius: 0.75rem;
+		background-color: #ffffff;
+		transition: 0.3s;
+	}
+	
+	.webHeaderTwo .arrow-enquiry {
+		width: 0.75rem;
+		display: block;
+		margin: auto;
+	}
+	
+	.webHeaderTwo .imgOne{
+		width: 35rem;
+		margin-left: 70rem;
+		margin-top: -40rem;
+	}
+	
+	.webHeaderTwo .imgTwo{
+		width: 10rem;
+		margin-left: 70rem;
+		margin-top: -10.4rem;
+	}
+	
+	.webHeaderTwo .imgThree{
+		width: 10rem;
+		margin-left: 70rem;
+		margin-top: -3rem;
+	}
+	
+	.webHeaderTwo .imgFour{
+		width: 24rem;
+		margin-left: 1rem;
+		margin-top: -10rem;
+	}
+}

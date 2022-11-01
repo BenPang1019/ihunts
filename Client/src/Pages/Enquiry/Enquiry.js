@@ -26,9 +26,8 @@ export const Enquiry = () => {
   return (
     <div>
       <Navbar />
-      <div className="h-100 w-100" style={{ boxSizing: 'border-box', backgroundColor: '#2a2a2a' }}>
-        <div className="enquiry-page container-xxl mx-auto position-relative p-0" style={{ fontFamily: 'Poppins, sans-serif' }}>
-
+      <div className="" >
+        <div className="enquiry-page container-xxl containerEnquiry" >
           <div className=" web list-footer">
             <div className="row gap-md-0 gap-3">
               <div className="col-lg-6 col-md-6">

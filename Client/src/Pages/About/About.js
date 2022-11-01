@@ -9,7 +9,7 @@ import '../About/About.css'
 
 export const About = () => {
     return (
-        <div className='about'>
+        <div className='about containerFixed'>
             <Navbar />   
             <div style={{ marginTop:'2rem',marginBottom:'10rem' }}>
                 <div className='webtext'>
