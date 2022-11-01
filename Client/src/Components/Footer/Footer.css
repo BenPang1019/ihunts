@@ -1,5 +1,6 @@
 .webfooter{
 	display: block;
+	margin-left: -19rem;
 }
 
 .mobile-footer{
@@ -11,13 +12,38 @@
 	color: #ffffff;
 	
 }
-.webfooter .container{
+
+.webfooter .prgOne {
 	margin-left: 5rem;
+}
+
+.webfooter .prgTwo{
+	margin-left: 100.5rem;
+	margin-top: -2.5rem;
+}
+
+.webfooter .terms {
+	color: #ffffff;
+	margin-left: 5rem;
+	margin-right:45rem ;
+}
+
+.webfooter .returns{
+	color: #ffffff;
+	margin-right:42rem ;
+}
+
+.webfooter .lineSpace{
+	width: 120rem;
+}
+
+.webfooter .container{
+	margin-left: -14rem;
 	width: 50rem;
 }
 
 .webfooter .containerTwo{
-	margin-left: 60rem;
+	margin-left: 41rem;
 	margin-top: -25rem;
 	width: 50rem;
 }
@@ -52,6 +78,7 @@
 	margin: 0;
 	border: 0;
 	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	width: 107rem;
 }
 
 .webfooter .linecontainer{
@@ -649,4 +676,188 @@
 		transition: 0.3s;
 	}
 
+}
+
+@media (min-width:160rem) {
+	.webfooter{
+		display: block;
+		margin-left: -35rem;
+	}
+	
+	.mobile-footer{
+		display: none;
+	}
+	
+	.webfooter .list-space {
+		margin-bottom: 3.3rem;
+		color: #ffffff;
+		
+	}
+	.webfooter .container{
+		margin-left: -25rem;
+		width: 50rem;
+	}
+	
+	.webfooter .containerTwo{
+		margin-left: 50rem;
+		margin-top: -25rem;
+		width: 50rem;
+	}
+	
+	
+	.webfooter  .footer-memorable {
+		font-size: 18px;
+		margin-right: 11rem;
+		line-height: 1.5rem;
+		font-weight: bold;
+		color: #ffffff;
+	}
+	
+	.webfooter .footer-text-title {
+		font: 600 1.5rem Poppins, sans-serif;
+		margin-bottom: 1.5rem;
+	}
+	
+	.webfooter  .list-menu {
+		color: #ffffff;
+		text-decoration: none !important;
+		margin-bottom: 3.3rem;
+	}
+	
+	.webfooter  .menu-caption {
+		color: #ffffff;
+		text-decoration: none !important;
+		margin-bottom: 1.25rem;
+	}
+	
+	.webfooter .line {
+		margin: 0;
+		border: 0;
+		width: 140rem;
+		border-top: 1px solid rgba(0, 0, 0, 0.1);
+	}
+
+	.webfooter .terms {
+		color: #ffffff;
+		margin-left: 5rem;
+		margin-right:65rem ;
+	}
+	
+	.webfooter .returns{
+		color: #ffffff;
+		margin-right:56rem ;
+	}
+
+	.webfooter .lineSpace{
+		width: 180rem;
+	}
+
+	.webfooter .prgOne {
+		margin-left: 5rem;
+	}
+
+	.webfooter .prgTwo{
+		margin-left: 134.5rem;
+	}
+	
+	.webfooter .linecontainer{
+		margin-left: 6rem;
+	}
+	
+	.webfooter  .border-color {
+		color: #c7c7c7;
+	}
+	
+	.webfooter .footer-link {
+		color: #c7c7c7;
+	}
+	
+	.webfooter .footer-link:hover {
+		color: #555252;
+	}
+	
+	.webfooter .social-media-c:hover circle,
+	.webfooter  .social-media-p:hover path {
+		fill: #555252;
+	}
+	
+	.webfooter  .footer-info-space {
+		padding-top: 3rem;
+	}
+	
+	.webfooter  .list-footer {
+		padding: 5rem 1rem 3rem 1rem;
+	}
+	
+	.webfooter  .info-footer {
+		padding: 0 1rem 3rem;
+	}
+	
+	.webfooter  .get-in-touch {
+		max-width: 800px;
+		margin: 50px auto;
+		position: relative;
+	}
+	
+	.webfooter  .contact-form .form-field {
+		position: relative;
+		margin: 32px 0;
+	}
+	.webfooter .contact-form .input-text {
+		display: block;
+		width: 100%;
+		height: 36px;
+		border-width: 0 0 2px 0;
+		border-color: #ffffff;
+		background-color: #2a2a2a;
+		color: #ffffff;
+		font-size: 18px;
+		line-height: 26px;
+		font-weight: 400;
+	}
+	
+	.webfooter  .contact-form .form-control {
+		width: 100%;
+		height: 5rem;
+		border-width: 0 0 2px 0;
+		border-color: #ffffff;
+		background-color: #2a2a2a;
+		color: #ffffff;
+		font-size: 18px;
+		line-height: 26px;
+		font-weight: 400;
+	}
+	
+	.webfooter .input:focus {
+		outline: none !important;
+	}
+	
+	.webfooter .textarea:focus {
+		outline: none !important;
+	}
+	
+	.webfooter .contact-form .label {
+		left: 20px;
+		bottom: 11px;
+		font-size: 18px;
+		line-height: 26px;
+		font-weight: 200;
+		color: #ffffff;
+		cursor: text;
+	}
+	.webfooter .contact-form .submit-btn {
+		font: 600 18px / normal Poppins, sans-serif;
+		background-color: #ffcc4d;
+		border-radius: 12px;
+		padding: 12px 32px;
+		transition: 0.3s;
+	}
+	
+	.webfooter .contact-form .submit-btn:hover {
+		--tw-shadow: inset 0 0px 25px 0 rgba(20, 20, 50, 0.7);
+		box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+			var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+		transition: 0.3s;
+	}
+	
 }

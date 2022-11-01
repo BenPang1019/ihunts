@@ -1163,7 +1163,7 @@
 }
 
 
-@media (min-width:128rem){
+@media (min-width:160rem){
 	/* First Section */
 .web-product{
 	display: block;
@@ -1200,9 +1200,9 @@
 .web-product{
 	background-image: url(../../SVG/MalaysiaMap.svg);
 	background-repeat: no-repeat;
-	background-position: 30rem;
+	background-position: 40rem;
 	padding-bottom: 6rem;
-	background-size: 145rem; 
+	background-size: 150rem; 
 
 }
 
@@ -1236,7 +1236,7 @@
 .web-product .firstsectioncontainerfive {
 	text-align: center;
 	width: 35rem;
-	margin-left: 85rem;
+	margin-left: 110rem;
 	margin-top: -40rem;
 }
 

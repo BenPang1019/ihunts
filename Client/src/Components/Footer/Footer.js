@@ -9,7 +9,7 @@ export default function Footer() {
       }
     return (
         <body className="" >
-            <div className="webfooter containerFixed">
+            <div className="webfooter container-xxl">
                 <div className="list-footer">
                         <div className="container">
                                 <div className="list-space" >
@@ -215,12 +215,12 @@ export default function Footer() {
 
                 <div className="webfooter border-color info-footer">
                     <div className="linecontainer">
-                        <hr className="line" style={{ width:'107rem' }}/>
+                        <hr className="line" />
                     </div>
-                    <div style={{width:'115rem'}}>
+                    <div className='lineSpace' >
                     <Link 
                     to='/terms&condition' 
-                    style={{ color:'white',marginLeft:'5rem',marginRight:'45rem' }}
+                    className='terms'
                     onClick={scrollToTop}
                     >
                     Term&Conditions
@@ -228,7 +228,7 @@ export default function Footer() {
                     {' '}
                     <Link 
                     to='/returnpolicy' 
-                    style={{ color:'white',marginRight:'42rem' }}
+                    className='returns'
                     onClick={scrollToTop}
                     >
                     RefundPolicy
@@ -243,11 +243,11 @@ export default function Footer() {
                     </Link>
                     </div>
 
-                    <div style={{ width:'115rem' }}>
-                        <p style={{ marginLeft:'5rem' }}>
+                    <div style={{ width:'150rem' }}>
+                        <p className='prgOne'>
                             Copyright © 2022 IEC International Sdn Bhd | All Right Reserved
                         </p>
-                        <p style={{ marginLeft:'100.5rem',marginTop:'-2.5rem' }}>
+                        <p className='prgTwo'>
                              Build By WDA Technology
                         </p>
                     </div>
