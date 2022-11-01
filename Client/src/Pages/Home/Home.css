@@ -1,5 +1,5 @@
 .containerFixed{
-	max-width:120rem;
+	max-width:256rem;
 	/* --bs-gutter-x:1.5rem;
 	--bs-gutter-y:0; */
 	/* width:100%; */
@@ -1161,3 +1161,127 @@
 		background-position-y: -0.1rem;
 	}
 }
+
+
+@media (min-width:128rem){
+	/* First Section */
+.web-product{
+	display: block;
+}
+
+.mobile-product{
+	display: none;
+}
+
+.web-product .swiper-button-next {
+	right: 0%;
+	color: #000 !important;
+	fill: black !important;
+	stroke: black !important;
+	background-color: white;
+	width: 75px;
+	height: 75px;
+	border-radius: 50%;
+	box-sizing: border-box;
+}
+
+.web-product .swiper-button-prev {
+	left: 0%;
+	color: #000 !important;
+	fill: black !important;
+	stroke: black !important;
+	background-color: white;
+	width: 75px;
+	height: 75px;
+	border-radius: 50%;
+	box-sizing: border-box;
+}
+
+.web-product{
+	background-image: url(../../SVG/MalaysiaMap.svg);
+	background-repeat: no-repeat;
+	background-position: 30rem;
+	padding-bottom: 6rem;
+	background-size: 145rem; 
+
+}
+
+.web-product .firstsectioncontainertwoHeader {
+	margin-top: 24rem;
+	margin-left: 4rem;
+	color: white;
+	font-size: 26px;
+	font-family: "Arimo", sans-serif;
+}
+
+.web-product .firstsectioncontainerthreeHeader {
+	margin-left: 4rem;
+	color: white;
+	font-size: 50px;
+	font-family: "Arimo", sans-serif;
+}
+
+.web-product .firstsectioncontainerfourImgOne {
+	width: 25rem;
+	margin-left: 0rem;
+	margin-top: -2.1rem;
+}
+
+.web-product .firstsectioncontainerfourImgTwo {
+	width: 20rem;
+	margin-left: 4rem;
+	margin-top: 1rem;
+}
+
+.web-product .firstsectioncontainerfive {
+	text-align: center;
+	width: 35rem;
+	margin-left: 85rem;
+	margin-top: -40rem;
+}
+
+.web-product .product-card-image {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100% !important;
+	border-radius: 10% !important;
+}
+
+.web-product .product-card-title {
+	text-align: center;
+	color: #fcc018;
+	font-size: 30px !important;
+}
+
+.web-product .product-btnContainer {
+	margin-bottom: 10%;
+}
+
+.web-product .product-location {
+	font-size: 2.5rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-right: 0.5rem;
+}
+
+.web-product .product-sublocation {
+	font-size: 1.2rem;
+	font-weight: 500;
+	align-self: center;
+	text-transform: capitalize;
+}
+
+.web-product .button-card-product {
+	font-size: 1.25rem;
+	font-weight: 700;
+	padding: 0.25rem 1.25rem;
+}
+
+.web-product .text{
+	color: white;
+	font-size: 1.5rem;
+	margin-left: 4rem;
+	margin-top: 1rem;
+}
+}
+

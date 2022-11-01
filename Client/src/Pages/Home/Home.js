@@ -142,7 +142,7 @@ export const Home = () => {
       
       {/*Web thirdsection */}
       <section className="web-thirdsection">
-          <div className='container-xxl' style={{ marginTop:'10rem' }}>
+          <div className='container-xxl ' style={{ marginTop:'10rem' }}>
                 <img
                   className="island-image-hunt "
                   src={AppDemo}
