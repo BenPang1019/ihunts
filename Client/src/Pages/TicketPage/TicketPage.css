@@ -239,7 +239,7 @@
     display: flex;
   }
 
-  .react-calendar--doubleView .react-calendar__viewContainer > * {
+  .react-calendar--doubleView .react-calendar__viewContainer  {
     color: #757575;
   }
 
@@ -255,6 +255,7 @@
   .react-calendar button {
     border: 0;
     outline: none;
+    color: white;
   }
 
   .react-calendar button:enabled:hover {

@@ -145,6 +145,17 @@
 	background: #ffffff;
 }
 
+/* .otpInput{
+	display: block;
+    margin: 1rem ;
+    border: none;
+    padding: 0;
+    width: 8rem;
+    background: repeating-linear-gradient(90deg, dimgrey 0 , dimgrey 1ch, transparent 0, transparent 1.5ch) 0 100%/ 10ch 2px no-repeat;
+    font: 5ch droid sans mono, consolas, monospace;
+    letter-spacing: 0.5ch;
+} */
+
 @media (min-width:350px) and (max-width:991px){
 	.webAuthen{
 		display: none;
