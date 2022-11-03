@@ -45,7 +45,7 @@
 
 @media (min-width: 350px) {
 	.header-2 .modal-item .modal-dialog {
-		max-width: 95%;
+		max-width: 100%;
 		border-radius: 12px;
 	}
 

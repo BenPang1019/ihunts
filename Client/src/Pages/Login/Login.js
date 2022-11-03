@@ -46,16 +46,16 @@ export const Login = () => {
   };
 
   return (
-    <div className="login">
+    <div className="loginpage">
     <NavbarLogin/>
-      <div class=" formdiv" style={{backgroundColor: '#2a2a2a', paddingBottom: '6.5rem' }}>
+      <div class="webLogin formdiv" style={{backgroundColor: '#2a2a2a', paddingBottom: '6.5rem' }}>
         <div
-          class="content-2-3  mx-auto p-0 position-relative"
+          class="content-2-3  "
         >
           <div class="text-center mb-4">
             <img
               className="user-icon h-auto"
-              style={{ width: '8.2rem' }}
+              style={{ width: '8.2rem',marginTop:'5rem' }}
               src={UserIcon}
               alt="island"
             />
@@ -83,7 +83,64 @@ export const Login = () => {
             <div class="form-group mx-auto">
               <input type="checkbox" class="form-check-input" id="check" />
               <label class="text-forgot-info" for="exampleCheck1" style={{ marginLeft: '0.5rem' }}>Remember Me</label>
-              <Link class="form-check-label forgot" for="exampleCheck1" to='#' style={{ fontSize: '1rem', cursor: 'pointer' }}>Forgot Password ?</Link>
+              <Link class="form-check-label forgot" for="exampleCheck1" to='/resetpassword' style={{ fontSize: '1rem', cursor: 'pointer',marginLeft:'7rem' }}>Forgot Password ?</Link>
+            </div>
+            <div class="text-center mb-5">
+              <button
+                class="submit-btn btn mb-0 btn-join border-0"
+                onClick={handleSubmit}
+              >
+                Log In
+              </button>
+            </div>
+            <div class="text-center mb-5">
+              <div className="text-forgot-info"> — &nbsp;&nbsp;&nbsp;&nbsp;Or&nbsp;&nbsp;&nbsp;&nbsp; — </div>
+            </div>
+            <div class="text-center">
+              <div className="text-forgot-info">Don't have an account?</div>
+              <Link className="text-forgot-info" style={{ color: '#ffcc4d', textDecoration: 'underline' }} to='/register'>Create Account</Link>
+            </div>
+          </form>
+        </div>
+      </div>
+
+
+      <div class="mobileLogin formdiv " style={{ paddingBottom: '6.5rem' }}>
+        <div
+          class="content-2-3  loginContainer"
+        >
+          <div class="text-center mb-4">
+            <img
+              className="user-icon h-auto"
+              style={{ width: '8.2rem',marginTop:'10rem' }}
+              src={UserIcon}
+              alt="island"
+            />
+          </div>
+          <form class="form-login mx-auto">
+            <div class="form-group mx-auto">
+              <label for="exampleInputEmail1" class="label">Username</label>
+              <input 
+                onChange={handleChange} 
+                type="text" 
+                class="form-control" 
+                name="username"
+                aria-describedby="emailHelp" 
+                placeholder="Enter Username" />
+            </div>
+            <div class="form-group mx-auto">
+              <label for="exampleInputPassword1" class="label">Password</label>
+              <input 
+                onChange={handleChange} 
+                type="password" 
+                class="form-control" 
+                name="password"
+                placeholder="Password" /> 
+            </div>
+            <div class="form-group mx-auto">
+              <input type="checkbox" class="form-check-input" id="check" />
+              <label class="remember" for="exampleCheck1" style={{ marginLeft: '0.5rem' }}>Remember Me</label>
+              <Link class="forgot" for="exampleCheck1" to='/resetpassword' >Forgot Password ?</Link>
             </div>
             <div class="text-center mb-5">
               <button

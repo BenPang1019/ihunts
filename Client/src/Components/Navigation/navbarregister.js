@@ -5,8 +5,6 @@ import { Link } from 'react-router-dom'
 
 
 export default function NavbarLogin() {
-
-
     return (
          <div className="registernav" >
             <div className="web" >

@@ -1,10 +1,228 @@
 .ticketpage {
-    height: 60rem;
     overflow:hidden;
-    /* Need to solve blank space under page */
 } 
 
+.webTicket{
+  display: block;
+}
 
+.mobileTicket{
+  display: none;
+}
+
+.incBtn{
+  border: none;
+  background-color: transparent;
+  color: white;
+  width: 2rem;
+}
+
+.decBtn{
+  border: none;
+  background-color: transparent;
+  color: white;
+  width: 2rem;
+}
+
+.ticketInput{
+  border: none;
+  background-color: transparent;
+  width: 1.5rem;
+  color: yellow;
+  text-align: center;
+}
+
+.ticketBtnContainer{
+  width: 10rem;
+  margin-left: 12rem;
+  margin-top: -1.5rem;
+}
+
+.webTicket .card {
+	background-color: #6a6a6a;
+	border-radius: 16px;
+	background-color: #6a6a6a;
+	border-radius: 16px;
+  margin-top: 5rem;
+  width: 28rem;
+}
+
+.webTicket .rounded {
+	border-radius: 1.75rem !important;
+}
+
+.webTicket .card-title {
+	color: #ffcc4d;
+	text-align: center;
+	font-size: 1.6rem;
+	font-weight: 600;
+	color: #ffcc4d;
+	text-align: center;
+	font-size: 1.6rem;
+	font-weight: 600;
+	margin-bottom: 3.6rem;
+}
+
+.webTicket .card-textOne {
+	color: #ffffff;
+	font-size: 1.2rem;
+	margin-left: 2.3rem;
+	margin-top: -2rem;
+}
+
+.webTicket .card-textTwo {
+	color: #ffffff;
+	font-size: 1.2rem;
+	margin-left: 6.5rem;
+}
+
+.webTicket .card-textThree {
+	color: #ffffff;
+	font-size: 1.1rem;
+	margin-left: 8.5rem;
+}
+
+.webTicket .card-textFour {
+	color: #ffffff;
+	font-size: 1.1rem;
+	margin-left: 8.5rem;
+  line-height: 0rem;
+}
+
+.webTicket .town-name {
+	color: #ffffff;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 1.625rem;
+	margin-left: 2rem;
+}
+
+.webTicket .step-text {
+	margin-bottom: 3.6rem;
+	border-radius: 0.5rem;
+}
+
+.webTicket .town-name {
+	color: #ffffff;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 1.625rem;
+}
+
+.webTicket .bookContainer{
+  background-color: red;
+  width: 83rem;
+  margin-top: -1rem;
+}
+
+@media (min-width:350px) and (max-width:991px){
+  .webTicket{
+    display: none;
+  }
+
+  .mobileTicket{
+    display: block;
+  }
+
+  .mobileTicket .card {
+    background-color: #6a6a6a;
+    border-radius: 16px;
+    background-color: #6a6a6a;
+    border-radius: 16px;
+    margin-top: 5rem;
+    width: 20rem;
+  }
+  
+  .mobileTicket .rounded {
+    border-radius: 1.75rem !important;
+  }
+  
+  .mobileTicket .card-title {
+    color: #ffcc4d;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #ffcc4d;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 3.6rem;
+  }
+  
+  .mobileTicket .card-textOne {
+    color: #ffffff;
+    font-size: 0.8rem;
+    margin-left: 2rem;
+    margin-top: -2rem;
+  }
+  
+  .mobileTicket .card-textTwo {
+    color: #ffffff;
+    font-size: 1.2rem;
+    margin-left: 3rem;
+  }
+  
+  .mobileTicket .card-textThree {
+    color: #ffffff;
+    font-size: 1.1rem;
+    margin-left: 5rem;
+  }
+  
+  .mobileTicket .card-textFour {
+    color: #ffffff;
+    font-size: 1.1rem;
+    margin-left: 5rem;
+    line-height: 0rem;
+  }
+  
+  .mobileTicket .town-name {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.625rem;
+    margin-left: 2rem;
+  }
+  
+  .mobileTicket .step-text {
+    margin-bottom: 3.6rem;
+    border-radius: 0.5rem;
+  }
+  
+  .mobileTicket .town-name {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.625rem;
+  }
+
+  .mobileTicket .cardContainer{
+    width: 20rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .mobileTicket .bookingContainer{
+    width: 20rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .mobileTicket .bookContainer{
+    margin-top: 5rem;
+  }
+
+  .mobileTicket .react-calendar {
+    width: 20rem;
+    max-width: 100%;
+    background: #2a2a2a;
+    font-family: "Arimo", sans-serif;
+    line-height: 1.5rem;
+  }
+}
+
+
+
+/* Calendar */
 .react-calendar {
     width: 50rem;
     max-width: 100%;

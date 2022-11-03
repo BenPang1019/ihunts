@@ -1,36 +1,44 @@
-.register .formdiv{
+.webRegister{
+	display: block;
+}
+
+.mobileRegister{
+	display: none;
+}
+
+.webRegister .formdiv{
 	margin-top: 5rem;
 } 
 
-.content-2-3 .btn:focus,
-.content-2-3 .btn:active {
+.webRegister .content-2-3 .btn:focus,
+.webRegister  .content-2-3 .btn:active {
 	outline: none !important;
 }
 
-.content-2-3 .join-the-hunt {
+.webRegister  .content-2-3 .join-the-hunt {
 	margin-bottom: 0.1rem;
 	font: 500 2rem/3.5rem Poppins, sans-serif;
 	color: #ffffff;
 }
 
-.form-register .form-group {
+.webRegister  .form-register .form-group {
 	max-width: 385px;
 }
 
-#submit-button:hover {
+.webRegister  #submit-button:hover {
 	--tw-shadow: inset 0 0px 25px 0 rgba(20, 20, 50, 0.7);
 	box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
 		var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 	transition: 0.3s;
 }
 
-#submit-button {
+.webRegister  #submit-button {
 	color: #2a2a2a;
 	font-size: 12px;
 }
 
-.form-register .form-check-label,
-.label {
+.webRegister .form-register .form-check-label,
+.webRegister .label {
 	left: 20px;
 	bottom: 11px;
 	font-size: 18px;
@@ -45,11 +53,12 @@
             -webkit-transform 0.2s ease-in-out; */
 }
 
-.label {
-	margin-bottom: 0.75rem;
+.webRegister .label {
+	margin-bottom: 1.5rem;
+	margin-top: 1rem;
 }
 
-.form-register .submit-btn {
+.webRegister .form-register .submit-btn {
 	font: 600 18px / normal Poppins, sans-serif;
 	background-color: #ffcc4d;
 	border-radius: 12px;
@@ -57,7 +66,7 @@
 	transition: 0.3s;
 }
 
-.form-register .form-control {
+.webRegister .form-register .form-control {
 	width: 100%;
 	height: 48px;
 	background: #fff;
@@ -68,9 +77,106 @@
 }
 
 
-.register 
-.form-control::-webkit-outer-spin-button,
-.form-control::-webkit-inner-spin-button {
+.webRegister .register 
+.webRegister .form-control::-webkit-outer-spin-button,
+.webRegister .form-control::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
+}
+
+
+@media (min-width:350px) and (max-width:400px){
+	.webRegister{
+		display: none;
+	}
+	
+	.mobileRegister{
+		display: block;
+	}
+	
+
+	.mobileRegister .formdiv{
+		margin-top: 5rem;
+	} 
+	
+	.mobileRegister .content-2-3 .btn:focus,
+	.mobileRegister  .content-2-3 .btn:active {
+		outline: none !important;
+	}
+	
+	.mobileRegister   .content-2-3 .join-the-hunt {
+		margin-bottom: 0.1rem;
+		font: 500 2rem/3.5rem Poppins, sans-serif;
+		color: #ffffff;
+	}
+	
+	.mobileRegister   .form-register .form-group {
+		max-width: 385px;
+	}
+	
+	.mobileRegister    #submit-button:hover {
+		--tw-shadow: inset 0 0px 25px 0 rgba(20, 20, 50, 0.7);
+		box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+			var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+		transition: 0.3s;
+	}
+	
+	.mobileRegister    #submit-button {
+		color: #2a2a2a;
+		font-size: 12px;
+	}
+	
+	.mobileRegister  .form-register .form-check-label,
+	.mobileRegister .label {
+		left: 20px;
+		bottom: 11px;
+		font-size: 18px;
+		line-height: 26px;
+		font-weight: 200;
+		color: #ffffff;
+		cursor: text;
+	
+		/* transition: -webkit-transform 0.2s ease-in-out;
+			  transition: transform 0.2s ease-in-out;
+			  transition: transform 0.2s ease-in-out,
+				-webkit-transform 0.2s ease-in-out; */
+	}
+	
+	.mobileRegister  .label {
+		margin-bottom: 1.5rem;
+		margin-top: 1rem;
+	}
+	
+	.mobileRegister  .form-register .submit-btn {
+		font: 600 18px / normal Poppins, sans-serif;
+		background-color: #ffcc4d;
+		border-radius: 12px;
+		padding: 12px 32px;
+		transition: 0.3s;
+	}
+	
+	.mobileRegister  .form-register .form-control {
+		width: 100%;
+		height: 48px;
+		background: #fff;
+		border: none;
+		outline: none;
+		border-radius: 3px;
+		padding: 30px;
+	}
+	
+	
+	.mobileRegister  .register 
+	.mobileRegister  .form-control::-webkit-outer-spin-button,
+	.mobileRegister  .form-control::-webkit-inner-spin-button {
+	  -webkit-appearance: none;
+	  margin: 0;
+	}
+
+	.mobileRegister  .registerContainer{
+		width: 22rem;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
 }

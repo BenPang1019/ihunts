@@ -13,6 +13,9 @@ import { ReturnPolicy } from "./Pages/ReturnPolicy/ReturnPolicy";
 import { PrivacyPolicy } from "./Pages/PrivacyPolicy/PrivacyPolicy";
 import { TicketPage } from "./Pages/TicketPage/TicketPage";
 import { ThankYouPage } from "./Pages/Thankyou/ThankYouPage";
+import { Authentication } from "./Pages/Authentication/Authentication";
+import { ResetPasswordOne } from "./Pages/ResetPassword/ResetPasswordOne";
+import { ResetPasswordTwo } from "./Pages/ResetPassword/ResetPasswordTwo";
 
 
 
@@ -34,6 +37,9 @@ function App() {
         <Route path="/privacypolicy" element={<PrivacyPolicy />} />
         <Route path="/ticket" element={<TicketPage />} />
         <Route path="/thankyou" element={<ThankYouPage />} />
+        <Route path="/resetpassword" element={<ResetPasswordOne/>} />
+        <Route exact path="/resetpassword/:authentication" element={<Authentication/>} />
+        <Route exact path="/resetpassword/:authentication/:newpassword" element={<ResetPasswordTwo/>} />
       </Routes>
     </Router>
   );

@@ -8,7 +8,7 @@
     display: none;
 }
 
-.registernav .text{
+.authennav .text{
     font-family: "Arimo", sans-serif;
     color: white;
     font-size: 2.5rem;
@@ -16,7 +16,7 @@
     margin-top: -3.5rem;
 }
 
-.registernav .logo{
+.authennav .logo{
     margin-left: 4rem;
     top: 2rem;
 }
@@ -30,10 +30,11 @@
         display: block;
     }
 
-    .mobiletext{
+    .mobiletextAuthen{
         color: white;
-        font-size: 1.5rem;
-            
+        font-size: 1rem;  
+        margin-left: 13rem;
+        margin-top: -2.5rem;
     }
 }
 
@@ -47,9 +48,11 @@
         display: block;
     }
 
-    .mobiletext{
+    .mobiletextAuthen{
         color: white;
-        font-size: 2rem;   
+        font-size: 1.5rem;   
+        margin-left: 15rem;
+        margin-top: -3rem;
     }
 
 }
@@ -63,7 +66,7 @@
         display: block;
     }
 
-    .mobiletext{
+    .mobiletextAuthen{
         color: white;
         font-size: 2rem;   
         margin-left: 15rem;

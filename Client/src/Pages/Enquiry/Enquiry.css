@@ -1,9 +1,17 @@
-.enquiry-page .list-space {
+.webEnquiry{
+	display: block;
+}
+
+.mobileEnquiry{
+	display: none;
+}
+
+.webEnquiry .list-space {
 	margin-bottom: 3.3rem;
 	color: #ffffff;
 }
 
-.enquiry-page .footer-memorable {
+.webEnquiry  .footer-memorable {
 	font-size: 3rem;
 	line-height: 1.5rem;
 	font-weight: bold;
@@ -11,109 +19,74 @@
 	margin-bottom: 2rem;
 }
 
-.enquiry-page .navbar-brand {
+.webEnquiry .navbar-brand {
 	margin-bottom: 1.6rem;
 }
 
-.enquiry-page .footer-text-title {
+.webEnquiry  .footer-text-title {
 	font: 400 1rem /1.5rem Poppins, sans-serif;
 	margin-bottom: 1.5rem;
 	width: 90%;
 }
 
-.enquiry-page .list-menu {
+.webEnquiry  .list-menu {
 	color: #ffffff;
 	text-decoration: none !important;
 }
 
-.enquiry-page .menu-caption {
+.webEnquiry  .menu-caption {
 	color: #ffffff;
 	text-decoration: none !important;
 	margin-bottom: 1.25rem;
 }
 
-.enquiry-page hr.hr {
+.webEnquiry  hr.hr {
 	margin: 0;
 	border: 0;
 	border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.enquiry-page .border-color {
+.webEnquiry  .border-color {
 	color: #c7c7c7;
 }
 
-.enquiry-page .footer-link {
+.webEnquiry  .footer-link {
 	color: #c7c7c7;
 }
 
-.enquiry-page .footer-link:hover {
+.webEnquiry  .footer-link:hover {
 	color: #555252;
 }
 
-.enquiry-page .social-media-c:hover circle,
-.enquiry-page .social-media-p:hover path {
+.webEnquiry  .social-media-c:hover circle,
+.webEnquiry  .social-media-p:hover path {
 	fill: #555252;
 }
 
-.enquiry-page .footer-info-space {
+.webEnquiry  .footer-info-space {
 	padding-top: 3rem;
 }
 
-.enquiry-page .list-footer {
+.webEnquiry  .list-footer {
 	padding: 5rem 1rem 3rem 1rem;
 }
 
-.enquiry-page .info-footer {
+.webEnquiry  .info-footer {
 	padding: 0 1rem 3rem;
 }
 
-@media (min-width: 576px) {
-	.enquiry-page .list-footer {
-		padding: 5rem 2rem 3rem 2rem;
-	}
-
-	.enquiry-page .info-footer {
-		padding: 0 2rem 3rem;
-	}
-}
-
-@media (min-width: 768px) {
-	.enquiry-page .list-footer {
-		padding: 5rem 4rem 2rem 4rem;
-	}
-
-	.enquiry-page .info-footer {
-		padding: 0 4rem 3rem;
-	}
-
-	.enquiry-page .footer-text-title {
-		font: 400 1rem /1.5rem Poppins, sans-serif;
-		margin-bottom: 1.5rem;
-		width: 50%;
-	}
-}
-
-@media (min-width: 992px) {
-	.enquiry-page .list-footer {
-		padding: 3rem 6rem 2rem 6rem;
-	}
-
-	.enquiry-page .info-footer {
-		padding: 0 6rem 3rem;
-	}
-}
-
-.get-in-touch {
+.webEnquiry  .get-in-touch {
 	max-width: 800px;
 	margin: 50px auto;
 	position: relative;
 }
 
-.contact-form .form-field {
+.webEnquiry .contact-form .form-field {
 	position: relative;
 	margin: 32px 0;
 }
-.contact-form .input-text {
+
+.webEnquiry  .contact-form .input-text {
 	display: block;
 	width: 100%;
 	height: 36px;
@@ -126,7 +99,7 @@
 	font-weight: 400;
 }
 
-.contact-form .form-control {
+.webEnquiry  .contact-form .form-control {
 	width: 100%;
 	height: 5rem;
 	border-width: 0 0 2px 0;
@@ -138,15 +111,15 @@
 	font-weight: 400;
 }
 
-input:focus {
+.webEnquiry  .input:focus {
 	outline: none !important;
 }
 
-textarea:focus {
+.webEnquiry .textarea:focus {
 	outline: none !important;
 }
 
-.contact-form .label {
+.webEnquiry  .contact-form .label {
 	left: 20px;
 	bottom: 11px;
 	font-size: 18px;
@@ -159,7 +132,7 @@ transition: transform 0.2s ease-in-out;
 transition: transform 0.2s ease-in-out,
 -webkit-transform 0.2s ease-in-out; */
 }
-.contact-form .submit-btn {
+.webEnquiry  .contact-form .submit-btn {
 	font: 600 18px / normal Poppins, sans-serif;
 	background-color: #ffcc4d;
 	border-radius: 12px;
@@ -167,14 +140,191 @@ transition: transform 0.2s ease-in-out,
 	transition: 0.3s;
 }
 
-.contact-form .submit-btn:hover {
+.webEnquiry .contact-form .submit-btn:hover {
 	--tw-shadow: inset 0 0px 25px 0 rgba(20, 20, 50, 0.7);
 	box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
 		var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 	transition: 0.3s;
 }
 
-.rrcontainer{
+.webEnquiry .rrcontainer{
 	margin-left: -2rem;
 }
 
+
+
+@media (min-width:350px) and (max-width:991px){
+	.webEnquiry{
+		display: none;
+	}
+	
+	.mobileEnquiry{
+		display: block;
+	}
+	
+	.mobileEnquiry .list-space {
+		margin-bottom: 3.3rem;
+		color: #ffffff;
+	}
+	
+	.mobileEnquiry .footer-memorable {
+		font-size: 3rem;
+		line-height: 1.5rem;
+		font-weight: bold;
+		color: #ffffff;
+		margin-bottom: 2rem;
+	}
+	
+	.mobileEnquiry .navbar-brand {
+		margin-bottom: 1.6rem;
+	}
+	
+	.mobileEnquiry  .footer-text-title {
+		font: 400 1rem /1.5rem Poppins, sans-serif;
+		margin-bottom: 1.5rem;
+		width: 90%;
+	}
+	
+	.mobileEnquiry  .list-menu {
+		color: #ffffff;
+		text-decoration: none !important;
+	}
+	
+	.mobileEnquiry .menu-caption {
+		color: #ffffff;
+		text-decoration: none !important;
+		margin-bottom: 1.25rem;
+	}
+	
+	.mobileEnquiry  hr.hr {
+		margin: 0;
+		border: 0;
+		border-top: 1px solid rgba(0, 0, 0, 0.1);
+	}
+	
+	.mobileEnquiry  .border-color {
+		color: #c7c7c7;
+	}
+	
+	.mobileEnquiry .footer-link {
+		color: #c7c7c7;
+	}
+	
+	.mobileEnquiry  .footer-link:hover {
+		color: #555252;
+	}
+	
+	.mobileEnquiry  .social-media-c:hover circle,
+	.mobileEnquiry  .social-media-p:hover path {
+		fill: #555252;
+	}
+	
+	.mobileEnquiry  .footer-info-space {
+		padding-top: 3rem;
+	}
+	
+	.mobileEnquiry  .list-footer {
+		padding: 5rem 1rem 3rem 1rem;
+	}
+	
+	.mobileEnquiry  .info-footer {
+		padding: 0 1rem 3rem;
+	}
+	
+	.mobileEnquiry  .get-in-touch {
+		max-width: 800px;
+		margin: 50px auto;
+		position: relative;
+	}
+	
+	.mobileEnquiry .contact-form .form-field {
+		position: relative;
+		margin: 32px 0;
+	}
+	
+	.mobileEnquiry .contact-form .input-text {
+		display: block;
+		width: 100%;
+		height: 36px;
+		border-width: 0 0 2px 0;
+		border-color: #ffffff;
+		background-color: #2a2a2a;
+		color: #ffffff;
+		font-size: 18px;
+		line-height: 26px;
+		font-weight: 400;
+	}
+	
+	.mobileEnquiry  .contact-form .form-control {
+		width: 100%;
+		height: 5rem;
+		border-width: 0 0 2px 0;
+		border-color: #ffffff;
+		background-color: #2a2a2a;
+		color: #ffffff;
+		font-size: 18px;
+		line-height: 26px;
+		font-weight: 400;
+	}
+	
+	.mobileEnquiry  .input:focus {
+		outline: none !important;
+	}
+	
+	.mobileEnquiry .textarea:focus {
+		outline: none !important;
+	}
+	
+	.mobileEnquiry  .contact-form .label {
+		left: 20px;
+		bottom: 11px;
+		font-size: 18px;
+		line-height: 26px;
+		font-weight: 200;
+		color: #ffffff;
+		cursor: text;
+		/* transition: -webkit-transform 0.2s ease-in-out;
+	transition: transform 0.2s ease-in-out;
+	transition: transform 0.2s ease-in-out,
+	-webkit-transform 0.2s ease-in-out; */
+	}
+	.mobileEnquiry  .contact-form .submit-btn {
+		font: 600 18px / normal Poppins, sans-serif;
+		background-color: #ffcc4d;
+		border-radius: 12px;
+		padding: 12px 32px;
+		transition: 0.3s;
+	}
+	
+	.mobileEnquiry .contact-form .submit-btn:hover {
+		--tw-shadow: inset 0 0px 25px 0 rgba(20, 20, 50, 0.7);
+		box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+			var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+		transition: 0.3s;
+	}
+	
+	.mobileEnquiry .rrcontainer{
+		margin-left: -2rem;
+	}
+
+	.mobileEnquiry .terms {
+		color: #ffffff;
+		margin-right: 11rem;
+	}
+	
+	.mobileEnquiry .returns{
+		color: #ffffff;
+		margin-right: 13rem;
+	}
+	
+	.mobileEnquiry .privacy{
+		color: #ffffff;
+		margin-right: 12.6rem;
+	}
+
+	.mobileEnquiry .enquiryContainer{
+		margin-left: auto;
+		margin-right: auto;
+		width: 21rem;
+	}
+}

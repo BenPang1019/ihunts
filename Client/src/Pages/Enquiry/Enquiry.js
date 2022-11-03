@@ -24,11 +24,10 @@ export const Enquiry = () => {
     window.scrollTo(0, 0)
   }
   return (
-    <div>
+    <div className='enquiry-page'>
       <Navbar />
-      <div className="" >
-        <div className="enquiry-page container-xxl containerEnquiry" >
-          <div className=" web list-footer">
+        <div className="webEnquiry container-xxl " >
+          <div className="  list-footer">
             <div className="row gap-md-0 gap-3">
               <div className="col-lg-6 col-md-6">
                 <div className="">
@@ -149,10 +148,59 @@ export const Enquiry = () => {
               </div>
             </div>
           </div>
+        
+          <div className="web border-color info-footer">
+                    <div className="">
+                        <hr className="hr" />
+                    </div>
+                    <div style={{textAlign:'center' }}>
+                    <Link 
+                    to='/terms&condition' 
+                    style={{ color:'white' }}
+                    onClick={scrollToTop}
+                    >
+                    Term&Conditions
+                    </Link>
+                    {' '}
+                    <Link 
+                    to='/returnpolicy' 
+                    style={{ color:'white',paddingLeft:'23rem' }}
+                    onClick={scrollToTop}
+                    >
+                    RefundPolicy
+                    </Link>
+                    {' '}
+                    <Link 
+                    to='/privacypolicy' 
+                    style={{ color:'white',paddingLeft:'25rem' }}
+                    onClick={scrollToTop}
+                    >
+                    PrivacyPolicy
+                    </Link>
+                    </div>
+                    <div
+                        className="mx-auto d-flex flex-column flex-lg-row align-items-center footer-info-space gap-4"
+                        style={{ marginTop:'-2rem',width:'120rem' }}
+                    >
+                        <nav
+                            className="d-flex flex-lg-row flex-column align-items-center justify-content-center"
+                        >
+                            <p>
+                                Copyright © 2022 IEC International Sdn Bhd | All Right Reserved
+                            </p>
+                            <p style={{ marginLeft:'35rem' }}>
+                                Build By WDA Technology
+                            </p>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+                
 
-          <div className="mobile list-footer">
-            <div className="row gap-md-0 gap-3">
-              <div className="col-lg-6 col-md-6">
+            <div className="mobileEnquiry container-xxl  " >
+          <div className="enquiryContainer  list-footer">
+            <div className="row gap-lg-0 gap-3">
+              <div className="col-lg-6 col-lg-6">
                 <div className="">
                   <div className="list-space">
                     <p className="footer-memorable">
@@ -182,7 +230,11 @@ export const Enquiry = () => {
                       <Link class="navbar-brand" to='/'>
                         <img src={Location} alt='location' style={{ width: '5%', display: 'inline-block', marginRight: '1rem' }} />
                         <span className='menu-caption'>
-                        EC International Sdn Bhd (1473596-A)<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OG Business Park 85-1B,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Jalan Taman Tan Yew Lai,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Off Jalan Puchong,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;58200 Kuala Lumpur Malaysia.ST 12345
+                        EC International Sdn Bhd (1473596-A)<br/>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OG Business Park 85-1B,<br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Jalan Taman Tan Yew Lai,<br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Off Jalan Puchong,<br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;58200 Kuala Lumpur Malaysia.ST 12345
                         </span>
                       </Link>
                     </li>
@@ -190,7 +242,7 @@ export const Enquiry = () => {
                 </div>
               </div>            
 
-              <div className="col-lg-6 col-md-6">
+              <div className="col-lg-6 col-lg-6">
                 <form className="contact-form row">
                   <div className="form-field col-lg-6">
                     <label className="label" for="name">First Name</label>
@@ -256,7 +308,7 @@ export const Enquiry = () => {
                   </div>
                   <div className="form-field col-lg-12">
                     <button
-                      className="submit-btn btn d-inline-flex mb-md-0 btn-join border-0"
+                      className="submit-btn btn d-inline-flex mb-lg-0 btn-join border-0"
                       type="submit"
                       value="Submit"
                     >
@@ -268,77 +320,32 @@ export const Enquiry = () => {
             </div>
           </div>
 
-          
-
-          <div className="web border-color info-footer">
+                <div className="mobileEnquiry border-color info-footer enquiryContainer">
                     <div className="">
                         <hr className="hr" />
                     </div>
                     <div style={{textAlign:'center' }}>
                     <Link 
                     to='/terms&condition' 
+                    className='terms'
                     style={{ color:'white' }}
                     onClick={scrollToTop}
                     >
                     Term&Conditions
                     </Link>
-                    {' '}
+                    <br/>
                     <Link 
                     to='/returnpolicy' 
-                    style={{ color:'white',paddingLeft:'23rem' }}
-                    onClick={scrollToTop}
-                    >
-                    RefundPolicy
-                    </Link>
-                    {' '}
-                    <Link 
-                    to='/privacypolicy' 
-                    style={{ color:'white',paddingLeft:'25rem' }}
-                    onClick={scrollToTop}
-                    >
-                    PrivacyPolicy
-                    </Link>
-                    </div>
-                    <div
-                        className="mx-auto d-flex flex-column flex-lg-row align-items-center footer-info-space gap-4"
-                        style={{ marginTop:'-2rem' }}
-                    >
-                        <nav
-                            className="d-flex flex-lg-row flex-column align-items-center justify-content-center"
-                        >
-                            <p>
-                                Copyright © 2022 IEC International Sdn Bhd | All Right Reserved
-                            </p>
-                            <p style={{ paddingLeft:'26rem' }}>
-                                Build By WDA Technology
-                            </p>
-                        </nav>
-                    </div>
-                </div>
-
-                <div className="mobile border-color info-footer">
-                    <div className="">
-                        <hr className="hr" />
-                    </div>
-                    <div style={{textAlign:'center' }}>
-                    <Link 
-                    to='/terms&condition' 
-                    style={{ color:'white' }}
-                    onClick={scrollToTop}
-                    >
-                    Term&Conditions
-                    </Link>
-                    {' '}
-                    <Link 
-                    to='/returnpolicy' 
+                    className='returns'
                     style={{ color:'white' }}
                     onClick={scrollToTop}
                     >
                     ReturnPolicy
                     </Link>
-                    {' '}
+                    <br/>
                     <Link 
                     to='/privacypolicy' 
+                    className='privacy'
                     style={{ color:'white' }}
                     onClick={scrollToTop}
                     >
@@ -358,7 +365,6 @@ export const Enquiry = () => {
                         </nav>
                     </div>
                 </div>
-        </div>
       </div>
     </div>
   )

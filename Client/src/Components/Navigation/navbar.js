@@ -73,9 +73,9 @@ export default function Navbar() {
                                 </div>
                                 <div
                                     className="modal-footer border-0 gap-3"
-                                    style={{padding:'1rem' }}
+                                    style={{paddingBottom:'2rem' }}
                                 >
-                                    <Link className="btn btn-fill border-0" to='/thehunts' style={{ marginLeft:'2rem',marginRight: '2rem', }}>Join The Hunt</Link>
+                                    <Link className="btn btn-fill border-0" to='/thehunts' style={{  }}>Join The Hunt</Link>
                                     {currentUser ? (
                                     <Link className='login' to='/userdashboard'><img
                                         src={usericon}

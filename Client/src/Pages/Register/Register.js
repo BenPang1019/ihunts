@@ -82,11 +82,11 @@ export const Register = () => {
   return (
     <body className="register">
       <NavbarRegister/>      
-      <div class="h-100 w-100" style={{ backgroundColor: '#2a2a2a', paddingBottom: '6.5rem' }}>
+      <div class="webRegister formdiv" style={{ marginTop:'5rem' }}>
         <div
-          class="content-2-3 container-xxl mx-auto p-0 position-relative"
+          class="content-2-3 container-xxl "
         >
-          <div class="form-register mx-auto formdiv">
+          <div class="form-register mx-auto ">
             <form>
             <div className="row justify-content-center">
               <div class="form-group col-lg-6 ">
@@ -161,8 +161,105 @@ export const Register = () => {
               </div>
             </div>
             <div class="form-group mx-auto col-lg-12 text-center">
-              <input type="checkbox" class="form-check-input" id="agree" onChange={checkboxHandler} />
-              <label class="text-forgot-info" htmlFor="agree" style={{ marginLeft: '0.5rem' }}>I agree to <Link to='/terms&condition' style={{ color: '#ffcc4d' }}>Terms and Conditions</Link></label>
+              <input type="checkbox" class="form-check-input" id="agree" onChange={checkboxHandler} style={{ marginTop:'2rem',marginBottom:'2rem' }} />
+              <label class="text-forgot-info" htmlFor="agree" style={{ marginLeft: '0.5rem',marginTop:'2rem',color:'white' }}>I agree to <Link to='/terms&condition' style={{ color: '#ffcc4d' }}>Terms and Conditions</Link></label>
+            </div>
+            <div class="text-center mb-5">
+              <button
+                type="submit"
+                disabled={!agree}
+                class="submit-btn btn mb-0 btn-join border-0"
+                onClick={handleClick}
+              >
+                Register
+              </button>
+            </div>
+            </form>
+          </div>
+        </div>
+      </div> 
+
+      <div class="mobileRegister formdiv" style={{ marginTop:'5rem' }}>
+        <div
+          class="content-2-3 container-xxl registerContainer"
+        >
+          <div class="form-register mx-auto ">
+            <form>
+            <div className="row justify-content-center">
+              <div class="form-group col-lg-6 ">
+                <label class="label">Username</label>
+                <input
+                  type="text"
+                  placeholder="Enter Username"
+                  name='username'
+                  onChange={handleChange}
+                  className="form-control"
+                  required
+                /> 
+              </div>
+              <div class="form-group col-lg-6">
+                <label class="label">Full Name</label>
+                <input
+                  type="text"
+                  placeholder="Enter FullName"
+                  name='fullName'
+                  onChange={handleChange}
+                  className="form-control"
+                  required
+                />
+              </div>
+            </div>
+            <div className="row justify-content-center">
+              <div class="form-group col-lg-6">
+                <label class="label">Phone Number</label>
+                <input
+                  type="number"
+                  placeholder="Enter PhoneNumber"
+                  name='phone'
+                  onChange={handleChange}
+                  className="form-control"
+                  required
+                />
+              </div>
+              <div class="form-group col-lg-6">
+                <label class="label">Email</label>
+                <input
+                  type="email"
+                  placeholder="Enter Email"
+                  name='email'
+                  onChange={handleChange}
+                  className="form-control"
+                  required
+                />
+              </div>
+            </div>
+            <div className="row justify-content-center">
+              <div class="form-group col-lg-6">
+                <label class="label">Password</label>
+                <input
+                  type="password"
+                  placeholder="Enter Password"
+                  name='password'
+                  onChange={handleChange}
+                  className="form-control"
+                  required
+                />
+              </div>
+              <div class="form-group col-lg-6">
+                <label class="label">Confirm Password</label>
+                <input
+                  type="password"
+                  placeholder="Enter Password Again"
+                  name='confirmPassword'
+                  onChange={handleChange}
+                  className="form-control"
+                  required
+                />
+              </div>
+            </div>
+            <div class="form-group mx-auto col-lg-12 text-center">
+              <input type="checkbox" class="form-check-input" id="agree" onChange={checkboxHandler} style={{ marginTop:'2rem',marginBottom:'2rem' }} />
+              <label class="text-forgot-info" htmlFor="agree" style={{ marginLeft: '0.5rem',marginTop:'2rem',color:'white' }}>I agree to <Link to='/terms&condition' style={{ color: '#ffcc4d' }}>Terms and Conditions</Link></label>
             </div>
             <div class="text-center mb-5">
               <button
