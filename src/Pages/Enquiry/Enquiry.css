@@ -1,0 +1,864 @@
+.enquiry{
+	font-family: "Arimo", sans-serif;
+}
+
+.enquiry .web{
+	display: block;
+}
+
+.enquiry .mobile{
+	display: none;
+}
+
+.enquiry .web .inline{
+	display: inline-block;
+}
+
+.enquiry .web .containerOne{
+	width: 100rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.enquiry .web .containerLeft{
+	text-align: left;
+	margin-left: 2rem;
+	margin-top: 4rem;
+}
+
+.enquiry .web .leftHOne{
+	color: white;
+	font-size: 45px;
+	font-weight: 700;
+}
+
+.enquiry .web .leftPOne{
+	color: white;
+	width: 600px;
+}
+
+.enquiry .web .icon{
+	width: 40px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.enquiry .web .info{
+	color: white;
+	display: inline-block;
+	width: 300px;
+	margin-left: 2rem;
+}
+
+.enquiry .web .containerRight{
+	vertical-align: top;
+	margin-left: 3rem;
+	margin-top: 2rem;
+}
+
+.enquiry .web .submitForm{
+	width: 750px;
+	color: white;
+	border: none;
+	margin-left: 2rem;
+}
+
+.enquiry .web .submitButton{
+	background: #ffcd4d;
+    color: black;
+    padding: 10px 10px 10px 10px;
+    transition: all .2s ease-in-out;
+    font-size: 18px;
+    margin-top: 1rem;
+    border-radius: 10px;
+    border:  solid 3px;
+    border-color:#ffcd4d;
+    cursor: pointer;
+}
+
+.enquiry .web .submitButton:hover{
+	transform: scale(1.1); 
+    background: black; 
+    color: yellow;
+    border:  solid 3px, yellow;
+    border-radius: 10px;
+}
+
+.enquiry .web .inputLine{
+	width: 350px;
+	height: 30px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	outline: 0;
+	border-width: 0 0 2px;
+	border-color: white;
+	background-color: transparent;
+	color: white;
+	font-size: 20px;
+}
+
+.enquiry .web .inputLineSelect{
+	width: 740px;
+	height: 30px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	outline: 0;
+	border-width: 0 0 2px;
+	border-color: white;
+	background-color: transparent;
+	color: white;
+}
+
+.enquiry .web .inputLineSelect option{
+	background-color: black;
+}
+
+.enquiry .web .textArea{
+	width: 740px;
+	height: 30px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	outline: 0;
+	border-width: 0 0 2px;
+	border-color: white;
+	background-color: transparent;
+	color: white;
+	max-height: 200px;
+}
+  
+.enquiry .web .formLabel{
+	font-size: 22px;
+	margin-top: 3rem;
+}
+
+.enquiry .web .row {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.enquiry .web .lineContainer{
+	margin-left: auto;
+	margin-right: auto;
+	width: 100rem;
+	padding-left: 1rem;
+	margin-top: 3rem;
+}
+
+.enquiry .web .line{
+	position: absolute; /* Set the position property to absolute */
+	right: 1;
+	left: 1; /* Position the left edge of the underline at the center of the parent container */
+	width: 90rem; /* Set the width property to 90rem */
+	height: 1px; /* Set the height property to 1px to create a horizontal line */
+	background-color: grey; 
+}
+
+.enquiry .web .termsContainer{
+	text-align: center;
+	width: 100rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.enquiry .web .terms{
+	color: white;
+	margin-right: 10px;
+	text-decoration: underline;
+}
+
+.enquiry .web .copyRightContainer{
+	width: 100rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.enquiry .web .copyRight{
+	color: white;
+	font-size: 18px;
+	margin-top: 1rem;
+	margin-right: 45rem;
+	margin-left: 1rem;
+}
+
+.enquiry .web .copyRightTwo{
+	color: white;
+	font-size: 18px;
+}
+
+
+
+/* Mobile */
+@media (min-width: 350px) and (max-width: 480px)  {
+	.enquiry .web{
+		display: none;
+	}
+	
+	.enquiry .mobile{
+		display: block;
+	}
+	
+	.enquiry .mobile .inline{
+		display: inline-block;
+	}
+	
+	.enquiry .mobile .containerOne{
+
+		position: relative;
+	}
+	
+	.enquiry .mobile .containerLeft{
+
+	}
+	
+	.enquiry .mobile .leftHOne{
+		color: white;
+		font-size: 30px;
+		font-weight: 700;
+		margin-top: 5rem;
+		margin-left: 3rem;
+	}
+	
+	.enquiry .mobile .leftPOne{
+		color: white;
+		width: 300px;
+		margin-left: 3rem;
+		margin-bottom: 2rem;
+	}
+	
+	.enquiry .mobile .icon{
+		width: 30px;
+		vertical-align: top;
+		margin-left: 3rem;
+		display: inline-block;
+	}
+	
+	.enquiry .mobile .info{
+		color: white;
+		width: 300px;
+		margin-left: 1rem;
+		width: 250px;
+		display: inline-block;
+	}
+	
+	.enquiry .mobile .containerRight{
+		vertical-align: top;
+		margin-left: 3rem;
+		margin-top: 5rem;
+	}
+	
+	.enquiry .mobile .submitForm{
+		color: white;
+		border: none;
+		width: 350px;
+	}
+	
+	.enquiry .mobile .submitButton{
+		background: #ffcd4d;
+		color: black;
+		padding: 10px 10px 10px 10px;
+		transition: all .2s ease-in-out;
+		font-size: 18px;
+		margin-top: 1rem;
+		border-radius: 10px;
+		border:  solid 3px;
+		border-color:#ffcd4d;
+		cursor: pointer;
+	}
+	
+	.enquiry .mobile .submitButton:hover{
+		transform: scale(1.1); 
+		background: black; 
+		color: yellow;
+		border:  solid 3px, yellow;
+		border-radius: 10px;
+	}
+	
+	.enquiry .mobile .inputLine{
+		width: 150px;
+		height: 30px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		outline: 0;
+		border-width: 0 0 2px;
+		border-color: white;
+		background-color: transparent;
+		color: white;
+		font-size: 14px;
+	}
+	
+	.enquiry .mobile .inputLineSelect{
+		width: 335px;
+		height: 30px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		outline: 0;
+		border-width: 0 0 2px;
+		border-color: white;
+		background-color: transparent;
+		color: white;
+		font-size: 14px;
+	}
+	
+	.enquiry .mobile .inputLineSelect option{
+		background-color: black;
+	}
+	
+	.enquiry .mobile .textArea{
+		width: 335px;
+		height: 30px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		outline: 0;
+		border-width: 0 0 2px;
+		border-color: white;
+		background-color: transparent;
+		color: white;
+		max-height: 200px;
+		font-size: 14px;
+	}
+	  
+	.enquiry .mobile .formLabel{
+		font-size: 14px;
+		margin-top: 1rem;
+	}
+	
+	.enquiry .mobile .row {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	
+	.enquiry .mobile .lineContainer{
+		width: 350px;
+		padding-left: 3rem;
+		margin-top: 3rem;
+	}
+	
+	.enquiry .mobile .line{
+		position: absolute; /* Set the position property to absolute */
+		right: 1;
+		left: 1; /* Position the left edge of the underline at the center of the parent container */
+		width: 85%; /* Set the width property to 90rem */
+		height: 1px; /* Set the height property to 1px to create a horizontal line */
+		background-color: grey; 
+	}
+	
+	.enquiry .mobile .termsContainer{
+		text-align: center;
+		width: 350px;
+		margin-left: 0.8rem;
+	}
+	
+	.enquiry .mobile .terms{
+		color: white;
+		margin-right: 10px;
+		text-decoration: underline;
+		font-size: 12px;
+	}
+	
+	.enquiry .mobile .copyRightContainer{
+		
+	}
+	
+	.enquiry .mobile .copyRight{
+		color: white;
+		font-size: 14px;
+		margin-left: 3rem;
+	}
+	
+	.enquiry .mobile .copyRightTwo{
+		color: white;
+		font-size: 14px;
+		margin-left: 3rem;
+	}
+}
+
+/* Tablets */
+@media (min-width: 481px) and (max-width: 768px)  {
+	.enquiry .web{
+		display: none;
+	}
+	
+	.enquiry .mobile{
+		display: block;
+	}
+	
+	.enquiry .mobile .inline{
+		display: inline-block;
+	}
+	
+	.enquiry .mobile .containerOne{
+
+		position: relative;
+	}
+	
+	.enquiry .mobile .containerLeft{
+
+	}
+	
+	.enquiry .mobile .leftHOne{
+		color: white;
+		font-size: 30px;
+		font-weight: 700;
+		margin-top: 5rem;
+		margin-left: 3rem;
+	}
+	
+	.enquiry .mobile .leftPOne{
+		color: white;
+		width: 300px;
+		margin-left: 3rem;
+		margin-bottom: 2rem;
+	}
+	
+	.enquiry .mobile .icon{
+		width: 30px;
+		vertical-align: top;
+		margin-left: 3rem;
+		display: inline-block;
+	}
+	
+	.enquiry .mobile .info{
+		color: white;
+		width: 300px;
+		margin-left: 1rem;
+		width: 250px;
+		display: inline-block;
+	}
+	
+	.enquiry .mobile .containerRight{
+		vertical-align: top;
+		margin-left: 3rem;
+		margin-top: 5rem;
+	}
+	
+	.enquiry .mobile .submitForm{
+		color: white;
+		border: none;
+		width: 350px;
+	}
+	
+	.enquiry .mobile .submitButton{
+		background: #ffcd4d;
+		color: black;
+		padding: 10px 10px 10px 10px;
+		transition: all .2s ease-in-out;
+		font-size: 18px;
+		margin-top: 1rem;
+		border-radius: 10px;
+		border:  solid 3px;
+		border-color:#ffcd4d;
+		cursor: pointer;
+	}
+	
+	.enquiry .mobile .submitButton:hover{
+		transform: scale(1.1); 
+		background: black; 
+		color: yellow;
+		border:  solid 3px, yellow;
+		border-radius: 10px;
+	}
+	
+	.enquiry .mobile .inputLine{
+		width: 150px;
+		height: 30px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		outline: 0;
+		border-width: 0 0 2px;
+		border-color: white;
+		background-color: transparent;
+		color: white;
+		font-size: 14px;
+	}
+	
+	.enquiry .mobile .inputLineSelect{
+		width: 335px;
+		height: 30px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		outline: 0;
+		border-width: 0 0 2px;
+		border-color: white;
+		background-color: transparent;
+		color: white;
+		font-size: 14px;
+	}
+	
+	.enquiry .mobile .inputLineSelect option{
+		background-color: black;
+	}
+	
+	.enquiry .mobile .textArea{
+		width: 335px;
+		height: 30px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		outline: 0;
+		border-width: 0 0 2px;
+		border-color: white;
+		background-color: transparent;
+		color: white;
+		max-height: 200px;
+		font-size: 14px;
+	}
+	  
+	.enquiry .mobile .formLabel{
+		font-size: 14px;
+		margin-top: 1rem;
+	}
+	
+	.enquiry .mobile .row {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	
+	.enquiry .mobile .lineContainer{
+		width: 350px;
+		padding-left: 3rem;
+		margin-top: 3rem;
+	}
+	
+	.enquiry .mobile .line{
+		position: absolute; /* Set the position property to absolute */
+		right: 1;
+		left: 1; /* Position the left edge of the underline at the center of the parent container */
+		width: 85%; /* Set the width property to 90rem */
+		height: 1px; /* Set the height property to 1px to create a horizontal line */
+		background-color: grey; 
+	}
+	
+	.enquiry .mobile .termsContainer{
+		text-align: center;
+		width: 350px;
+		margin-left: 0.8rem;
+	}
+	
+	.enquiry .mobile .terms{
+		color: white;
+		margin-right: 10px;
+		text-decoration: underline;
+		font-size: 12px;
+	}
+	
+	.enquiry .mobile .copyRightContainer{
+		
+	}
+	
+	.enquiry .mobile .copyRight{
+		color: white;
+		font-size: 14px;
+		margin-left: 3rem;
+	}
+	
+	.enquiry .mobile .copyRightTwo{
+		color: white;
+		font-size: 14px;
+		margin-left: 3rem;
+	}
+}
+
+/* Small Screen **/
+@media (min-width: 769px) and (max-width: 1480px)  {
+	.enquiry .web{
+		display: none;
+	}
+	
+	.enquiry .mobile{
+		display: block;
+	}
+	
+	.enquiry .mobile .inline{
+		display: inline-block;
+	}
+	
+	.enquiry .mobile .containerOne{
+
+		position: relative;
+	}
+	
+	.enquiry .mobile .containerLeft{
+
+	}
+	
+	.enquiry .mobile .leftHOne{
+		color: white;
+		font-size: 30px;
+		font-weight: 700;
+		margin-top: 5rem;
+		margin-left: 3rem;
+	}
+	
+	.enquiry .mobile .leftPOne{
+		color: white;
+		width: 300px;
+		margin-left: 3rem;
+		margin-bottom: 2rem;
+	}
+	
+	.enquiry .mobile .icon{
+		width: 30px;
+		vertical-align: top;
+		margin-left: 3rem;
+		display: inline-block;
+	}
+	
+	.enquiry .mobile .info{
+		color: white;
+		width: 300px;
+		margin-left: 1rem;
+		width: 250px;
+		display: inline-block;
+	}
+	
+	.enquiry .mobile .containerRight{
+		vertical-align: top;
+		margin-left: 3rem;
+		margin-top: 5rem;
+	}
+	
+	.enquiry .mobile .submitForm{
+		color: white;
+		border: none;
+		width: 350px;
+	}
+	
+	.enquiry .mobile .submitButton{
+		background: #ffcd4d;
+		color: black;
+		padding: 10px 10px 10px 10px;
+		transition: all .2s ease-in-out;
+		font-size: 18px;
+		margin-top: 1rem;
+		border-radius: 10px;
+		border:  solid 3px;
+		border-color:#ffcd4d;
+		cursor: pointer;
+	}
+	
+	.enquiry .mobile .submitButton:hover{
+		transform: scale(1.1); 
+		background: black; 
+		color: yellow;
+		border:  solid 3px, yellow;
+		border-radius: 10px;
+	}
+	
+	.enquiry .mobile .inputLine{
+		width: 150px;
+		height: 30px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		outline: 0;
+		border-width: 0 0 2px;
+		border-color: white;
+		background-color: transparent;
+		color: white;
+		font-size: 20px;
+	}
+	
+	.enquiry .mobile .inputLineSelect{
+		width: 335px;
+		height: 30px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		outline: 0;
+		border-width: 0 0 2px;
+		border-color: white;
+		background-color: transparent;
+		color: white;
+		font-size: 20px;
+	}
+	
+	.enquiry .mobile .inputLineSelect option{
+		background-color: black;
+	}
+	
+	.enquiry .mobile .textArea{
+		width: 335px;
+		height: 30px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		outline: 0;
+		border-width: 0 0 2px;
+		border-color: white;
+		background-color: transparent;
+		color: white;
+		max-height: 200px;
+		font-size: 20px;
+	}
+	  
+	.enquiry .mobile .formLabel{
+		font-size: 20px;
+		margin-top: 1rem;
+	}
+	
+	.enquiry .mobile .row {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	
+	.enquiry .mobile .lineContainer{
+		width: 350px;
+		padding-left: 3rem;
+		margin-top: 3rem;
+	}
+	
+	.enquiry .mobile .line{
+		position: absolute; /* Set the position property to absolute */
+		right: 1;
+		left: 1; /* Position the left edge of the underline at the center of the parent container */
+		width: 90%; /* Set the width property to 90rem */
+		height: 1px; /* Set the height property to 1px to create a horizontal line */
+		background-color: grey; 
+	}
+	
+	.enquiry .mobile .termsContainer{
+		text-align: center;
+	}
+	
+	.enquiry .mobile .terms{
+		color: white;
+		margin-right: 10px;
+		text-decoration: underline;
+		font-size: 12px;
+	}
+	
+	.enquiry .mobile .copyRightContainer{
+		
+	}
+	
+	.enquiry .mobile .copyRight{
+		color: white;
+		font-size: 14px;
+		margin-left: 3rem;
+	}
+	
+	.enquiry .mobile .copyRightTwo{
+		color: white;
+		font-size: 14px;
+		position: absolute;
+		right: 0;
+		margin-top: -1.5rem;
+		margin-right: 4rem;
+	}
+
+	@media (min-width: 900px) and (max-width: 999px)  {
+		.enquiry .mobile .containerLeft{
+			width: 45%;
+		}
+
+		.enquiry .mobile .containerRight{
+			width: 40%;
+			vertical-align: top;
+			margin-top: 5rem;
+		}
+
+		.enquiry .mobile .submitForm{
+			color: white;
+			border: none;
+			width: 450px;
+		}
+
+		.enquiry .mobile .inputLine{
+			width: 180px;
+			height: 30px;
+			margin-top: 20px;
+			margin-bottom: 20px;
+			outline: 0;
+			border-width: 0 0 2px;
+			border-color: white;
+			background-color: transparent;
+			color: white;
+			font-size: 14px;
+		}
+
+		.enquiry .mobile .textArea{
+			width: 410px;
+			height: 30px;
+			margin-top: 20px;
+			margin-bottom: 20px;
+			outline: 0;
+			border-width: 0 0 2px;
+			border-color: white;
+			background-color: transparent;
+			color: white;
+			max-height: 200px;
+			font-size: 20px;
+		}
+
+		.enquiry .mobile .inputLineSelect{
+			width: 410px;
+			height: 30px;
+			margin-top: 20px;
+			margin-bottom: 20px;
+			outline: 0;
+			border-width: 0 0 2px;
+			border-color: white;
+			background-color: transparent;
+			color: white;
+			font-size: 20px;
+		}
+	}
+
+	@media (min-width: 1000px) and (max-width: 1480px)  {
+		.enquiry .mobile .containerLeft{
+			width: 40%;
+		}
+
+		.enquiry .mobile .containerRight{
+			width: 40%;
+			vertical-align: top;
+			margin-top: 5rem;
+		}
+
+		.enquiry .mobile .submitForm{
+			color: white;
+			border: none;
+			width: 550px;
+		}
+
+		.enquiry .mobile .inputLine{
+			width: 240px;
+			height: 30px;
+			margin-top: 20px;
+			margin-bottom: 20px;
+			outline: 0;
+			border-width: 0 0 2px;
+			border-color: white;
+			background-color: transparent;
+			color: white;
+			font-size: 14px;
+		}
+
+		.enquiry .mobile .textArea{
+			width: 520px;
+			height: 30px;
+			margin-top: 20px;
+			margin-bottom: 20px;
+			outline: 0;
+			border-width: 0 0 2px;
+			border-color: white;
+			background-color: transparent;
+			color: white;
+			max-height: 200px;
+			font-size: 20px;
+		}
+
+		.enquiry .mobile .inputLineSelect{
+			width: 520px;
+			height: 30px;
+			margin-top: 20px;
+			margin-bottom: 20px;
+			outline: 0;
+			border-width: 0 0 2px;
+			border-color: white;
+			background-color: transparent;
+			color: white;
+			font-size: 20px;
+		}
+	}
+}

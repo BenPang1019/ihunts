@@ -1,0 +1,268 @@
+.register{
+	font-family: "Arimo", sans-serif;
+}
+
+.register .web{
+	display: block;
+}
+
+.register .mobile{
+	display: none;
+}
+
+.register .web .inline{
+	display: inline-block;
+}
+
+.register .web .containerOne{
+	width: 100rem;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5.2rem;
+}
+
+.register .web .containerOneHOne{
+	color: white;
+	font-size: 45px;
+	margin-left: 3rem;
+	font-weight: 700;
+}
+
+.register .web .containerTwo{
+	text-align: center;
+	display: flex;
+  	justify-content: center;
+}
+
+.register .web .submitForm{
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10rem;
+	text-align: center;
+}
+
+.register .web .submitButton{
+	background: #ffcd4d;
+    color: black;
+    padding: 10px 10px 10px 10px;
+    transition: all .2s ease-in-out;
+    font-size: 25px;
+    margin-top: 1rem;
+    border-radius: 10px;
+    border:  solid 3px;
+    border-color:#ffcd4d;
+    cursor: pointer;
+	width: 450px;
+	margin-top: 2rem;
+	font-weight: 700;
+	margin-bottom: 5rem;
+}
+
+.register .web .submitButton:disabled{
+	cursor: not-allowed;
+}
+
+.register .web .inputLine{
+	width: 400px;
+	height: 60px;
+	margin-bottom: 1rem;
+	border-radius: 10px;
+	padding-left: 1rem;
+	position: relative;
+}
+  
+.register .web .label{
+	font-size: 22px;
+	margin-bottom: 1rem;
+}
+
+.register .web .row {
+	align-items: center;
+}
+
+.register .web .checkbox {
+	margin-top: 1rem;
+	margin-right: 0.5rem;
+}
+
+.register .web .link {
+	color: #ffcd4d;
+	text-decoration: underline;
+	margin-left: 0.5rem;
+}
+
+.register .web .recaptcha{
+	margin-top: 0.5rem;
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.register .web .passwordIcon{
+	position: absolute;
+	width: 30px;
+	cursor: pointer;
+	z-index: 3;
+	margin-left: -3rem;
+	margin-top: 1rem;
+}
+
+.register .web .passwordIconTwo{
+	background-color: transparent;
+	position: absolute;
+	width: 30px;
+	cursor: pointer;
+	margin-left: -3rem;
+	margin-top: 1rem;
+	z-index: 3;
+}
+
+.alertButton{
+	background-color: #ffcd4d!important;
+	color: black!important;
+}
+
+
+
+/* Mobile */
+@media (min-width: 350px) and (max-width: 480px)  {
+	.register{
+		font-family: "Arimo", sans-serif;
+	}
+	
+	.register .web{
+		display: block;
+	}
+	
+	.register .mobile{
+		display: none;
+	}
+	
+	.register .web .inline{
+		display: inline-block;
+	}
+	
+	.register .web .containerOne{
+		width: 100rem;
+		overflow: hidden;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 5.2rem;
+	}
+	
+	.register .web .containerOneHOne{
+		color: white;
+		width: 100px;
+		font-size: 30px;
+		margin-left: 3rem;
+		font-weight: 700;
+	}
+	
+	.register .web .containerTwo{
+		text-align: center;
+		display: flex;
+		  justify-content: center;
+	}
+	
+	.register .web .submitForm{
+		color: white;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 10rem;
+		text-align: center;
+	}
+	
+	.register .web .submitButton{
+		background: #ffcd4d;
+		color: black;
+		padding: 10px 10px 10px 10px;
+		transition: all .2s ease-in-out;
+		font-size: 25px;
+		margin-top: 1rem;
+		border-radius: 10px;
+		border:  solid 3px;
+		border-color:#ffcd4d;
+		cursor: pointer;
+		width: 350px;
+		margin-top: 2rem;
+		font-weight: 700;
+		margin-bottom: 5rem;
+	}
+	
+	.register .web .submitButton:disabled{
+		cursor: not-allowed;
+	}
+	
+	.register .web .inputLine{
+		width: 350px;
+		height: 60px;
+		margin-bottom: 1rem;
+		border-radius: 10px;
+		padding-left: 1rem;
+		position: relative;
+	}
+	  
+	.register .web .label{
+		font-size: 22px;
+		margin-bottom: 1rem;
+	}
+	
+	.register .web .row {
+		align-items: center;
+	}
+	
+	.register .web .checkbox {
+		margin-top: 1rem;
+		margin-right: 0.5rem;
+	}
+	
+	.register .web .link {
+		color: #ffcd4d;
+		text-decoration: underline;
+		margin-left: 0.5rem;
+	}
+	
+	.register .web .recaptcha{
+		margin-top: 0.5rem;
+		width: 300px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.register .web .passwordIcon{
+		position: absolute;
+		width: 30px;
+		cursor: pointer;
+		z-index: 3;
+		margin-left: -3rem;
+		margin-top: 1rem;
+	}
+	
+	.register .web .passwordIconTwo{
+		background-color: transparent;
+		position: absolute;
+		width: 30px;
+		cursor: pointer;
+		margin-left: -3rem;
+		margin-top: 1rem;
+		z-index: 3;
+	}
+	
+	.alertButton{
+		background-color: #ffcd4d!important;
+		color: black!important;
+	}
+	
+}
+
+/* Tablets */
+@media (min-width: 481px) and (max-width: 768px)  {
+
+}
+
+/* Small Screen **/
+@media (min-width: 769px) and (max-width: 1480px)  {
+
+}

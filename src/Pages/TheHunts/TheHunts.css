@@ -1,0 +1,1436 @@
+.thehunts{
+	font-family: "Arimo", sans-serif;
+}
+
+.thehunts .web{
+	display: block;
+}
+
+.thehunts .mobile{
+	display: none;
+}
+
+.thehunts .web .inline{
+	display: inline-block;
+}
+
+.thehunts .web .containerOne{
+	width: 100rem;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 3rem;
+	margin-bottom: 15rem;
+}
+
+.thehunts .web .containerOneHOne{
+	color: white;
+	font-size: 25px;
+	line-height: 50px;
+	margin-left: 2rem;
+}
+
+.thehunts .web .island{
+	width: 700px;
+	margin-top: 2rem;
+	margin-left: 3rem;
+}
+
+.thehunts .web .huntLogo{
+	width: 400px;
+	margin-top: 1rem;
+	margin-left: 10rem;
+}
+
+.thehunts .web .containerOneHTwo{
+	color: grey;
+	font-weight: 700;
+	font-size: 60px;
+	margin-left: 10rem;
+	line-height: 90px;
+	margin-top: 2rem;
+}
+
+.thehunts .web .span{
+	color: white;
+}
+
+.thehunts .web .joinButton{
+	margin-left: 10rem;
+	width: 300px;
+	height: 50px;
+	border-radius: 10px;
+	font-weight: 700;
+}
+
+.thehunts .web .joinButton:hover{
+	transform: scale(1.1); 
+    background: white; 
+    border:  solid 3px, black;
+    border-radius: 10px;
+}
+
+.thehunts .web .arrowContainer{
+	text-align: center;
+	margin-top: 8rem;
+}
+
+.thehunts .web .arrow{
+	width: 50px;
+}
+
+.thehunts .web .containerTwo{
+	width: 90rem;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -8rem;
+}
+
+.thehunts .web .containerText{
+	text-align: center;
+}
+
+.thehunts .web .containerTwoHOne{
+	color: white;
+	font-size: 35px;
+	font-weight: 700;
+}
+
+.thehunts .web .containerTwoHTwo{
+	color: white;
+	font-size: 30px;
+}
+
+.thehunts .web .containerTwoHThree{
+	color: #ffcd4d;
+	font-size: 20px;
+}
+
+.thehunts .web .eventContainer{
+	width: 400px;
+	height: 630px;
+	background-color: grey;	
+	border-radius: 20px;
+	margin-top: 5rem;
+	margin-bottom: 10rem;
+	margin-left: 4rem;
+}
+
+.thehunts .web .logoCircle{
+	width: 40px;
+	height: 40px;
+	margin-left: 2rem;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 1rem;
+	margin-right: 0.5rem;
+}
+
+.thehunts .web .eventContainerHOne{
+	font-size: 35px;
+	display: inline-block;
+	color: white;
+	font-weight: 700;
+	margin-top: 1rem;
+	margin-right: 1rem;
+	text-transform: uppercase;
+}
+
+.thehunts .web .eventImage{
+	width: 350px;
+	border-radius: 20px;
+	margin-left: 1.5rem;
+	margin-top: 0.5rem;
+}
+
+.thehunts .web .eventTitle{
+	color: #ffcd4d;
+	text-align: center;
+	font-size: 30px;
+	margin-top: 1rem;
+}
+
+.thehunts .web .eventDescription{
+	color: white;
+	text-align: justify;
+	width: 350px;
+	height: 120px;
+	margin-left: 1.5rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.thehunts .web .eventPrice{
+	color: white;
+	text-align: center;
+	margin-bottom: 1rem;
+}
+
+.thehunts .web .eventJoinButton{
+	width: 120px;
+	height: 50px;
+	border-radius: 10px;
+	margin-left: 4.7rem;
+	background-color: white;
+	border: none;
+	font-size: 18px;
+}
+
+.thehunts .web .eventJoinButton:hover{
+	background-color: grey;
+	border: 2px black solid;
+}
+
+.thehunts .web .eventLearnButton{
+	width: 120px;
+	height: 50px;
+	border-radius: 10px;
+	margin-left: 1rem;
+	background-color: transparent;
+	border: 2px white solid;
+	font-size: 18px;
+}
+
+.thehunts .web .eventLearnButton:hover{
+	background-color: white;
+	border: 2px black solid;
+}
+
+.thehunts .web .pageItem{
+	display: none;
+}
+
+.thehunts .web .prevArrow{
+	width: 70px;
+	height: 70px;
+	border-radius: 50px;
+	margin-left: 20rem;
+	margin-top: -8rem;
+	margin-right: 1rem;
+}
+
+.thehunts .web .nextArrow{
+	width: 70px;
+	height: 70px;
+	border-radius: 50px;
+	margin-top: -8rem;
+}
+
+.thehunts .web .eventContainerWrapper {
+	opacity: 1;
+	transition: opacity 0.5s ease-in-out;
+  }
+  
+.thehunts .web .eventContainerWrapper.page-enter {
+	opacity: 0;
+}
+
+.thehunts .web .eventContainerWrapper.page-enter-active {
+	opacity: 1;
+}
+
+.thehunts .web .eventContainerWrapper.page-exit {
+	opacity: 1;
+}
+
+.thehunts .web .eventContainerWrapper.page-exit-active {
+	opacity: 0;
+}
+
+.thehunts .web .containerThree{
+	text-align: center;
+	margin-top: 5rem;
+	margin-bottom: 15rem;
+}
+
+.thehunts .web .containerThreeHOne{
+	color: white;
+	font-weight: 700;
+	font-size: 50px;
+}
+
+.thehunts .web .step{
+	width: 400px;
+	height: 350px;
+	background-color: grey;
+	border-radius: 20px;
+	margin-right: 5rem;
+	margin-top: 4rem;
+}
+
+.thehunts .web .arrowRight{
+	width: 30px;
+	position: absolute;
+	margin-left: -3.5rem;
+	margin-top: 14.5rem;
+}
+
+.thehunts .web .stepButton{
+	width: 140px;
+	height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2rem;
+	font-size: 30px;
+	background-color: white;
+	border-radius: 10px;
+	padding-top: 0.5rem;
+}
+
+.thehunts .web .stepHOne{
+	color: #ffcd4d;
+	font-size: 28px;
+	margin-top: 3rem;
+	font-weight: 700;
+}
+
+.thehunts .web .stepPOne{
+	color: white;
+	width: 390px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 18px;
+	margin-top: 3rem;
+	text-align: center;
+}
+
+.thehunts .web .containerFour{
+    position: relative;
+    height: 800px;
+    margin-bottom: 10rem;
+}
+
+.thehunts .web .containerFour::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(../TheHunts/Backgroundpic.png);
+    background-size: 100%;
+    opacity: 0.5;
+}
+
+.thehunts .web .containerTextTwo{
+	position: relative;
+    text-align: left;
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+}
+
+.thehunts .web .containerFourHOne{
+	color: white;
+	font-size: 80px;
+	line-height: 90px;
+	padding-top: 8rem;
+}
+
+.thehunts .web .containerTextThree{
+	position: relative;
+    text-align: left;
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+}
+
+.thehunts .web .containerFourPOne{
+	color: white;
+	width: 300px;
+	font-size: 25px;
+	text-align: right;
+	margin-left: 57rem;
+	margin-top: -33rem;
+}
+
+.thehunts .web .spanTwo{
+	color: #ffcd4d;
+	font-size: 90px;
+	font-weight: 700;
+	line-height: 130px;
+}
+
+
+/* Mobile */
+@media (min-width: 350px) and (max-width: 480px)  {
+	.thehunts .web{
+		display: none;
+	}
+	
+	.thehunts .mobile{
+		display: block;
+	}
+	
+	.thehunts .mobile .inline{
+		display: inline-block;
+	}
+	
+	.thehunts .mobile .containerOne{
+		width: 350px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 3rem;
+		margin-bottom: 15rem;
+		text-align: center;
+	}
+	
+	.thehunts .mobile .containerOneHOne{
+		color: white;
+		font-size: 14px;
+		line-height: 50px;
+		margin-left: 2rem;
+	}
+	
+	.thehunts .mobile .island{
+		width: 350px;
+		margin-top: 2rem;
+	}
+	
+	.thehunts .mobile .huntLogo{
+		width: 250px;
+		margin-top: 2rem;
+	}
+	
+	.thehunts .mobile .containerOneHTwo{
+		color: grey;
+		font-weight: 700;
+		font-size: 45px;
+		line-height: 50px;
+		margin-top: 2rem;
+	}
+	
+	.thehunts .mobile .span{
+		color: white;
+	}
+	
+	.thehunts .mobile .joinButton{
+		width: 200px;
+		height: 50px;
+		border-radius: 10px;
+		font-weight: 700;
+		font-size: 15px;
+		margin-top: 1rem;
+	}
+	
+	.thehunts .mobile .joinButton:hover{
+		transform: scale(1.1); 
+		background: white; 
+		border:  solid 3px, black;
+		border-radius: 10px;
+	}
+	
+	.thehunts .mobile .arrowContainer{
+		text-align: center;
+		margin-top: 5rem;
+	}
+	
+	.thehunts .mobile .arrow{
+		width: 50px;
+	}
+	
+	.thehunts .mobile .containerTwo{
+		width: 350px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: -8rem;
+		text-align: center;
+	}
+	
+	.thehunts .mobile .containerText{
+		text-align: center;
+	}
+	
+	.thehunts .mobile .containerTwoHOne{
+		color: white;
+		font-size: 18px;
+		font-weight: 700;
+	}
+	
+	.thehunts .mobile .containerTwoHTwo{
+		color: white;
+		font-size: 14px;
+	}
+	
+	.thehunts .mobile .containerTwoHThree{
+		color: #ffcd4d;
+		font-size: 14px;
+	}
+	
+	.thehunts .mobile .eventContainer{
+		width: 300px;
+		background-color: grey;	
+		border-radius: 20px;
+		margin-top: 5rem;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.thehunts .mobile .logoCircle{
+		width: 30px;
+		height: 30px;
+		display: inline-block;
+		vertical-align: top;
+		margin-top: 1rem;
+		margin-right: 0.5rem;
+		margin-left: -5rem;
+	}
+	
+	.thehunts .mobile .eventContainerHOne{
+		font-size: 20px;
+		display: inline-block;
+		color: white;
+		font-weight: 700;
+		margin-top: 1.2rem;
+		margin-right: 1rem;
+		text-transform: uppercase;
+	}
+	
+	.thehunts .mobile .eventImage{
+		width: 250px;
+		border-radius: 20px;
+		margin-top: 0.5rem;
+	}
+	
+	.thehunts .mobile .eventTitle{
+		color: #ffcd4d;
+		text-align: center;
+		font-size: 18px;
+		margin-top: 1rem;
+	}
+	
+	.thehunts .mobile .eventDescription{
+		color: white;
+		text-align: justify;
+		width: 250px;
+		height: 120px;
+		margin-left: auto;
+		margin-right: auto;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+	
+	.thehunts .mobile .eventPrice{
+		color: white;
+		text-align: center;
+		margin-bottom: 1rem;
+		font-size: 20px;
+	}
+	
+	.thehunts .mobile .eventJoinButton{
+		width: 80px;
+		height: 50px;
+		border-radius: 10px;
+		background-color: white;
+		border: none;
+		font-size: 14px;
+		margin-bottom: 2rem;
+	}
+	
+	.thehunts .mobile .eventJoinButton:hover{
+		background-color: grey;
+		border: 2px black solid;
+	}
+	
+	.thehunts .mobile .eventLearnButton{
+		width: 80px;
+		height: 50px;
+		border-radius: 10px;
+		margin-left: 1rem;
+		background-color: transparent;
+		border: 2px white solid;
+		font-size: 12px;
+	}
+	
+	.thehunts .mobile .eventLearnButton:hover{
+		background-color: white;
+		border: 2px black solid;
+	}
+	
+	.thehunts .mobile .pageItem{
+		display: none;
+	}
+	
+	.thehunts .mobile .prevArrow{
+		width: 60px;
+		height: 60px;
+		border-radius: 50px;
+		margin-left: 3.2rem;
+		margin-right: 1rem;
+		margin-top: 1rem;
+	}
+	
+	.thehunts .mobile .nextArrow{
+		width: 60px;
+		height: 60px;
+		border-radius: 50px;
+		margin-top: 1rem;
+	}
+	
+	.thehunts .mobile .eventContainerWrapper {
+		opacity: 1;
+		transition: opacity 0.5s ease-in-out;
+	  }
+	  
+	.thehunts .mobile .eventContainerWrapper.page-enter {
+		opacity: 0;
+	}
+	
+	.thehunts .mobile .eventContainerWrapper.page-enter-active {
+		opacity: 1;
+	}
+	
+	.thehunts .mobile .eventContainerWrapper.page-exit {
+		opacity: 1;
+	}
+	
+	.thehunts .mobile .eventContainerWrapper.page-exit-active {
+		opacity: 0;
+	}
+	
+	.thehunts .mobile .containerThree{
+		text-align: center;
+		margin-top: 5rem;
+		margin-bottom: 10rem;
+		width: 350px;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+	}
+	
+	.thehunts .mobile .containerThreeHOne{
+		color: white;
+		font-weight: 700;
+		font-size: 20px;
+		margin-bottom: 3rem;
+	}
+	
+	.thehunts .mobile .step{
+		width: 300px;
+		height: 300px;
+		background-color: grey;
+		border-radius: 20px;
+		margin-bottom: 5rem;
+	}
+	
+	.thehunts .mobile .arrowRight{
+		width: 30px;
+		position: absolute;
+		transform: rotate(90deg);
+		margin-top: 19.5rem;
+		margin-left: -10.2rem;
+	}
+	
+	.thehunts .mobile .stepButton{
+		width: 100px;
+		height: 50px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 2rem;
+		font-size: 14px;
+		background-color: white;
+		border-radius: 10px;
+		padding-top: 1rem;
+	}
+	
+	.thehunts .mobile .stepHOne{
+		color: #ffcd4d;
+		font-size: 14px;
+		margin-top: 3rem;
+		font-weight: 700;
+	}
+	
+	.thehunts .mobile .stepPOne{
+		color: white;
+		width: 250px;
+		margin-left: auto;
+		margin-right: auto;
+		font-size: 14px;
+		margin-top: 3rem;
+		text-align: center;
+	}
+	
+	.thehunts .mobile .containerFour{
+		position: relative;
+		height: 600px;
+		margin-bottom: 10rem;
+	}
+	
+	.thehunts .mobile .containerFour::before {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background-image: url(../TheHunts/Backgroundpic.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: -17rem;
+		opacity: 0.5;
+	}
+	
+	.thehunts .mobile .containerTextTwo{
+		position: relative;
+		text-align: left;
+		width: 300px;
+		margin-left: auto;
+		margin-right: auto;
+		z-index: 1;
+	}
+	
+	.thehunts .mobile .containerFourHOne{
+		color: white;
+		font-size: 35px;
+		padding-top: 5rem;
+		line-height: 35px;
+	}
+	
+	.thehunts .mobile .containerTextThree{
+		position: relative;
+		text-align: left;
+		width: 350px;
+		margin-left: auto;
+		margin-right: auto;
+		z-index: 1;
+	}
+	
+	.thehunts .mobile .containerFourPOne{
+		color: white;
+		width: 300px;
+		font-size: 22px;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: left;
+		margin-top: 4rem;
+	}
+	
+	.thehunts .mobile .spanTwo{
+		color: #ffcd4d;
+		font-size: 30px;
+		font-weight: 700;
+		line-height: 35px;
+	}
+}
+
+/* Tablets */
+@media (min-width: 481px) and (max-width: 768px)  {
+	.thehunts .web{
+		display: none;
+	}
+	
+	.thehunts .mobile{
+		display: block;
+	}
+	
+	.thehunts .mobile .inline{
+		display: inline-block;
+	}
+	
+	.thehunts .mobile .containerOne{
+		width: 350px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 3rem;
+		margin-bottom: 15rem;
+		text-align: center;
+	}
+	
+	.thehunts .mobile .containerOneHOne{
+		color: white;
+		font-size: 14px;
+		line-height: 50px;
+		margin-left: 2rem;
+	}
+	
+	.thehunts .mobile .island{
+		width: 350px;
+		margin-top: 2rem;
+	}
+	
+	.thehunts .mobile .huntLogo{
+		width: 250px;
+		margin-top: 2rem;
+	}
+	
+	.thehunts .mobile .containerOneHTwo{
+		color: grey;
+		font-weight: 700;
+		font-size: 45px;
+		line-height: 50px;
+		margin-top: 2rem;
+	}
+	
+	.thehunts .mobile .span{
+		color: white;
+	}
+	
+	.thehunts .mobile .joinButton{
+		width: 200px;
+		height: 50px;
+		border-radius: 10px;
+		font-weight: 700;
+		font-size: 15px;
+		margin-top: 1rem;
+	}
+	
+	.thehunts .mobile .joinButton:hover{
+		transform: scale(1.1); 
+		background: white; 
+		border:  solid 3px, black;
+		border-radius: 10px;
+	}
+	
+	.thehunts .mobile .arrowContainer{
+		text-align: center;
+		margin-top: 5rem;
+	}
+	
+	.thehunts .mobile .arrow{
+		width: 50px;
+	}
+	
+	.thehunts .mobile .containerTwo{
+		width: 350px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: -8rem;
+		text-align: center;
+	}
+	
+	.thehunts .mobile .containerText{
+		text-align: center;
+	}
+	
+	.thehunts .mobile .containerTwoHOne{
+		color: white;
+		font-size: 18px;
+		font-weight: 700;
+	}
+	
+	.thehunts .mobile .containerTwoHTwo{
+		color: white;
+		font-size: 14px;
+	}
+	
+	.thehunts .mobile .containerTwoHThree{
+		color: #ffcd4d;
+		font-size: 14px;
+	}
+	
+	.thehunts .mobile .eventContainer{
+		width: 300px;
+		background-color: grey;	
+		border-radius: 20px;
+		margin-top: 5rem;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.thehunts .mobile .logoCircle{
+		width: 30px;
+		height: 30px;
+		display: inline-block;
+		vertical-align: top;
+		margin-top: 1rem;
+		margin-right: 0.5rem;
+		margin-left: -5rem;
+	}
+	
+	.thehunts .mobile .eventContainerHOne{
+		font-size: 20px;
+		display: inline-block;
+		color: white;
+		font-weight: 700;
+		margin-top: 1.2rem;
+		margin-right: 1rem;
+		text-transform: uppercase;
+	}
+	
+	.thehunts .mobile .eventImage{
+		width: 250px;
+		border-radius: 20px;
+		margin-top: 0.5rem;
+	}
+	
+	.thehunts .mobile .eventTitle{
+		color: #ffcd4d;
+		text-align: center;
+		font-size: 18px;
+		margin-top: 1rem;
+	}
+	
+	.thehunts .mobile .eventDescription{
+		color: white;
+		text-align: justify;
+		width: 250px;
+		height: 120px;
+		margin-left: auto;
+		margin-right: auto;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+	
+	.thehunts .mobile .eventPrice{
+		color: white;
+		text-align: center;
+		margin-bottom: 1rem;
+		font-size: 20px;
+	}
+	
+	.thehunts .mobile .eventJoinButton{
+		width: 80px;
+		height: 50px;
+		border-radius: 10px;
+		background-color: white;
+		border: none;
+		font-size: 14px;
+		margin-bottom: 2rem;
+	}
+	
+	.thehunts .mobile .eventJoinButton:hover{
+		background-color: grey;
+		border: 2px black solid;
+	}
+	
+	.thehunts .mobile .eventLearnButton{
+		width: 80px;
+		height: 50px;
+		border-radius: 10px;
+		margin-left: 1rem;
+		background-color: transparent;
+		border: 2px white solid;
+		font-size: 12px;
+	}
+	
+	.thehunts .mobile .eventLearnButton:hover{
+		background-color: white;
+		border: 2px black solid;
+	}
+	
+	.thehunts .mobile .pageItem{
+		display: none;
+	}
+	
+	.thehunts .mobile .prevArrow{
+		width: 60px;
+		height: 60px;
+		border-radius: 50px;
+		margin-left: 3.2rem;
+		margin-right: 1rem;
+		margin-top: 1rem;
+	}
+	
+	.thehunts .mobile .nextArrow{
+		width: 60px;
+		height: 60px;
+		border-radius: 50px;
+		margin-top: 1rem;
+	}
+	
+	.thehunts .mobile .eventContainerWrapper {
+		opacity: 1;
+		transition: opacity 0.5s ease-in-out;
+	  }
+	  
+	.thehunts .mobile .eventContainerWrapper.page-enter {
+		opacity: 0;
+	}
+	
+	.thehunts .mobile .eventContainerWrapper.page-enter-active {
+		opacity: 1;
+	}
+	
+	.thehunts .mobile .eventContainerWrapper.page-exit {
+		opacity: 1;
+	}
+	
+	.thehunts .mobile .eventContainerWrapper.page-exit-active {
+		opacity: 0;
+	}
+	
+	.thehunts .mobile .containerThree{
+		text-align: center;
+		margin-top: 5rem;
+		margin-bottom: 10rem;
+		width: 350px;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+	}
+	
+	.thehunts .mobile .containerThreeHOne{
+		color: white;
+		font-weight: 700;
+		font-size: 20px;
+		margin-bottom: 3rem;
+	}
+	
+	.thehunts .mobile .step{
+		width: 300px;
+		height: 300px;
+		background-color: grey;
+		border-radius: 20px;
+		margin-bottom: 5rem;
+	}
+	
+	.thehunts .mobile .arrowRight{
+		width: 30px;
+		position: absolute;
+		transform: rotate(90deg);
+		margin-top: 19.5rem;
+		margin-left: -10.2rem;
+	}
+	
+	.thehunts .mobile .stepButton{
+		width: 100px;
+		height: 50px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 2rem;
+		font-size: 14px;
+		background-color: white;
+		border-radius: 10px;
+		padding-top: 1rem;
+	}
+	
+	.thehunts .mobile .stepHOne{
+		color: #ffcd4d;
+		font-size: 14px;
+		margin-top: 3rem;
+		font-weight: 700;
+	}
+	
+	.thehunts .mobile .stepPOne{
+		color: white;
+		width: 250px;
+		margin-left: auto;
+		margin-right: auto;
+		font-size: 14px;
+		margin-top: 3rem;
+		text-align: center;
+	}
+	
+	.thehunts .mobile .containerFour{
+		position: relative;
+		height: 600px;
+		margin-bottom: 10rem;
+	}
+	
+	.thehunts .mobile .containerFour::before {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background-image: url(../TheHunts/Backgroundpic.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: -17rem;
+		opacity: 0.5;
+	}
+	
+	.thehunts .mobile .containerTextTwo{
+		position: relative;
+		text-align: left;
+		width: 300px;
+		margin-left: auto;
+		margin-right: auto;
+		z-index: 1;
+	}
+	
+	.thehunts .mobile .containerFourHOne{
+		color: white;
+		font-size: 35px;
+		padding-top: 5rem;
+		line-height: 35px;
+	}
+	
+	.thehunts .mobile .containerTextThree{
+		position: relative;
+		text-align: left;
+		width: 350px;
+		margin-left: auto;
+		margin-right: auto;
+		z-index: 1;
+	}
+	
+	.thehunts .mobile .containerFourPOne{
+		color: white;
+		width: 300px;
+		font-size: 22px;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: left;
+		margin-top: 4rem;
+	}
+	
+	.thehunts .mobile .spanTwo{
+		color: #ffcd4d;
+		font-size: 30px;
+		font-weight: 700;
+		line-height: 35px;
+	}
+}
+
+/* Small Screen **/
+@media (min-width: 769px) and (max-width: 1480px)  {
+	.thehunts .web{
+		display: none;
+	}
+	
+	.thehunts .mobile{
+		display: block;
+	}
+	
+	.thehunts .mobile .inline{
+		display: inline-block;
+	}
+	
+	.thehunts .mobile .containerOne{
+		width: 650px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 3rem;
+		margin-bottom: 15rem;
+		text-align: center;
+	}
+	
+	.thehunts .mobile .containerOneHOne{
+		color: white;
+		font-size: 25px;
+		line-height: 50px;
+		margin-left: 2rem;
+	}
+	
+	.thehunts .mobile .island{
+		width: 550px;
+		margin-top: 2rem;
+	}
+	
+	.thehunts .mobile .huntLogo{
+		width: 350px;
+		margin-top: 2rem;
+	}
+	
+	.thehunts .mobile .containerOneHTwo{
+		color: grey;
+		font-weight: 700;
+		font-size: 55px;
+		line-height: 70px;
+		margin-top: 2rem;
+	}
+	
+	.thehunts .mobile .span{
+		color: white;
+	}
+	
+	.thehunts .mobile .joinButton{
+		width: 300px;
+		height: 50px;
+		border-radius: 10px;
+		font-weight: 700;
+		font-size: 22px;
+		margin-top: 1rem;
+	}
+	
+	.thehunts .mobile .joinButton:hover{
+		transform: scale(1.1); 
+		background: white; 
+		border:  solid 3px, black;
+		border-radius: 10px;
+	}
+	
+	.thehunts .mobile .arrowContainer{
+		text-align: center;
+		margin-top: 5rem;
+	}
+	
+	.thehunts .mobile .arrow{
+		width: 50px;
+	}
+	
+	.thehunts .mobile .containerTwo{
+		width: 550px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: -8rem;
+		text-align: center;
+	}
+	
+	.thehunts .mobile .containerText{
+		text-align: center;
+	}
+	
+	.thehunts .mobile .containerTwoHOne{
+		color: white;
+		font-size: 25px;
+		font-weight: 700;
+	}
+	
+	.thehunts .mobile .containerTwoHTwo{
+		color: white;
+		font-size: 22px;
+	}
+	
+	.thehunts .mobile .containerTwoHThree{
+		color: #ffcd4d;
+		font-size: 20px;
+	}
+	
+	.thehunts .mobile .eventContainer{
+		width: 400px;
+		background-color: grey;	
+		border-radius: 20px;
+		margin-top: 5rem;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.thehunts .mobile .logoCircle{
+		width: 50px;
+		height: 30px;
+		display: inline-block;
+		vertical-align: top;
+		margin-top: 1rem;
+		margin-right: 0.5rem;
+		margin-left: -7rem;
+	}
+	
+	.thehunts .mobile .eventContainerHOne{
+		font-size: 25px;
+		display: inline-block;
+		color: white;
+		font-weight: 700;
+		margin-top: 1.1rem;
+		margin-right: 1rem;
+		text-transform: uppercase;
+	}
+	
+	.thehunts .mobile .eventImage{
+		width: 350px;
+		border-radius: 20px;
+		margin-top: 0.5rem;
+	}
+	
+	.thehunts .mobile .eventTitle{
+		color: #ffcd4d;
+		text-align: center;
+		font-size: 22px;
+		margin-top: 1rem;
+	}
+	
+	.thehunts .mobile .eventDescription{
+		color: white;
+		text-align: justify;
+		width: 350px;
+		height: 120px;
+		margin-left: auto;
+		margin-right: auto;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+	
+	.thehunts .mobile .eventPrice{
+		color: white;
+		text-align: center;
+		margin-bottom: 1rem;
+		font-size: 25px;
+	}
+	
+	.thehunts .mobile .eventJoinButton{
+		width: 100px;
+		height: 50px;
+		border-radius: 10px;
+		background-color: white;
+		border: none;
+		font-size: 14px;
+		margin-bottom: 2rem;
+		margin-top: 0.5rem;
+	}
+	
+	.thehunts .mobile .eventJoinButton:hover{
+		background-color: grey;
+		border: 2px black solid;
+	}
+	
+	.thehunts .mobile .eventLearnButton{
+		width: 100px;
+		height: 50px;
+		border-radius: 10px;
+		margin-left: 1rem;
+		background-color: transparent;
+		border: 2px white solid;
+		font-size: 12px;
+	}
+	
+	.thehunts .mobile .eventLearnButton:hover{
+		background-color: white;
+		border: 2px black solid;
+	}
+	
+	.thehunts .mobile .pageItem{
+		display: none;
+	}
+	
+	.thehunts .mobile .prevArrow{
+		width: 80px;
+		height: 80px;
+		border-radius: 50px;
+		margin-left: 5.6rem;
+		margin-right: 1rem;
+		margin-top: 4rem;
+	}
+	
+	.thehunts .mobile .nextArrow{
+		width: 80px;
+		height: 80px;
+		border-radius: 50px;
+		margin-top: 4rem;
+	}
+	
+	.thehunts .mobile .eventContainerWrapper {
+		opacity: 1;
+		transition: opacity 0.5s ease-in-out;
+	  }
+	  
+	.thehunts .mobile .eventContainerWrapper.page-enter {
+		opacity: 0;
+	}
+	
+	.thehunts .mobile .eventContainerWrapper.page-enter-active {
+		opacity: 1;
+	}
+	
+	.thehunts .mobile .eventContainerWrapper.page-exit {
+		opacity: 1;
+	}
+	
+	.thehunts .mobile .eventContainerWrapper.page-exit-active {
+		opacity: 0;
+	}
+	
+	.thehunts .mobile .containerThree{
+		text-align: center;
+		margin-top: 8rem;
+		margin-bottom: 10rem;
+		width: 550px;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+	}
+	
+	.thehunts .mobile .containerThreeHOne{
+		color: white;
+		font-weight: 700;
+		font-size: 22px;
+		margin-bottom: 3rem;
+	}
+	
+	.thehunts .mobile .step{
+		width: 400px;
+		height: 300px;
+		background-color: grey;
+		border-radius: 20px;
+		margin-bottom: 5rem;
+	}
+	
+	.thehunts .mobile .arrowRight{
+		width: 30px;
+		position: absolute;
+		transform: rotate(90deg);
+		margin-top: 19.5rem;
+		margin-left: -13.2rem;
+	}
+	
+	.thehunts .mobile .stepButton{
+		width: 200px;
+		height: 50px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 2rem;
+		font-size: 22px;
+		background-color: white;
+		border-radius: 10px;
+		padding-top: 1rem;
+	}
+	
+	.thehunts .mobile .stepHOne{
+		color: #ffcd4d;
+		font-size: 22px;
+		margin-top: 3rem;
+		font-weight: 700;
+	}
+	
+	.thehunts .mobile .stepPOne{
+		color: white;
+		width: 350px;
+		margin-left: auto;
+		margin-right: auto;
+		font-size: 18px;
+		margin-top: 3rem;
+		text-align: center;
+	}
+	
+	.thehunts .mobile .containerFour{
+		position: relative;
+		height: 600px;
+		margin-bottom: 10rem;
+	}
+	
+	.thehunts .mobile .containerFour::before {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background-image: url(../TheHunts/Backgroundpic.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+		opacity: 0.5;
+	}
+	
+	.thehunts .mobile .containerTextTwo{
+		position: relative;
+		text-align: left;
+		width: 600px;
+		margin-left: auto;
+		margin-right: auto;
+		z-index: 1;
+	}
+	
+	.thehunts .mobile .containerFourHOne{
+		color: white;
+		font-size: 35px;
+		line-height: 60px;
+		padding-top: 8rem;
+	}
+	
+	.thehunts .mobile .containerTextThree{
+		position: relative;
+		text-align: left;
+		width: 500px;
+		margin-left: auto;
+		margin-right: auto;
+		z-index: 1;
+	}
+	
+	.thehunts .mobile .containerFourPOne{
+		color: white;
+		width: 200px;
+		font-size: 22px;
+		text-align: right;
+		margin-left: 23rem;
+		margin-top: -23rem;
+	}
+	
+	.thehunts .mobile .spanTwo{
+		color: #ffcd4d;
+		font-size: 50px;
+		font-weight: 700;
+		line-height: 90px;
+	}
+} 

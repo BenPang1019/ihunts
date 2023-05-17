@@ -1,0 +1,207 @@
+.userDashboard{
+	font-family: "Arimo", sans-serif;
+}
+
+.userDashboard .web{
+	display: block;
+}
+
+.userDashboard .mobile{
+	display: none;
+}
+
+.userDashboard .web .inline{
+	display: inline-block;
+}
+
+.userDashboard .web .sideBar{
+	background-color: white;
+	width: 350px;
+	height: 100%;
+	position: fixed;
+}
+
+.userDashboard .web .avatar{
+	width: 110px;
+	height: 110px;
+	border-radius: 50%;
+	margin-top: 3rem;
+	margin-left: 2rem;
+	vertical-align: top;
+}
+
+.userDashboard .web .name{
+	margin-top: 5rem;
+	margin-left: 1.5rem;
+	font-size: 32px;
+	font-weight: 700;
+	width: 180px;
+}
+
+.userDashboard .web .containerHeight{
+	height: 250px;
+}
+
+.userDashboard .web .ulContainer{
+	margin-top: 2rem;
+	margin-left: -2rem;
+}
+
+.userDashboard .web .li{
+	list-style-type: none;
+	padding: 30px;
+	margin-top: 15px;
+	color: black;
+	cursor: pointer;
+	border-left: 8px solid transparent
+}
+
+.userDashboard .web .li.active{
+	list-style-type: none;
+	background-color: #fff0ca;
+	border-left: 8px solid #ffcd4e;
+	padding: 30px;
+	margin-top: 15px;
+	color: black;
+	cursor: pointer;
+}
+
+.userDashboard .web .containerOne{
+	vertical-align: top;
+	width: 68rem;
+	margin-top: 5rem;
+	margin-left: 27rem;
+}
+
+.userDashboard .web .containerOneHOne{
+	color: white;
+	font-weight: 700;
+	font-size: 35px;
+	margin-bottom: 2rem;
+}
+
+.userDashboard .web .contentContainer{
+	background-color: white;
+	width: 310px;
+	height: 400px;
+	margin-right: 3.2rem;
+	vertical-align: top;
+	border-radius: 20px;
+}
+
+.userDashboard .web .icon{
+	width: 180px;
+	height: 180px;
+	margin-left: 4.3rem;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+.userDashboard .web .iconTwo{
+	width: 230px;
+	height: 230px;
+	margin-left: 2rem;
+	margin-top: 2rem;
+}
+
+.userDashboard .web .text{
+	color: black;
+	margin-top: 1rem;
+	font-weight: 700;
+	padding-left: 1rem;
+	width: 300px;
+}
+
+.userDashboard .web .textTwo{
+	color: black;
+	padding-left: 1rem;
+}
+
+.userDashboard .web .textThree{
+	color: black;
+	font-size: 15px;
+	margin-top: 2.5rem;
+	padding-left: 1rem;
+	opacity: 0.5;
+}
+
+.userDashboard .web .height{
+	min-height: 65px;
+}
+
+.userDashboard .web .imageBackGround{
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	background-color: #ffcd4e;
+}
+
+.userDashboard .web .contentContainerTwo{
+	background-color: white;
+	width: 1080px;
+	height: 300px;
+	border-radius: 20px;
+	margin-bottom: 5rem;
+}
+
+.userDashboard .web .imageBackGroundTwo{
+	width: 290px;
+	height: 300px;
+	background-color: #ffcd4e;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+
+.userDashboard .web .textFour{
+	font-weight: 700;
+	margin-left: 5rem;
+	font-size: 42px;
+}
+
+.userDashboard .web .heightTwo{
+	height: 90px;
+	margin-top: 2.5rem;
+}
+
+.userDashboard .web .textFive{
+	margin-left: 5rem;
+	font-size: 25px;
+}
+
+.userDashboard .web .liTwo{
+	margin-left: 6rem;
+	opacity: 0.5;
+	width: 200px;
+}
+
+.userDashboard .web  .gridContainer {
+	display: grid;
+	grid-template-columns: repeat(4,180px);
+	grid-template-rows: repeat(4,30px);
+	grid-auto-flow: column;
+	grid-gap: 0px;
+	height: 100px;
+}
+
+.userDashboard .web .logoutButton{
+	background: #ffcd4d;
+    color: black;
+    transition: all .2s ease-in-out;
+    font-size: 18px;
+    border-radius: 10px;
+    border:  solid 3px;
+    border-color:#ffcd4d;
+    cursor: pointer;
+	width: 110px;
+	height: 50px;
+	font-weight: 700;
+	margin-left: 2rem;
+	margin-top: 5rem;
+}
+
+.userDashboard .web .logoutButton:hover{
+	transform: scale(1.1); 
+    background: black; 
+    color: yellow;
+    border:  solid 3px, yellow;
+    border-radius: 10px;
+}

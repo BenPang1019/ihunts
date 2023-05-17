@@ -1,0 +1,1192 @@
+.purchaseTicket{
+	font-family: "Arimo", sans-serif;
+}
+
+.purchaseTicket .web{
+	display: block;
+}
+
+.purchaseTicket .mobile{
+	display: none;
+}
+
+.purchaseTicket .web .inline{
+	display: inline-block;
+}
+
+.purchaseTicket .web .containerOne{
+	width: 90rem;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10rem;
+}
+
+.purchaseTicket .web .containerTicket{
+	width: 500px;
+	background-color: grey;  
+	border-radius: 10px;
+	margin-top: 5rem;
+	margin-bottom: 10rem;
+}
+
+.purchaseTicket .web .logoCircle{
+	width: 40px;
+	height: 40px;
+	margin-left: 2rem;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 1rem;
+	margin-right: 0.5rem;
+}
+
+.purchaseTicket .web .eventLocation{
+	font-size: 35px;
+	display: inline-block;
+	color: white;
+	font-weight: 700;
+	margin-top: 1rem;
+	margin-right: 1rem;
+	text-transform: uppercase;
+}
+
+.purchaseTicket .web .eventImage{
+	width: 450px;
+	border-radius: 20px;
+	margin-left: 1.5rem;
+	margin-top: 0.5rem;
+}
+
+.purchaseTicket .web .eventTitle{
+	color: #ffcd4d;
+	text-align: center;
+	font-size: 30px;
+	margin-top: 1rem;
+}
+
+.purchaseTicket .web .eventDescription{
+	color: white;
+	text-align: justify;
+	width: 450px;
+	height: 120px;
+	margin-left: 1.5rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.purchaseTicket .web .containerOneHThree{
+  	color: white;
+  	font-size: 23px;
+  	margin-left: 2.5rem;
+  	margin-top: 1.5rem;
+  	width: 150px;
+}
+
+.purchaseTicket .web .span{
+	color: white;
+	font-size: 20px;
+	font-weight: 700;
+	width: 300px;
+	margin-bottom: 0.5rem;
+}
+
+.purchaseTicket .web .containerRight{
+	vertical-align: top;
+	margin-top: 5rem;
+}
+
+.purchaseTicket .web .containerInformation{
+	width: 800px;
+	margin-left: 5rem;
+}
+
+.purchaseTicket .web .icon{
+	width: 70px;
+	margin-right: 3rem;
+	padding: 5px
+}
+
+.purchaseTicket .web .ticketQuantity{
+	color: white;
+	margin-top: 2rem;
+	font-weight: 700;
+}
+
+.purchaseTicket .web .ticketQuantityTwo{
+	color: white;
+	font-size: 30px;
+	margin-right: 26rem;
+}
+
+.purchaseTicket .web .incBtn{
+	border: none;
+	background-color: transparent;
+	color: white;
+	width: 2rem;
+}
+
+.purchaseTicket .web .decBtn{
+	border: none;
+	background-color: transparent;
+	color: white;
+	width: 2rem;
+}
+
+.purchaseTicket .web .ticketInput{
+	border: none;
+	background-color: transparent;
+	width: 1.5rem;
+	color: yellow;
+	text-align: center;
+	font-size: 20px;
+}
+
+.purchaseTicket .web .scheduleEvent{
+	color: white;
+	margin-top: 3rem;
+	margin-bottom: 2rem;
+	font-weight: 700;
+}
+
+.purchaseTicket .web .contactInformation{
+	color: white;
+	margin-top: 3rem;
+	margin-bottom: 2rem;
+	font-weight: 700;
+}
+
+.purchaseTicket .web .contactInformationTwo{
+	color: white;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+/* Calander */
+.purchaseTicket .web .react-calendar {
+	width: 50rem;
+	max-width: 100%;
+	background: #2a2a2a;
+	font-family: "Arimo", sans-serif;
+	line-height: 1.5rem;
+}
+
+.purchaseTicket .web .react-calendar--doubleView {
+	width: 10rem;
+}
+
+.purchaseTicket .web .react-calendar--doubleView .react-calendar__viewContainer {
+	display: flex;
+}
+
+.purchaseTicket .web .react-calendar--doubleView .react-calendar__viewContainer  {
+	color: #757575;
+}
+
+.purchaseTicket .web .react-calendar,
+.purchaseTicket .web .react-calendar *,
+.purchaseTicket .web .react-calendar *:before,
+.purchaseTicket .web .react-calendar *:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.purchaseTicket .web .react-calendar button {
+	border: 0;
+	outline: none;
+	color: white;
+}
+
+.purchaseTicket .web .react-calendar button:enabled:hover {
+	cursor: pointer;
+}
+
+.purchaseTicket .web .react-calendar__navigation {
+	display: flex;
+	height: 3rem;
+	margin-bottom: 1em;
+}
+
+.purchaseTicket .web .react-calendar__navigation button {
+	min-width: 2.75rem;
+	background: none;
+}
+
+.purchaseTicket .web .react-calendar__navigation button:disabled {
+	background-color: #2a2a2a;
+	color: white;
+}
+
+.purchaseTicket .web .react-calendar__navigation button:enabled:hover,
+.purchaseTicket .web .react-calendar__navigation button:enabled:focus {
+	background-color: none;
+}
+
+.purchaseTicket .web .react-calendar__month-view__weekdays {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 1rem;
+}
+
+.purchaseTicket .web .react-calendar__month-view__weekdays__weekday {
+	padding: 0.5rem;
+}
+
+.purchaseTicket .web .react-calendar__month-view__weekNumbers .react-calendar__tile {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 1rem;
+}
+
+.purchaseTicket .web .react-calendar__month-view__days__day--weekend {
+	color: #757575;
+}
+
+.purchaseTicket .web .react-calendar__month-view__days__day--neighboringMonth {
+	color: #757575;
+	/* visibility: hidden; */
+}
+
+.purchaseTicket .web .react-calendar__year-view .react-calendar__tile,
+.purchaseTicket .web .react-calendar__decade-view .react-calendar__tile,
+.purchaseTicket .web .react-calendar__century-view .react-calendar__tile {
+	color: #757575;
+}
+
+.purchaseTicket .web .react-calendar__tile {
+	max-width: 100%;
+	padding: 0.625rem 0.417rem;
+	background: none;
+	text-align: center;
+	line-height: 16px;
+	color: #ffffff;
+}
+
+.purchaseTicket .web .react-calendar__tile:disabled {
+	background-color:#2a2a2a;
+	color: #757575;
+}
+
+.purchaseTicket .web .react-calendar__tile:enabled:hover,
+.purchaseTicket .web .react-calendar__tile:enabled:focus {
+	background-color: transparent;
+	color: yellow;
+}
+
+.purchaseTicket .web .react-calendar__tile--now {
+	background: none;
+}
+
+.purchaseTicket .web .react-calendar__tile--now:enabled:hover,
+.purchaseTicket .web .react-calendar__tile--now:enabled:focus {
+	background: none;
+}
+
+.purchaseTicket .web .react-calendar__tile--hasActive {
+	background: none;
+}
+
+.purchaseTicket .web .react-calendar__tile--hasActive:enabled:hover,
+.purchaseTicket .web .react-calendar__tile--hasActive:enabled:focus {
+	background: none;
+}
+
+.purchaseTicket .web .react-calendar__tile--active {
+	background: none;
+	color: white;
+}
+
+.purchaseTicket .web .react-calendar__tile--active:enabled:hover,
+.purchaseTicket .web .react-calendar__tile--active:enabled:focus {
+	background-color: transparent;
+}
+
+.purchaseTicket .web .react-calendar--selectRange .react-calendar__tile--hover {
+	background-color: red;
+}
+
+.purchaseTicket .web .nextButton{
+	background: #ffcd4d;
+    color: black;
+    transition: all .2s ease-in-out;
+    font-size: 18px;
+    margin-top: 2rem;
+    border-radius: 10px;
+    border:  solid 3px;
+    border-color:#ffcd4d;
+    cursor: pointer;
+	width: 150px;
+	height: 50px;
+	font-weight: 700;
+}
+
+.purchaseTicket .web .nextButton:hover{
+	transform: scale(1.1); 
+    background: black; 
+    color: yellow;
+    border:  solid 3px, yellow;
+    border-radius: 10px;
+}
+
+.purchaseTicket .web .buttonMargin{
+	margin-left: 1rem;
+}
+
+.purchaseTicket .web .row {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 3rem;
+}
+
+.purchaseTicket .web .formLabel{
+	color: white;
+	font-size: 25px;
+	font-weight: 700;
+}
+
+.purchaseTicket .web .inputLine{
+	width: 350px;
+	height: 60px;
+	margin-bottom: 1rem;
+	border-radius: 10px;
+	padding-left: 1rem;
+	color: black;
+}
+
+.purchaseTicket .web .textArea{
+	width: 760px;
+	height: 60px;
+	margin-bottom: 1rem;
+	border-radius: 10px;
+	padding-left: 1rem;
+	padding-top: 1rem;
+	color: black;
+	max-height: 250px;
+}
+
+.purchaseTicket .web .textArea:focus{
+	outline: 0;
+}
+
+.purchaseTicket .web .leftText{
+	color: white;
+	font-size: 22px;
+	font-weight: 700;
+	margin-bottom: 0.8rem;
+	width: 300px;
+	vertical-align: top;
+}
+
+.purchaseTicket .web .rightText{
+	color: white;
+	font-size: 22px;
+	font-weight: 700;
+	margin-bottom: 0.8rem;
+	width: 500px;
+}
+
+.purchaseTicket .web .paymentForm{
+	float: right;
+	color: white;
+	width: 50rem;
+	position: relative;
+	margin-top: 2rem;
+}
+  
+
+
+/* Mobile */
+@media (min-width: 350px) and (max-width: 480px)  {
+	.purchaseTicket .web{
+		display: none;
+	}
+	
+	.purchaseTicket .mobile{
+		display: block;
+	}
+	
+	.purchaseTicket .mobile .inline{
+		display: inline-block;
+	}
+	
+	.purchaseTicket .mobile .containerOne{
+		width: 350px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 10rem;
+	}
+	
+	.purchaseTicket .mobile .containerTicket{
+		width: 350px;
+		background-color: grey;  
+		border-radius: 10px;
+		margin-top: 5rem;
+		margin-bottom: 10rem;
+	}
+	
+	.purchaseTicket .mobile .logoCircle{
+		width: 30px;
+		height: 40px;
+		margin-left: 2rem;
+		display: inline-block;
+		vertical-align: top;
+		margin-top: 1rem;
+		margin-right: 0.5rem;
+	}
+	
+	.purchaseTicket .mobile .eventLocation{
+		font-size: 20px;
+		display: inline-block;
+		color: white;
+		font-weight: 700;
+		margin-top: 1.5rem;
+		margin-right: 1rem;
+		text-transform: uppercase;
+	}
+	
+	.purchaseTicket .mobile .eventImage{
+		width: 300px;
+		border-radius: 20px;
+		margin-left: 1.5rem;
+		margin-top: 0.5rem;
+	}
+	
+	.purchaseTicket .mobile .eventTitle{
+		color: #ffcd4d;
+		text-align: center;
+		font-size: 22px;
+		margin-top: 1rem;
+	}
+	
+	.purchaseTicket .mobile .eventDescription{
+		color: white;
+		text-align: justify;
+		width: 300px;
+		height: 120px;
+		margin-left: 1.5rem;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+	
+	.purchaseTicket .mobile .containerOneHThree{
+		  color: white;
+		  font-size: 20px;
+		  margin-left: 2.5rem;
+		  margin-top: 1.5rem;
+		  width: 120px;
+	}
+	
+	.purchaseTicket .mobile .span{
+		color: white;
+		font-size: 20px;
+		font-weight: 700;
+		width: 300px;
+		margin-bottom: 0.5rem;
+		margin-left: 2.5rem;
+	}
+	
+	.purchaseTicket .mobile .containerRight{
+		margin-top: -3rem;
+	}
+	
+	.purchaseTicket .mobile .containerInformation{
+		width: 350px;
+	}
+	
+	.purchaseTicket .mobile .icon{
+		width: 50px;
+		margin-right: 3rem;
+		padding: 5px
+	}
+	
+	.purchaseTicket .mobile .ticketQuantity{
+		color: white;
+		margin-top: 2rem;
+		font-weight: 700;
+		font-size: 20px;
+	}
+	
+	.purchaseTicket .mobile .ticketQuantityTwo{
+		color: white;
+		font-size: 18px;
+	}
+	
+	.purchaseTicket .mobile .incBtn{
+		border: none;
+		background-color: transparent;
+		color: white;
+		width: 2rem;
+	}
+	
+	.purchaseTicket .mobile .decBtn{
+		border: none;
+		background-color: transparent;
+		color: white;
+		width: 2rem;
+	}
+	
+	.purchaseTicket .mobile .ticketInput{
+		border: none;
+		background-color: transparent;
+		width: 1.5rem;
+		color: yellow;
+		text-align: center;
+		font-size: 20px;
+	}
+	
+	.purchaseTicket .mobile .scheduleEvent{
+		color: white;
+		margin-top: 3rem;
+		margin-bottom: 2rem;
+		font-weight: 700;
+		font-size: 20px;
+	}
+	
+	.purchaseTicket .mobile .contactInformation{
+		color: white;
+		margin-top: 3rem;
+		margin-bottom: 2rem;
+		font-weight: 700;
+	}
+	
+	.purchaseTicket .mobile .contactInformationTwo{
+		color: white;
+		font-size: 20px;
+		font-weight: 600;
+	}
+	
+	/* Calander */
+	.purchaseTicket .mobile .react-calendar {
+		width: 50rem;
+		max-width: 100%;
+		background: #2a2a2a;
+		font-family: "Arimo", sans-serif;
+		line-height: 1.5rem;
+	}
+	
+	.purchaseTicket .mobile .react-calendar--doubleView {
+		width: 10rem;
+	}
+	
+	.purchaseTicket .mobile .react-calendar--doubleView .react-calendar__viewContainer {
+		display: flex;
+	}
+	
+	.purchaseTicket .mobile .react-calendar--doubleView .react-calendar__viewContainer  {
+		color: #757575;
+	}
+	
+	.purchaseTicket .mobile .react-calendar,
+	.purchaseTicket .mobile .react-calendar *,
+	.purchaseTicket .mobile .react-calendar *:before,
+	.purchaseTicket .mobile .react-calendar *:after {
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	
+	.purchaseTicket .mobile .react-calendar button {
+		border: 0;
+		outline: none;
+		color: white;
+	}
+	
+	.purchaseTicket .mobile .react-calendar button:enabled:hover {
+		cursor: pointer;
+	}
+	
+	.purchaseTicket .mobile .react-calendar__navigation {
+		display: flex;
+		height: 3rem;
+		margin-bottom: 1em;
+	}
+	
+	.purchaseTicket .mobile .react-calendar__navigation button {
+		min-width: 2.75rem;
+		background: none;
+	}
+	
+	.purchaseTicket .mobile .react-calendar__navigation button:disabled {
+		background-color: #2a2a2a;
+		color: white;
+	}
+	
+	.purchaseTicket .mobile .react-calendar__navigation button:enabled:hover,
+	.purchaseTicket .mobile .react-calendar__navigation button:enabled:focus {
+		background-color: none;
+	}
+	
+	.purchaseTicket .mobile .react-calendar__month-view__weekdays {
+		text-align: center;
+		text-transform: uppercase;
+		font-size: 1rem;
+	}
+	
+	.purchaseTicket .mobile .react-calendar__month-view__weekdays__weekday {
+		padding: 0.5rem;
+	}
+	
+	.purchaseTicket .mobile .react-calendar__month-view__weekNumbers .react-calendar__tile {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-size: 1rem;
+	}
+	
+	.purchaseTicket .mobile .react-calendar__month-view__days__day--weekend {
+		color: #757575;
+	}
+	
+	.purchaseTicket .mobile .react-calendar__month-view__days__day--neighboringMonth {
+		color: #757575;
+		/* visibility: hidden; */
+	}
+	
+	.purchaseTicket .mobile .react-calendar__year-view .react-calendar__tile,
+	.purchaseTicket .mobile .react-calendar__decade-view .react-calendar__tile,
+	.purchaseTicket .mobile .react-calendar__century-view .react-calendar__tile {
+		color: #757575;
+	}
+	
+	.purchaseTicket .mobile .react-calendar__tile {
+		max-width: 100%;
+		padding: 0.625rem 0.417rem;
+		background: none;
+		text-align: center;
+		line-height: 16px;
+		color: #ffffff;
+	}
+	
+	.purchaseTicket .mobile .react-calendar__tile:disabled {
+		background-color:#2a2a2a;
+		color: #757575;
+	}
+	
+	.purchaseTicket .mobile .react-calendar__tile:enabled:hover,
+	.purchaseTicket .mobile .react-calendar__tile:enabled:focus {
+		background-color: transparent;
+		color: yellow;
+	}
+	
+	.purchaseTicket .mobile .react-calendar__tile--now {
+		background: none;
+	}
+	
+	.purchaseTicket .mobile .react-calendar__tile--now:enabled:hover,
+	.purchaseTicket .mobile .react-calendar__tile--now:enabled:focus {
+		background: none;
+	}
+	
+	.purchaseTicket .mobile .react-calendar__tile--hasActive {
+		background: none;
+	}
+	
+	.purchaseTicket .mobile .react-calendar__tile--hasActive:enabled:hover,
+	.purchaseTicket .mobile .react-calendar__tile--hasActive:enabled:focus {
+		background: none;
+	}
+	
+	.purchaseTicket .mobile .react-calendar__tile--active {
+		background: none;
+		color: white;
+	}
+	
+	.purchaseTicket .mobile .react-calendar__tile--active:enabled:hover,
+	.purchaseTicket .mobile .react-calendar__tile--active:enabled:focus {
+		background-color: transparent;
+	}
+	
+	.purchaseTicket .mobile .react-calendar--selectRange .react-calendar__tile--hover {
+		background-color: red;
+	}
+	
+	.purchaseTicket .mobile .nextButton{
+		background: #ffcd4d;
+		color: black;
+		transition: all .2s ease-in-out;
+		font-size: 18px;
+		margin-top: 2rem;
+		border-radius: 10px;
+		border:  solid 3px;
+		border-color:#ffcd4d;
+		cursor: pointer;
+		width: 150px;
+		height: 50px;
+		font-weight: 700;
+	}
+	
+	.purchaseTicket .mobile .nextButton:hover{
+		transform: scale(1.1); 
+		background: black; 
+		color: yellow;
+		border:  solid 3px, yellow;
+		border-radius: 10px;
+	}
+	
+	.purchaseTicket .mobile .buttonMargin{
+		margin-left: 1rem;
+	}
+	
+	.purchaseTicket .mobile .row {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-top: 3rem;
+	}
+	
+	.purchaseTicket .mobile .formLabel{
+		color: white;
+		font-size: 20px;
+		font-weight: 700;
+	}
+	
+	.purchaseTicket .mobile .inputLine{
+		width: 350px;
+		height: 60px;
+		margin-bottom: 1rem;
+		border-radius: 10px;
+		padding-left: 1rem;
+		color: black;
+	}
+	
+	.purchaseTicket .mobile .textArea{
+		width: 350px;
+		height: 60px;
+		margin-bottom: 1rem;
+		border-radius: 10px;
+		padding-left: 1rem;
+		padding-top: 1rem;
+		color: black;
+		max-height: 250px;
+	}
+	
+	.purchaseTicket .mobile .textArea:focus{
+		outline: 0;
+	}
+	
+	.purchaseTicket .mobile .leftText{
+		color: white;
+		font-size: 15px;
+		font-weight: 700;
+		margin-bottom: 0.8rem;
+		width: 150px;
+		vertical-align: top;
+	}
+	
+	.purchaseTicket .mobile .rightText{
+		color: white;
+		font-size: 15px;
+		font-weight: 700;
+		margin-bottom: 0.8rem;
+		width: 200px;
+	}
+	
+	.purchaseTicket .mobile .paymentForm{
+		float: right;
+		color: white;
+		width: 350px;
+		position: relative;
+		margin-top: 0rem;
+	}
+	  
+}
+
+/* Tablets */
+@media (min-width: 481px) and (max-width: 768px)  {
+
+}
+
+/* Small Screen */
+@media (min-width: 769px) and (max-width: 1480px)  {
+	.purchaseTicket .web{
+		display: none;
+	}
+	
+	.purchaseTicket .mobile{
+		display: block;
+	}
+	
+	.purchaseTicket .mobile .inline{
+		display: inline-block;
+	}
+	
+	.purchaseTicket .mobile .containerOne{
+		width: 550px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 10rem;
+	}
+	
+	.purchaseTicket .mobile .containerTicket{
+		width: 550px;
+		background-color: grey;  
+		border-radius: 10px;
+		margin-top: 5rem;
+		margin-bottom: 10rem;
+	}
+	
+	.purchaseTicket .mobile .logoCircle{
+		width: 80px;
+		height: 40px;
+		margin-left: 2rem;
+		display: inline-block;
+		vertical-align: top;
+		margin-top: 1rem;
+		margin-right: 0.5rem;
+	}
+	
+	.purchaseTicket .mobile .eventLocation{
+		font-size: 30px;
+		display: inline-block;
+		color: white;
+		font-weight: 700;
+		margin-top: 1.2rem;
+		margin-right: 1rem;
+		text-transform: uppercase;
+	}
+	
+	.purchaseTicket .mobile .eventImage{
+		width: 500px;
+		border-radius: 20px;
+		margin-left: 1.5rem;
+		margin-top: 0.5rem;
+	}
+	
+	.purchaseTicket .mobile .eventTitle{
+		color: #ffcd4d;
+		text-align: center;
+		font-size: 35px;
+		margin-top: 1rem;
+	}
+	
+	.purchaseTicket .mobile .eventDescription{
+		color: white;
+		text-align: justify;
+		width: 500px;
+		height: 120px;
+		margin-left: 1.5rem;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+	
+	.purchaseTicket .mobile .containerOneHThree{
+		  color: white;
+		  font-size: 20px;
+		  margin-left: 2.5rem;
+		  margin-top: 1.5rem;
+		  width: 120px;
+	}
+	
+	.purchaseTicket .mobile .span{
+		color: white;
+		font-size: 20px;
+		font-weight: 700;
+		width: 300px;
+		margin-bottom: 0.5rem;
+		margin-left: 2.5rem;
+	}
+	
+	.purchaseTicket .mobile .containerRight{
+		margin-top: -3rem;
+	}
+	
+	.purchaseTicket .mobile .containerInformation{
+		width: 650px;
+	}
+	
+	.purchaseTicket .mobile .icon{
+		width: 100px;
+		margin-right: 3rem;
+		padding: 5px
+	}
+	
+	.purchaseTicket .mobile .ticketQuantity{
+		color: white;
+		margin-top: 2rem;
+		font-weight: 700;
+		font-size: 33px;
+	}
+	
+	.purchaseTicket .mobile .ticketQuantityTwo{
+		color: white;
+		font-size: 25px;
+	}
+	
+	.purchaseTicket .mobile .incBtn{
+		border: none;
+		background-color: transparent;
+		color: white;
+		width: 2rem;
+	}
+	
+	.purchaseTicket .mobile .decBtn{
+		border: none;
+		background-color: transparent;
+		color: white;
+		width: 2rem;
+	}
+	
+	.purchaseTicket .mobile .ticketInput{
+		border: none;
+		background-color: transparent;
+		width: 1.5rem;
+		color: yellow;
+		text-align: center;
+		font-size: 20px;
+	}
+	
+	.purchaseTicket .mobile .scheduleEvent{
+		color: white;
+		margin-top: 3rem;
+		margin-bottom: 2rem;
+		font-weight: 700;
+		font-size: 33px;
+	}
+	
+	.purchaseTicket .mobile .contactInformation{
+		color: white;
+		margin-top: 3rem;
+		margin-bottom: 2rem;
+		font-weight: 700;
+	}
+	
+	.purchaseTicket .mobile .contactInformationTwo{
+		color: white;
+		font-size: 20px;
+		font-weight: 600;
+	}
+	
+	/* Calander */
+	.purchaseTicket .mobile .react-calendar {
+		width: 650px;
+		max-width: 100%;
+		background: #2a2a2a;
+		font-family: "Arimo", sans-serif;
+		line-height: 1.5rem;
+	}
+	
+	.purchaseTicket .mobile .react-calendar--doubleView {
+		width: 10rem;
+	}
+	
+	.purchaseTicket .mobile .react-calendar--doubleView .react-calendar__viewContainer {
+		display: flex;
+	}
+	
+	.purchaseTicket .mobile .react-calendar--doubleView .react-calendar__viewContainer  {
+		color: #757575;
+	}
+	
+	.purchaseTicket .mobile .react-calendar,
+	.purchaseTicket .mobile .react-calendar *,
+	.purchaseTicket .mobile .react-calendar *:before,
+	.purchaseTicket .mobile .react-calendar *:after {
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	
+	.purchaseTicket .mobile .react-calendar button {
+		border: 0;
+		outline: none;
+		color: white;
+	}
+	
+	.purchaseTicket .mobile .react-calendar button:enabled:hover {
+		cursor: pointer;
+	}
+	
+	.purchaseTicket .mobile .react-calendar__navigation {
+		display: flex;
+		height: 3rem;
+		margin-bottom: 1em;
+	}
+	
+	.purchaseTicket .mobile .react-calendar__navigation button {
+		min-width: 2.75rem;
+		background: none;
+	}
+	
+	.purchaseTicket .mobile .react-calendar__navigation button:disabled {
+		background-color: #2a2a2a;
+		color: white;
+	}
+	
+	.purchaseTicket .mobile .react-calendar__navigation button:enabled:hover,
+	.purchaseTicket .mobile .react-calendar__navigation button:enabled:focus {
+		background-color: none;
+	}
+	
+	.purchaseTicket .mobile .react-calendar__month-view__weekdays {
+		text-align: center;
+		text-transform: uppercase;
+		font-size: 1rem;
+	}
+	
+	.purchaseTicket .mobile .react-calendar__month-view__weekdays__weekday {
+		padding: 0.5rem;
+	}
+	
+	.purchaseTicket .mobile .react-calendar__month-view__weekNumbers .react-calendar__tile {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-size: 1rem;
+	}
+	
+	.purchaseTicket .mobile .react-calendar__month-view__days__day--weekend {
+		color: #757575;
+	}
+	
+	.purchaseTicket .mobile .react-calendar__month-view__days__day--neighboringMonth {
+		color: #757575;
+		/* visibility: hidden; */
+	}
+	
+	.purchaseTicket .mobile .react-calendar__year-view .react-calendar__tile,
+	.purchaseTicket .mobile .react-calendar__decade-view .react-calendar__tile,
+	.purchaseTicket .mobile .react-calendar__century-view .react-calendar__tile {
+		color: #757575;
+	}
+	
+	.purchaseTicket .mobile .react-calendar__tile {
+		max-width: 100%;
+		padding: 0.625rem 0.417rem;
+		background: none;
+		text-align: center;
+		line-height: 16px;
+		color: #ffffff;
+	}
+	
+	.purchaseTicket .mobile .react-calendar__tile:disabled {
+		background-color:#2a2a2a;
+		color: #757575;
+	}
+	
+	.purchaseTicket .mobile .react-calendar__tile:enabled:hover,
+	.purchaseTicket .mobile .react-calendar__tile:enabled:focus {
+		background-color: transparent;
+		color: yellow;
+	}
+	
+	.purchaseTicket .mobile .react-calendar__tile--now {
+		background: none;
+	}
+	
+	.purchaseTicket .mobile .react-calendar__tile--now:enabled:hover,
+	.purchaseTicket .mobile .react-calendar__tile--now:enabled:focus {
+		background: none;
+	}
+	
+	.purchaseTicket .mobile .react-calendar__tile--hasActive {
+		background: none;
+	}
+	
+	.purchaseTicket .mobile .react-calendar__tile--hasActive:enabled:hover,
+	.purchaseTicket .mobile .react-calendar__tile--hasActive:enabled:focus {
+		background: none;
+	}
+	
+	.purchaseTicket .mobile .react-calendar__tile--active {
+		background: none;
+		color: white;
+	}
+	
+	.purchaseTicket .mobile .react-calendar__tile--active:enabled:hover,
+	.purchaseTicket .mobile .react-calendar__tile--active:enabled:focus {
+		background-color: transparent;
+	}
+	
+	.purchaseTicket .mobile .react-calendar--selectRange .react-calendar__tile--hover {
+		background-color: red;
+	}
+	
+	.purchaseTicket .mobile .nextButton{
+		background: #ffcd4d;
+		color: black;
+		transition: all .2s ease-in-out;
+		font-size: 18px;
+		margin-top: 2rem;
+		border-radius: 10px;
+		border:  solid 3px;
+		border-color:#ffcd4d;
+		cursor: pointer;
+		width: 150px;
+		height: 50px;
+		font-weight: 700;
+	}
+	
+	.purchaseTicket .mobile .nextButton:hover{
+		transform: scale(1.1); 
+		background: black; 
+		color: yellow;
+		border:  solid 3px, yellow;
+		border-radius: 10px;
+	}
+	
+	.purchaseTicket .mobile .buttonMargin{
+		margin-left: 1rem;
+	}
+	
+	.purchaseTicket .mobile .row {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-top: 3rem;
+	}
+	
+	.purchaseTicket .mobile .formLabel{
+		color: white;
+		font-size: 30px;
+		font-weight: 700;
+	}
+	
+	.purchaseTicket .mobile .inputLine{
+		width: 550px;
+		height: 60px;
+		margin-bottom: 1rem;
+		border-radius: 10px;
+		padding-left: 1rem;
+		color: black;
+	}
+	
+	.purchaseTicket .mobile .textArea{
+		width: 550px;
+		height: 60px;
+		margin-bottom: 1rem;
+		border-radius: 10px;
+		padding-left: 1rem;
+		padding-top: 1rem;
+		color: black;
+		max-height: 250px;
+	}
+	
+	.purchaseTicket .mobile .textArea:focus{
+		outline: 0;
+	}
+	
+	.purchaseTicket .mobile .leftText{
+		color: white;
+		font-size: 33px;
+		font-weight: 700;
+		margin-bottom: 0.8rem;
+		width: 250px;
+		vertical-align: top;
+	}
+	
+	.purchaseTicket .mobile .rightText{
+		color: white;
+		font-size: 33px;
+		font-weight: 700;
+		margin-bottom: 0.8rem;
+		width: 350px;
+	}
+	
+	.purchaseTicket .mobile .paymentForm{
+		color: white;
+		width: 550px;
+		position: relative;
+		margin-top: 0rem;
+	}
+}

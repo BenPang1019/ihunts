@@ -1,0 +1,395 @@
+.eventDetails{
+	font-family: "Arimo", sans-serif;
+}
+
+.eventDetails .web{
+	display: block;
+}
+
+.eventDetails .mobile{
+	display: none;
+}
+
+.eventDetails .web .inline{
+	display: inline-block;
+}
+
+
+.eventDetails .web .containerOne{
+	width: 90rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+}
+
+.eventDetails .web .logoCircle{
+    width: 50px;
+    vertical-align: top;
+}
+
+.eventDetails .web .containerOneHOne{
+	color: white;
+    margin-left: 1rem;
+    font-weight: 700;
+}
+
+.eventDetails .web .eventImage{
+	width: 600px;
+    margin-top: 2rem;
+    border-radius: 20px;
+}
+
+.eventDetails .web .containerOneHTwo{
+    color: #ffce4d;
+    margin-left: 5rem;
+    margin-top: 5rem;
+}
+
+.eventDetails .web .containerOnePOne{
+    color: white;
+    width: 700px;
+    margin-left: 5rem;
+}
+
+.eventDetails .web .containerOneHThree{
+    color: white;
+    font-size: 25px;
+    margin-left: 5rem;
+    margin-top: 3rem;
+    width: 250px;
+    height: 50px;
+}
+
+.eventDetails .web .span{
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    width: 510px;
+}
+
+.eventDetails .web .joinButton{
+	background: #ffcd4d;
+    color: black;
+    transition: all .2s ease-in-out;
+    font-size: 22px;
+    border-radius: 10px;
+    border:  solid 3px;
+    border-color:#ffcd4d;
+    cursor: pointer;
+	width: 150px;
+	height: 50px;
+	font-weight: 700;
+    margin-left: 5rem;
+    margin-top: 3rem;
+}
+
+.eventDetails .web .joinButton:hover{
+	transform: scale(1.1); 
+    background: black; 
+    color: yellow;
+    border:  solid 3px, yellow;
+    border-radius: 10px;
+}
+
+
+
+/* Mobile */
+@media (min-width: 350px) and (max-width: 480px)  {
+    .eventDetails .web{
+        display: none;
+    }
+    
+    .eventDetails .mobile{
+        display: block;
+    }
+    
+    .eventDetails .mobile .inline{
+        display: inline-block;
+    }
+    
+    
+    .eventDetails .mobile .containerOne{
+        width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5rem;
+        margin-bottom: 10rem;
+        text-align: center;
+    }
+    
+    .eventDetails .mobile .logoCircle{
+        width: 30px;
+        vertical-align: top;
+        margin-left: -8rem;
+    }
+    
+    .eventDetails .mobile .containerOneHOne{
+        color: white;
+        margin-left: 1rem;
+        font-weight: 700;
+        font-size: 18px;
+        margin-top: 0.2rem;
+    }
+    
+    .eventDetails .mobile .eventImage{
+        width: 250px;
+        margin-top: 2rem;
+        border-radius: 20px;
+    }
+    
+    .eventDetails .mobile .containerOneHTwo{
+        color: #ffce4d;
+        margin-top: 1rem;
+        font-size: 18px;
+    }
+    
+    .eventDetails .mobile .containerOnePOne{
+        color: white;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: justify;
+        font-size: 14px;
+        margin-bottom: 2rem;
+    }
+    
+    .eventDetails .mobile .containerOneHThree{
+        color: white;
+        font-size: 14px;
+        text-align: left;
+        width: 100px;
+        margin-bottom: 2rem;
+    }
+    
+    .eventDetails .mobile .span{
+        color: white;
+        font-size: 14px;
+        font-weight: 700;
+        width: 200px;
+        text-align: left;
+    }
+    
+    .eventDetails .mobile .joinButton{
+        background: #ffcd4d;
+        color: black;
+        transition: all .2s ease-in-out;
+        font-size: 14px;
+        border-radius: 10px;
+        border:  solid 3px;
+        border-color:#ffcd4d;
+        cursor: pointer;
+        width: 100px;
+        height: 50px;
+        font-weight: 700;
+        margin-top: 3rem;
+    }
+    
+    .eventDetails .mobile .joinButton:hover{
+        transform: scale(1.1); 
+        background: black; 
+        color: yellow;
+        border:  solid 3px, yellow;
+        border-radius: 10px;
+    }
+}
+
+/* Tablets */
+@media (min-width: 481px) and (max-width: 768px)  {
+    .eventDetails .web{
+        display: none;
+    }
+    
+    .eventDetails .mobile{
+        display: block;
+    }
+    
+    .eventDetails .mobile .inline{
+        display: inline-block;
+    }
+    
+    
+    .eventDetails .mobile .containerOne{
+        width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5rem;
+        margin-bottom: 10rem;
+        text-align: center;
+    }
+    
+    .eventDetails .mobile .logoCircle{
+        width: 30px;
+        vertical-align: top;
+        margin-left: -8rem;
+    }
+    
+    .eventDetails .mobile .containerOneHOne{
+        color: white;
+        margin-left: 1rem;
+        font-weight: 700;
+        font-size: 18px;
+        margin-top: 0.2rem;
+    }
+    
+    .eventDetails .mobile .eventImage{
+        width: 250px;
+        margin-top: 2rem;
+        border-radius: 20px;
+    }
+    
+    .eventDetails .mobile .containerOneHTwo{
+        color: #ffce4d;
+        margin-top: 1rem;
+        font-size: 18px;
+    }
+    
+    .eventDetails .mobile .containerOnePOne{
+        color: white;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: justify;
+        font-size: 14px;
+        margin-bottom: 2rem;
+    }
+    
+    .eventDetails .mobile .containerOneHThree{
+        color: white;
+        font-size: 14px;
+        text-align: left;
+        width: 100px;
+        margin-bottom: 2rem;
+    }
+    
+    .eventDetails .mobile .span{
+        color: white;
+        font-size: 14px;
+        font-weight: 700;
+        width: 200px;
+        text-align: left;
+    }
+    
+    .eventDetails .mobile .joinButton{
+        background: #ffcd4d;
+        color: black;
+        transition: all .2s ease-in-out;
+        font-size: 14px;
+        border-radius: 10px;
+        border:  solid 3px;
+        border-color:#ffcd4d;
+        cursor: pointer;
+        width: 100px;
+        height: 50px;
+        font-weight: 700;
+        margin-top: 3rem;
+    }
+    
+    .eventDetails .mobile .joinButton:hover{
+        transform: scale(1.1); 
+        background: black; 
+        color: yellow;
+        border:  solid 3px, yellow;
+        border-radius: 10px;
+    }
+}
+
+/* Small Screen **/
+@media (min-width: 769px) and (max-width: 1480px)  {
+    .eventDetails .web{
+        display: none;
+    }
+    
+    .eventDetails .mobile{
+        display: block;
+    }
+    
+    .eventDetails .mobile .inline{
+        display: inline-block;
+    }
+    
+    
+    .eventDetails .mobile .containerOne{
+        width: 550px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5rem;
+        margin-bottom: 10rem;
+        text-align: center;
+    }
+    
+    .eventDetails .mobile .logoCircle{
+        width: 80px;
+        vertical-align: top;
+        margin-left: -15rem;
+    }
+    
+    .eventDetails .mobile .containerOneHOne{
+        color: white;
+        margin-left: 1rem;
+        font-weight: 700;
+        font-size: 45px;
+        margin-top: 0.5rem;
+    }
+    
+    .eventDetails .mobile .eventImage{
+        width: 550px;
+        margin-top: 2rem;
+        border-radius: 20px;
+    }
+    
+    .eventDetails .mobile .containerOneHTwo{
+        color: #ffce4d;
+        margin-top: 1rem;
+        font-size: 40px;
+    }
+    
+    .eventDetails .mobile .containerOnePOne{
+        color: white;
+        width: 550px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: justify;
+        font-size: 22px;
+        margin-bottom: 2rem;
+    }
+    
+    .eventDetails .mobile .containerOneHThree{
+        color: white;
+        font-size: 30px;
+        text-align: left;
+        width: 200px;
+        margin-bottom: 2rem;
+    }
+    
+    .eventDetails .mobile .span{
+        color: white;
+        font-size: 25px;
+        font-weight: 700;
+        width: 350px;
+        text-align: left;
+    }
+    
+    .eventDetails .mobile .joinButton{
+        background: #ffcd4d;
+        color: black;
+        transition: all .2s ease-in-out;
+        font-size: 14px;
+        border-radius: 10px;
+        border:  solid 3px;
+        border-color:#ffcd4d;
+        cursor: pointer;
+        width: 100px;
+        height: 50px;
+        font-weight: 700;
+        margin-top: 3rem;
+    }
+    
+    .eventDetails .mobile .joinButton:hover{
+        transform: scale(1.1); 
+        background: black; 
+        color: yellow;
+        border:  solid 3px, yellow;
+        border-radius: 10px;
+    }
+}

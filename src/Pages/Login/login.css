@@ -1,0 +1,291 @@
+.login{
+	font-family: "Arimo", sans-serif;
+}
+
+.login .web{
+	display: block;
+}
+
+.login .mobile{
+	display: none;
+}
+
+.login .web .inline{
+	display: inline-block;
+}
+
+.login .web .containerOne{
+	width: 100rem;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5.2rem;
+}
+
+.login .web .containerOneHOne{
+	color: white;
+	font-size: 45px;
+	margin-left: 3rem;
+	font-weight: 700;
+}
+
+.login .web .containerTwo{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1rem;
+	text-align: center;
+}
+
+.login .web .userIcon{
+	width: 10rem;
+}
+
+.login .web .loginForm{
+	margin-top: 2rem;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.login .web .label{
+	color: white;
+	font-size: 22px;
+	margin-bottom: 1rem;
+	margin-left: -18rem;
+}
+
+.login .web .input{
+	width: 400px;
+	height: 60px;
+	margin-bottom: 1rem;
+	border-radius: 10px;
+	padding-left: 1rem;
+}
+
+.login .web .passwordIcon{
+	background-color: transparent;
+	position: absolute;
+	width: 30px;
+	margin-left: 4rem;
+	margin-top: 4.1rem;
+	cursor: pointer;
+}
+
+.login .web .fgtPassword{
+	color: white;
+	font-size: 18px;
+	margin-left: 16rem;
+	margin-top: 0.5rem;
+}
+
+.login .web .recaptcha{
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.login .web .loginButton{
+	background: #ffcd4d;
+    color: black;
+    width: 350px;
+	height: 50px;
+    font-size: 28px;
+	font-weight: 700;
+    margin-top: 2rem;
+    border-radius: 10px;
+    border:  solid 3px;
+    border-color:#ffcd4d;
+    cursor: pointer;
+}
+
+.login .web .loginButton:disabled{
+	background: #ffcd4d;
+    color: black;
+    width: 350px;
+	height: 50px;
+    font-size: 28px;
+	font-weight: 700;
+    margin-top: 2rem;
+    border-radius: 10px;
+    border:  solid 3px;
+    border-color:#ffcd4d;
+    cursor: not-allowed;
+}
+
+.login .web .registerContainer{
+	margin-top: 2rem;
+}
+
+.login .web .registerHOne{
+	color: white;
+	font-size: 20px;
+}
+
+.login .web .registerHTwo{
+	color: white;
+	font-size: 20px;
+	margin-top: 2rem;
+}
+
+.login .web .registerHThree{
+	color: #ffcd4d;
+	font-size: 20px;
+	text-decoration: underline;
+}
+
+input:focus {
+	outline: none;
+}
+
+
+/* Mobile */
+@media (min-width: 350px) and (max-width: 480px)  {
+	.login{
+		font-family: "Arimo", sans-serif;
+	}
+	
+	.login .web{
+		display: block;
+	}
+	
+	.login .mobile{
+		display: none;
+	}
+	
+	.login .web .inline{
+		display: inline-block;
+	}
+	
+	.login .web .containerOne{
+		width: 100rem;
+		overflow: hidden;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 5.2rem;
+	}
+	
+	.login .web .containerOneHOne{
+		color: white;
+		font-size: 45px;
+		margin-left: 3rem;
+		font-weight: 700;
+	}
+	
+	.login .web .containerTwo{
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 1rem;
+		text-align: center;
+	}
+	
+	.login .web .userIcon{
+		width: 10rem;
+	}
+	
+	.login .web .loginForm{
+		margin-top: 2rem;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.login .web .label{
+		color: white;
+		font-size: 18px;
+		margin-bottom: 1rem;
+		margin-left: -16rem;
+	}
+	
+	.login .web .input{
+		width: 350px;
+		height: 60px;
+		margin-bottom: 1rem;
+		border-radius: 10px;
+		padding-left: 1rem;
+	}
+	
+	.login .web .passwordIcon{
+		background-color: transparent;
+		position: absolute;
+		width: 30px;
+		margin-left: 3rem;
+		margin-top: 3.6rem;
+		cursor: pointer;
+	}
+	
+	.login .web .fgtPassword{
+		color: white;
+		font-size: 14px;
+		margin-left: 14rem;
+		margin-top: 0.5rem;
+	}
+	
+	.login .web .recaptcha{
+		width: 300px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.login .web .loginButton{
+		background: #ffcd4d;
+		color: black;
+		width: 350px;
+		height: 50px;
+		font-size: 28px;
+		font-weight: 700;
+		margin-top: 2rem;
+		border-radius: 10px;
+		border:  solid 3px;
+		border-color:#ffcd4d;
+		cursor: pointer;
+	}
+	
+	.login .web .loginButton:disabled{
+		background: #ffcd4d;
+		color: black;
+		width: 350px;
+		height: 50px;
+		font-size: 28px;
+		font-weight: 700;
+		margin-top: 2rem;
+		border-radius: 10px;
+		border:  solid 3px;
+		border-color:#ffcd4d;
+		cursor: not-allowed;
+	}
+	
+	.login .web .registerContainer{
+		margin-top: 2rem;
+	}
+	
+	.login .web .registerHOne{
+		color: white;
+		font-size: 20px;
+	}
+	
+	.login .web .registerHTwo{
+		color: white;
+		font-size: 20px;
+		margin-top: 2rem;
+	}
+	
+	.login .web .registerHThree{
+		color: #ffcd4d;
+		font-size: 20px;
+		text-decoration: underline;
+	}
+	
+	input:focus {
+		outline: none;
+	}
+}
+
+/* Tablets */
+@media (min-width: 481px) and (max-width: 768px)  {
+
+}
+
+/* Small Screen **/
+@media (min-width: 769px) and (max-width: 1480px)  {
+
+}

@@ -1,0 +1,31 @@
+.thankyou{
+	font-family: "Arimo", sans-serif;
+}
+
+.thankyou .web{
+	display: block;
+}
+
+.thankyou .mobile{
+	display: none;
+}
+
+.thankyou .web .containerOne{
+    width: 90rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10rem;
+    text-align: center;
+}
+
+.thankyou .web .containerOneHOne{
+    font-family: 'Cinzel', serif;
+    color: #ffcd4e;
+    font-size: 120px;
+    font-weight: 700;
+}
+
+.thankyou .web .containerOneHTwo{
+    color: white;
+    font-size: 30px;
+}

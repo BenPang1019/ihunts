@@ -1,0 +1,243 @@
+.newsDetails{
+	font-family: "Arimo", sans-serif;
+}
+
+.newsDetails .web{
+	display: block;
+}
+
+.newsDetails .mobile{
+	display: none;
+}
+
+.newsDetails .web .containerOne{
+    width: 90rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.newsDetails .web .newsImage{
+    border-radius: 20px;
+    width: 800px;
+    margin-top: 5rem;
+}
+
+.newsDetails .web .newsImage:hover{
+    
+}
+
+.newsDetails .web .containerContent{
+    text-align: left;
+    width: 50rem;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10rem;
+}
+
+.newsDetails .web .containerOneHOne{
+    color: #ffcd4e;
+    font-size: 35px;
+}
+
+.newsDetails .web .containerOneHTwo{
+    color: white;
+    font-weight: 700;
+}
+
+.newsDetails .web .containerOneHThree{
+    color: white;
+    font-size: 20px;
+}
+
+.newsDetails .web .containerOnePOne{
+    color: white;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: justify;
+}
+
+
+/* Mobile */
+@media (min-width: 350px) and (max-width: 480px)  {
+    .newsDetails .web{
+        display: none;
+    }
+    
+    .newsDetails .mobile{
+        display: block;
+    }
+    
+    .newsDetails .mobile .containerOne{
+        width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    
+    .newsDetails .mobile .newsImage{
+        border-radius: 20px;
+        width: 350px;
+        margin-top: 5rem;
+    }
+    
+    .newsDetails .mobile .newsImage:hover{
+        
+    }
+    
+    .newsDetails .mobile .containerContent{
+        text-align: left;
+        width: 350px;
+        margin-top: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10rem;
+    }
+    
+    .newsDetails .mobile .containerOneHOne{
+        color: #ffcd4e;
+        font-size: 18px;
+    }
+    
+    .newsDetails .mobile .containerOneHTwo{
+        color: white;
+        font-weight: 700;
+        font-size: 14px;
+    }
+    
+    .newsDetails .mobile .containerOneHThree{
+        color: white;
+        font-size: 14px;
+    }
+    
+    .newsDetails .mobile .containerOnePOne{
+        color: white;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        text-align: justify;
+        font-size: 12px;
+    }
+}
+
+/* Tablets */
+@media (min-width: 481px) and (max-width: 768px)  {
+    .newsDetails .web{
+        display: none;
+    }
+    
+    .newsDetails .mobile{
+        display: block;
+    }
+    
+    .newsDetails .mobile .containerOne{
+        width: 480px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    
+    .newsDetails .mobile .newsImage{
+        border-radius: 20px;
+        width: 400px;
+        margin-top: 5rem;
+    }
+    
+    .newsDetails .mobile .newsImage:hover{
+        
+    }
+    
+    .newsDetails .mobile .containerContent{
+        text-align: left;
+        width: 380px;
+        margin-top: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10rem;
+    }
+    
+    .newsDetails .mobile .containerOneHOne{
+        color: #ffcd4e;
+        font-size: 22px;
+    }
+    
+    .newsDetails .mobile .containerOneHTwo{
+        color: white;
+        font-weight: 700;
+        font-size: 22px;
+    }
+    
+    .newsDetails .mobile .containerOneHThree{
+        color: white;
+        font-size: 22px;
+    }
+    
+    .newsDetails .mobile .containerOnePOne{
+        color: white;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        text-align: justify;
+        font-size: 15px;
+    }
+}
+
+/* Small Screen **/
+@media (min-width: 769px) and (max-width: 1480px)  {
+    .newsDetails .web{
+        display: none;
+    }
+    
+    .newsDetails .mobile{
+        display: block;
+    }
+    
+    .newsDetails .mobile .containerOne{
+        width: 780px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    
+    .newsDetails .mobile .newsImage{
+        border-radius: 20px;
+        width: 400px;
+        margin-top: 5rem;
+    }
+    
+    .newsDetails .mobile .newsImage:hover{
+        
+    }
+    
+    .newsDetails .mobile .containerContent{
+        text-align: left;
+        width: 380px;
+        margin-top: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10rem;
+    }
+    
+    .newsDetails .mobile .containerOneHOne{
+        color: #ffcd4e;
+        font-size: 25px;
+    }
+    
+    .newsDetails .mobile .containerOneHTwo{
+        color: white;
+        font-weight: 700;
+        font-size: 22px;
+    }
+    
+    .newsDetails .mobile .containerOneHThree{
+        color: white;
+        font-size: 22px;
+    }
+    
+    .newsDetails .mobile .containerOnePOne{
+        color: white;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        text-align: justify;
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,71 @@
+.tnc{
+    font-family: "Arimo", sans-serif;
+}
+
+.tnc .web{
+    display: block;
+}
+
+.tnc .mobile{
+    display: none;
+}
+
+.tnc .web .containerOne{
+    width: 90rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+    color: white;
+    text-align: justify;
+}
+
+.tnc .web .HOne{
+    text-align: center;
+    color: #ffce4d;
+}
+
+.tnc .web h4{
+    color: #ffce4d;
+}
+
+
+
+/* Mobile */
+@media (min-width: 350px) and (max-width: 480px)  {
+    .tnc .web .containerOne{
+        width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5rem;
+        margin-bottom: 10rem;
+        color: white;
+        text-align: justify;
+    }
+}
+
+/* Tablets */
+@media (min-width: 481px) and (max-width: 768px)  {
+    .tnc .web .containerOne{
+        width: 550px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5rem;
+        margin-bottom: 10rem;
+        color: white;
+        text-align: justify;
+    }
+}
+
+/* Small Screen **/
+@media (min-width: 769px) and (max-width: 1480px)  {
+    .tnc .web .containerOne{
+        width: 55rem;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5rem;
+        margin-bottom: 10rem;
+        color: white;
+        text-align: justify;
+    }
+}

@@ -1,0 +1,1464 @@
+.home{
+	font-family: "Arimo", sans-serif;
+}
+
+.home .web{
+	display: block;
+}
+
+.home .mobile{
+	display: none;
+}
+
+.home .web .containerOne{
+	width: 100rem;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 3rem;
+	position: relative;
+}
+
+.home .web .malaysiaMap{
+	position: absolute;
+	margin-left: 29rem;
+}
+
+.home .web .malaysiaMapImage{
+	width: 90rem;
+}
+
+.home .web .containerOneHOne{
+	color: white;
+	font-size: 25px;
+	line-height: 50px;
+	margin-left: 2rem;
+}
+
+.home .web .containerOneHTwo{
+	color: white;
+	font-size: 25px;
+	line-height: 50px;
+	margin-left: 2rem;
+	margin-top: 22rem;
+}
+
+.home .web .containerOneHThree{
+	color: white;
+	font-size: 45px;
+	line-height: 50px;
+	margin-left: 2rem;
+}
+
+.home .web .goldElement{
+	margin-left: -3rem;
+	margin-top: -2rem;
+	width: 450px;
+	float: left;
+}
+
+.home .web .huntLogo{
+	width: 400px;
+	margin-top: 3rem;
+	margin-left: -23rem;
+}
+
+.home .web .eventContainer{
+	width: 400px;
+	height: 570px;
+	background-color: grey;
+	position: absolute;
+	margin-left: 65rem;
+	margin-top: -40rem;
+	border-radius: 20px;
+}
+
+.home .web .logoCircle{
+	width: 40px;
+	height: 40px;
+	margin-left: 2rem;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 1rem;
+	margin-right: 0.5rem;
+}
+
+.home .web .eventContainerHOne{
+	font-size: 35px;
+	display: inline-block;
+	color: white;
+	font-weight: 700;
+	margin-top: 1rem;
+	margin-right: 1rem;
+	text-transform: uppercase;
+}
+
+.home .web .eventImage{
+	width: 350px;
+	height: 220px;
+	border-radius: 20px;
+	margin-left: 1.5rem;
+	margin-top: 0.5rem;
+}
+
+.home .web .eventTitle{
+	color: #ffcd4d;
+	text-align: center;
+	font-size: 30px;
+	margin-top: 1rem;
+}
+
+.home .web .eventDescription{
+	color: white;
+	text-align: justify;
+	width: 350px;
+	height: 120px;
+	margin-left: 1.5rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.home .web .eventJoinButton{
+	width: 120px;
+	height: 50px;
+	border-radius: 10px;
+	margin-right: 1rem;
+	background-color: white;
+	border: none;
+	font-size: 18px;
+}
+
+.home .web .eventJoinButton:hover{
+	background-color: grey;
+	border: 2px black solid;
+}
+
+.home .web .eventLearnButton{
+	width: 120px;
+	height: 50px;
+	border-radius: 10px;
+	background-color: transparent;
+	border: 2px white solid;
+	font-size: 18px;
+}
+
+.home .web .eventLearnButton:hover{
+	background-color: white;
+	border: 2px black solid;
+}
+
+.home .web .buttonContainer{
+	text-align: center;
+}
+
+.home .web .pagination{
+	
+}
+
+.home .web .pageItem{
+	display: none;
+}
+
+.home .web .prevArrow{
+	width: 80px;
+	height: 80px;
+	border-radius: 50px;
+	margin-left: 30.5rem;
+	margin-top: -12rem;
+	position: absolute;
+}
+
+.home .web .nextArrow{
+	width: 80px;
+	height: 80px;
+	border-radius: 50px;
+	position: absolute;
+	margin-left: 44.5rem;
+	margin-top: -12rem;
+}
+
+.home .web .eventContainerWrapper {
+	opacity: 1;
+	transition: transform 0.3s cubic-bezier(0.165, 0.84, 0.44, 1),
+				opacity 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+	will-change: transform, opacity;
+	backface-visibility: hidden;
+}
+
+.home .web .eventContainerWrapper.page-enter {
+	opacity: 0;
+	transform: translateX(10%);
+	
+}
+
+.home .web .eventContainerWrapper.page-enter-active {
+	opacity: 1;
+	transform: translateX(0%);
+}
+
+.home .web .eventContainerWrapper.page-exit {
+	opacity: 1;
+	transform: translateX(0%);
+}
+
+.home .web .eventContainerWrapper.page-exit-active {
+	opacity: 0;
+	transform: translateX(0%);
+}
+
+.home .web .containerTwo{
+	margin-top: 7rem;
+	width: 85rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.home .web .newsImage{
+	width: 350px;
+	height: 350px;
+	border-radius: 20px;
+	margin-bottom: 1rem;
+}
+
+.home .web .containerTwoHOne{
+	color: grey;
+	font-size: 18px;
+	width: 150px;
+	display: inline-block;
+}
+
+.home .web .containerTwoHTwo{
+	display: inline-block;
+	color: grey;
+	font-size: 18px;
+	margin-left: 4rem;
+}
+
+.home .web .containerTwoHThree{
+	color: white;
+	font-size: 22px;
+	width: 350px;
+	margin-top: 1rem;
+}
+
+.home .web .containerTwoPOne{
+	color: grey;
+	font-size: 18px;
+	width: 350px;
+	height: 70px;
+	overflow: hidden;
+	margin-top: 1rem;
+}
+
+.home .web .readMoreButton{
+	color: #ffcc4d;
+	background-color: transparent;
+	border: none;
+}
+
+.home .web .inline{
+	display: inline-block;
+	padding: 3rem;
+}
+
+.home .web .paginationTwo{
+	
+}
+
+.home .web .prevArrowTwo{
+	width: 80px;
+	height: 80px;
+	border-radius: 50px;
+	margin-top: -25rem;
+	margin-left: -37rem;
+}
+
+.home .web .nextArrowTwo{
+	width: 80px;
+	height: 80px;
+	border-radius: 50px;
+	margin-top: -28rem;
+	margin-left: 36.6rem;
+}
+
+.home .web .newsContainerWrapper {
+	opacity: 1;
+	transition: transform 0.3s cubic-bezier(0.165, 0.84, 0.44, 1),
+				opacity 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+	backface-visibility: hidden;
+}
+
+.home .web .newsContainerWrapper.page-enter {
+	opacity: 0;
+	transform: translateX(10%);
+}
+
+.home .web .newsContainerWrapper.page-enter-active {
+	opacity: 1;
+	transform: translateX(0%);
+}
+
+.home .web .newsContainerWrapper.page-exit {
+	opacity: 1;
+	transform: translateX(0%);
+}
+
+.home .web .newsContainerWrapper.page-exit-active {
+	opacity: 0;
+	transform: translateX(0%);
+}
+
+.home .web .containerThree{
+	width: 85rem;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20rem;
+	margin-top: 10rem;
+}
+
+.home .web .appDemoImage{
+	width: 600px;
+}
+
+.home .web .huntLogoTwo{
+	width: 500px;
+}
+
+.home .web .containerThreeHOne{
+	color: white;
+	font-size: 50px;
+}
+
+.home .web .containerThreePOne{
+	color: white;
+	font-size: 20px;
+	width: 500px;
+}
+
+.home .web .downloadButton{
+	width: 180px;
+	height: 60px;
+	background-color: white;
+	margin-right: 1rem;
+	border-radius: 10px;
+	border: none;
+}
+
+.home .web .downloadH{
+	font-size: 15px;
+	margin-top: -2.5rem;
+	margin-left: 4rem;
+	text-align: left;
+}
+
+.home .web .icon{
+	margin-left: -7rem;
+	background-color: transparent;
+	width: 50px;
+	height: 50px;
+}
+
+/* Mobile */
+@media (min-width: 350px) and (max-width: 480px)  {
+	.home .web{
+		display: none;
+	}
+	
+	.home .mobile{
+		display: block;
+	}
+	
+	.home .mobile .containerOne{
+		width: 350px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 3rem;
+		position: relative;
+	}
+	
+	.home .mobile .malaysiaMap{
+		
+	}
+	
+	.home .mobile .malaysiaMapImage{
+		width: 32rem;
+		margin-left: 1rem;
+		margin-top: 2rem;
+	}
+	
+	.home .mobile .containerOneHOne{
+		color: white;
+		font-size: 25px;
+		line-height: 50px;
+		margin-left: 2rem;
+	}
+	
+	.home .mobile .containerOneHTwo{
+		color: white;
+		font-size: 14px;
+		line-height: 50px;
+		margin-left: 6.5rem;
+		margin-top: 29rem;
+	}
+	
+	.home .mobile .containerOneHThree{
+		color: white;
+		font-size: 28px;
+		line-height: 20px;
+		margin-left: 5.5rem;
+	}
+	
+	.home .mobile .goldElement{
+		margin-left: 3rem;
+		margin-top: -1rem;
+		width: 250px;
+	}
+	
+	.home .mobile .huntLogo{
+		width: 150px;
+		margin-top: 0.5rem;
+		margin-left: 6.8rem;
+	}
+	
+	.home .mobile .eventContainer{
+		width: 300px;
+		height: 570px;
+		background-color: grey;
+		border-radius: 20px;
+		top: 0;
+		position: absolute;
+		margin-top: -8rem;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+	}
+	
+	.home .mobile .logoCircle{
+		width: 30px;
+		height: 40px;
+		margin-left: 2rem;
+		display: inline-block;
+		vertical-align: top;
+		margin-top: 1rem;
+		margin-right: 0.5rem;
+	}
+	
+	.home .mobile .eventContainerHOne{
+		font-size: 16px;
+		display: inline-block;
+		color: white;
+		font-weight: 700;
+		margin-top: 1.6rem;
+		margin-right: 1rem;
+		text-transform: uppercase;
+	}
+	
+	.home .mobile .eventImage{
+		width: 250px;
+		height: 250px;
+		border-radius: 20px;
+		margin-left: 1.6rem;
+		margin-top: 0.5rem;
+	}
+	
+	.home .mobile .eventTitle{
+		color: #ffcd4d;
+		text-align: center;
+		font-size: 14px;
+		margin-top: 1rem;
+	}
+	
+	.home .mobile .eventDescription{
+		color: white;
+		text-align: justify;
+		width: 250px;
+		height: 120px;
+		margin-left: 1.5rem;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		font-size: 14px;
+	}
+	
+	.home .mobile .eventJoinButton{
+		width: 80px;
+		height: 40px;
+		border-radius: 10px;
+		margin-left: 4.4rem;
+		background-color: white;
+		border: none;
+		font-size: 14px;
+		margin-top: 0.5rem;
+	}
+	
+	.home .mobile .eventJoinButton:hover{
+		background-color: grey;
+		border: 1px black solid;
+	}
+	
+	.home .mobile .eventLearnButton{
+		width: 80px;
+		height: 40px;
+		border-radius: 10px;
+		margin-left: 1rem;
+		background-color: transparent;
+		border: 1px white solid;
+		font-size: 12px;
+	}
+	
+	.home .mobile .eventLearnButton:hover{
+		background-color: white;
+		border: 1px black solid;
+	}
+	
+	.home .mobile .pagination{
+		
+	}
+	
+	.home .mobile .pageItem{
+		display: none;
+	}
+	
+	.home .mobile .prevArrow{
+		width: 60px;
+		height: 60px;
+		border-radius: 50px;
+		margin-top: 5rem;
+		position: absolute;
+		margin-left: -0.5rem;
+	}
+	
+	.home .mobile .nextArrow{
+		width: 60px;
+		height: 60px;
+		border-radius: 50px;
+		position: absolute;
+		margin-top: 5rem;
+		margin-left: 9.7rem;
+	}
+	
+	.home .mobile .eventContainerWrapper {
+		opacity: 1;
+		transition: transform 0.3s cubic-bezier(0.165, 0.84, 0.44, 1),
+					opacity 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+		will-change: transform, opacity;
+		backface-visibility: hidden;
+	}
+	
+	.home .mobile .eventContainerWrapper.page-enter {
+		opacity: 0;
+		transform: translateX(10%);
+	}
+	
+	.home .mobile .eventContainerWrapper.page-enter-active {
+		opacity: 1;
+		transform: translateX(0%);
+	}
+	
+	.home .mobile .eventContainerWrapper.page-exit {
+		opacity: 1;
+		transform: translateX(0%);
+	}
+	
+	.home .mobile .eventContainerWrapper.page-exit-active {
+		opacity: 0;
+		transform: translateX(0%);
+	}
+	
+	.home .mobile .containerTwo{
+		margin-top: 5rem;
+		width: 350px;
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+	}
+	
+	.home .mobile .newsImage{
+		width: 250px;
+		height: 250px;
+		border-radius: 20px;
+		margin-bottom: 1rem;
+		margin-left: 0.5rem;
+	}
+	
+	.home .mobile .containerTwoHOne{
+		color: grey;
+		font-size: 14px;
+		width: 150px;
+		display: inline-block;
+		margin-left: 0.8rem;
+	}
+	
+	.home .mobile .containerTwoHTwo{
+		display: inline-block;
+		color: grey;
+		font-size: 14px;
+		margin-left: 1rem;
+	}
+	
+	.home .mobile .containerTwoHThree{
+		color: white;
+		font-size: 14px;
+		width: 250px;
+		margin-top: 1rem;
+		margin-left: 0.8rem;
+	}
+	
+	.home .mobile .containerTwoPOne{
+		color: grey;
+		font-size: 14px;
+		width: 250px;
+		overflow: hidden;
+		margin-top: 1rem;
+		margin-left: 0.8rem;
+	}
+	
+	.home .mobile .readMoreButton{
+		color: #ffcc4d;
+		background-color: transparent;
+		border: none;
+		font-size: 14px;
+		margin-left: 0.8rem;
+	}
+	
+	.home .mobile .inline{
+		display: inline-block;
+		padding: 3rem;
+	}
+	
+	.home .mobile .paginationTwo{
+		
+	}
+	
+	.home .mobile .prevArrowTwo{
+		width: 60px;
+		height: 60px;
+		border-radius: 50px;
+		margin-top: -10rem;
+		margin-left: 5rem;
+	}
+	
+	.home .mobile .nextArrowTwo{
+		width: 60px;
+		height: 60px;
+		border-radius: 50px;
+		margin-top: -13rem;
+		margin-left: 0.5rem;
+	}
+	
+	.home .mobile .newsContainerWrapper {
+		opacity: 1;
+		transition: opacity 0.5s ease-in-out;
+	  }
+	  
+	.home .mobile .newsContainerWrapper.page-enter {
+		opacity: 0;
+	}
+	
+	.home .mobile .newsContainerWrapper.page-enter-active {
+		opacity: 1;
+	}
+	
+	.home .mobile .newsContainerWrapper.page-exit {
+		opacity: 1;
+	}
+	
+	.home .mobile .newsContainerWrapper.page-exit-active {
+		opacity: 0;
+	}
+	
+	.home .mobile .containerThree{
+		width: 350px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 10rem;
+		margin-top: 10rem;
+		text-align: center;
+	}
+	
+	.home .mobile .appDemoImage{
+		width: 300px;
+	}
+	
+	.home .mobile .huntLogoTwo{
+		width: 200px;
+		margin-top: 2rem;
+		margin-bottom: 1rem;
+	}
+	
+	.home .mobile .containerThreeHOne{
+		color: white;
+		font-size: 18px;
+	}
+	
+	.home .mobile .containerThreePOne{
+		color: white;
+		font-size: 14px;
+		width: 300px;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+	}
+	
+	.home .mobile .downloadButton{
+		width: 130px;
+		height: 50px;
+		background-color: white;
+		border-radius: 10px;
+		border: 1px solid,black;
+		margin-left: 0.5rem;
+		display: inline-block;
+		color: black;
+	}
+	
+	.home .mobile .downloadH{
+		font-size: 12px;
+		text-align: left;
+		margin-left: 3rem;
+		margin-top: -2rem;
+	}
+	
+	.home .mobile .icon{
+		margin-left: -4rem;
+		margin-top: 0.5rem;
+		background-color: transparent;
+		width: 30px;
+		height: 30px;
+	}
+}
+
+
+/* Tablets */
+@media (min-width: 481px) and (max-width: 768px)  {
+	.home .web{
+		display: none;
+	}
+	
+	.home .mobile{
+		display: block;
+	}
+	
+	.home .mobile .containerOne{
+		width: 350px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 3rem;
+		position: relative;
+	}
+	
+	.home .mobile .malaysiaMap{
+		
+	}
+	
+	.home .mobile .malaysiaMapImage{
+		width: 32rem;
+		margin-left: 1rem;
+		margin-top: 2rem;
+	}
+	
+	.home .mobile .containerOneHOne{
+		color: white;
+		font-size: 25px;
+		line-height: 50px;
+		margin-left: 2rem;
+	}
+	
+	.home .mobile .containerOneHTwo{
+		color: white;
+		font-size: 14px;
+		line-height: 50px;
+		margin-left: 6.5rem;
+		margin-top: 29rem;
+	}
+	
+	.home .mobile .containerOneHThree{
+		color: white;
+		font-size: 28px;
+		line-height: 20px;
+		margin-left: 5.5rem;
+	}
+	
+	.home .mobile .goldElement{
+		margin-left: 3rem;
+		margin-top: -1rem;
+		width: 250px;
+	}
+	
+	.home .mobile .huntLogo{
+		width: 150px;
+		margin-top: 0.5rem;
+		margin-left: 6.8rem;
+	}
+	
+	.home .mobile .eventContainer{
+		width: 300px;
+		height: 570px;
+		background-color: grey;
+		border-radius: 20px;
+		top: 0;
+		position: absolute;
+		margin-top: -8rem;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+	}
+	
+	.home .mobile .logoCircle{
+		width: 30px;
+		height: 40px;
+		margin-left: 2rem;
+		display: inline-block;
+		vertical-align: top;
+		margin-top: 1rem;
+		margin-right: 0.5rem;
+	}
+	
+	.home .mobile .eventContainerHOne{
+		font-size: 16px;
+		display: inline-block;
+		color: white;
+		font-weight: 700;
+		margin-top: 1.6rem;
+		margin-right: 1rem;
+		text-transform: uppercase;
+	}
+	
+	.home .mobile .eventImage{
+		width: 250px;
+		height: 250px;
+		border-radius: 20px;
+		margin-left: 1.6rem;
+		margin-top: 0.5rem;
+	}
+	
+	.home .mobile .eventTitle{
+		color: #ffcd4d;
+		text-align: center;
+		font-size: 14px;
+		margin-top: 1rem;
+	}
+	
+	.home .mobile .eventDescription{
+		color: white;
+		text-align: justify;
+		width: 250px;
+		height: 120px;
+		margin-left: 1.5rem;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		font-size: 14px;
+	}
+	
+	.home .mobile .eventJoinButton{
+		width: 80px;
+		height: 40px;
+		border-radius: 10px;
+		margin-left: 4.4rem;
+		background-color: white;
+		border: none;
+		font-size: 14px;
+		margin-top: 0.5rem;
+	}
+	
+	.home .mobile .eventJoinButton:hover{
+		background-color: grey;
+		border: 1px black solid;
+	}
+	
+	.home .mobile .eventLearnButton{
+		width: 80px;
+		height: 40px;
+		border-radius: 10px;
+		margin-left: 1rem;
+		background-color: transparent;
+		border: 1px white solid;
+		font-size: 12px;
+	}
+	
+	.home .mobile .eventLearnButton:hover{
+		background-color: white;
+		border: 1px black solid;
+	}
+	
+	.home .mobile .pagination{
+		
+	}
+	
+	.home .mobile .pageItem{
+		display: none;
+	}
+	
+	.home .mobile .prevArrow{
+		width: 60px;
+		height: 60px;
+		border-radius: 50px;
+		margin-top: 5rem;
+		position: absolute;
+		margin-left: -0.5rem;
+	}
+	
+	.home .mobile .nextArrow{
+		width: 60px;
+		height: 60px;
+		border-radius: 50px;
+		position: absolute;
+		margin-top: 5rem;
+		margin-left: 9.7rem;
+	}
+	
+	.home .mobile .eventContainerWrapper {
+		opacity: 1;
+		transition: transform 0.3s cubic-bezier(0.165, 0.84, 0.44, 1),
+					opacity 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+		will-change: transform, opacity;
+		backface-visibility: hidden;
+	}
+	
+	.home .mobile .eventContainerWrapper.page-enter {
+		opacity: 0;
+		transform: translateX(10%);
+	}
+	
+	.home .mobile .eventContainerWrapper.page-enter-active {
+		opacity: 1;
+		transform: translateX(0%);
+	}
+	
+	.home .mobile .eventContainerWrapper.page-exit {
+		opacity: 1;
+		transform: translateX(0%);
+	}
+	
+	.home .mobile .eventContainerWrapper.page-exit-active {
+		opacity: 0;
+		transform: translateX(0%);
+	}
+	
+	.home .mobile .containerTwo{
+		margin-top: 5rem;
+		width: 350px;
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+	}
+	
+	.home .mobile .newsImage{
+		width: 250px;
+		height: 250px;
+		border-radius: 20px;
+		margin-bottom: 1rem;
+		margin-left: 0.5rem;
+	}
+	
+	.home .mobile .containerTwoHOne{
+		color: grey;
+		font-size: 14px;
+		width: 150px;
+		display: inline-block;
+		margin-left: 0.8rem;
+	}
+	
+	.home .mobile .containerTwoHTwo{
+		display: inline-block;
+		color: grey;
+		font-size: 14px;
+		margin-left: 1rem;
+	}
+	
+	.home .mobile .containerTwoHThree{
+		color: white;
+		font-size: 14px;
+		width: 250px;
+		margin-top: 1rem;
+		margin-left: 0.8rem;
+	}
+	
+	.home .mobile .containerTwoPOne{
+		color: grey;
+		font-size: 14px;
+		width: 250px;
+		overflow: hidden;
+		margin-top: 1rem;
+		margin-left: 0.8rem;
+	}
+	
+	.home .mobile .readMoreButton{
+		color: #ffcc4d;
+		background-color: transparent;
+		border: none;
+		font-size: 14px;
+		margin-left: 0.8rem;
+	}
+	
+	.home .mobile .inline{
+		display: inline-block;
+		padding: 3rem;
+	}
+	
+	.home .mobile .paginationTwo{
+		
+	}
+	
+	.home .mobile .prevArrowTwo{
+		width: 60px;
+		height: 60px;
+		border-radius: 50px;
+		margin-top: -10rem;
+		margin-left: 5rem;
+	}
+	
+	.home .mobile .nextArrowTwo{
+		width: 60px;
+		height: 60px;
+		border-radius: 50px;
+		margin-top: -13rem;
+		margin-left: 0.5rem;
+	}
+	
+	.home .mobile .newsContainerWrapper {
+		opacity: 1;
+		transition: opacity 0.5s ease-in-out;
+	  }
+	  
+	.home .mobile .newsContainerWrapper.page-enter {
+		opacity: 0;
+	}
+	
+	.home .mobile .newsContainerWrapper.page-enter-active {
+		opacity: 1;
+	}
+	
+	.home .mobile .newsContainerWrapper.page-exit {
+		opacity: 1;
+	}
+	
+	.home .mobile .newsContainerWrapper.page-exit-active {
+		opacity: 0;
+	}
+	
+	.home .mobile .containerThree{
+		width: 350px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 10rem;
+		margin-top: 10rem;
+		text-align: center;
+	}
+	
+	.home .mobile .appDemoImage{
+		width: 300px;
+	}
+	
+	.home .mobile .huntLogoTwo{
+		width: 200px;
+		margin-top: 2rem;
+		margin-bottom: 1rem;
+	}
+	
+	.home .mobile .containerThreeHOne{
+		color: white;
+		font-size: 18px;
+	}
+	
+	.home .mobile .containerThreePOne{
+		color: white;
+		font-size: 14px;
+		width: 300px;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+	}
+	
+	.home .mobile .downloadButton{
+		width: 130px;
+		height: 50px;
+		background-color: white;
+		border-radius: 10px;
+		border: 1px solid,black;
+		margin-left: 0.5rem;
+		display: inline-block;
+		color: black;
+	}
+	
+	.home .mobile .downloadH{
+		font-size: 12px;
+		text-align: left;
+		margin-left: 3rem;
+		margin-top: -2rem;
+	}
+	
+	.home .mobile .icon{
+		margin-left: -4rem;
+		margin-top: 0.5rem;
+		background-color: transparent;
+		width: 30px;
+		height: 30px;
+	}
+}
+
+/* Small Screen **/
+@media (min-width: 769px) and (max-width: 1480px)  {
+	.home .web{
+		display: none;
+	}
+	
+	.home .mobile{
+		display: block;
+	}
+	
+	.home .mobile .containerOne{
+		width: 750px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 3rem;
+		position: relative;
+	}
+	
+	.home .mobile .malaysiaMap{
+		
+	}
+	
+	.home .mobile .malaysiaMapImage{
+		width: 45rem;
+		margin-left: 8rem;
+		margin-top: 2rem;
+	}
+	
+	.home .mobile .containerOneHOne{
+		color: white;
+		font-size: 25px;
+		line-height: 50px;
+		margin-left: 2rem;
+	}
+	
+	.home .mobile .containerOneHTwo{
+		color: white;
+		font-size: 25px;
+		line-height: 50px;
+		margin-left: 15.5rem;
+		margin-top: 26rem;
+	}
+	
+	.home .mobile .containerOneHThree{
+		color: white;
+		font-size: 28px;
+		line-height: 20px;
+		margin-left: 18rem;
+	}
+	
+	.home .mobile .goldElement{
+		margin-left: 14rem;
+		margin-top: -1rem;
+		width: 300px;
+	}
+	
+	.home .mobile .huntLogo{
+		width: 250px;
+		margin-top: 0.5rem;
+		margin-left: 15.5rem;
+	}
+	
+	.home .mobile .eventContainer{
+		width: 400px;
+		height: 570px;
+		background-color: grey;
+		border-radius: 20px;
+		top: 0;
+		position: absolute;
+		margin-top: -12rem;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+	}
+	
+	.home .mobile .logoCircle{
+		width: 50px;
+		height: 40px;
+		margin-left: 2rem;
+		display: inline-block;
+		vertical-align: top;
+		margin-top: 1rem;
+		margin-right: 0.5rem;
+	}
+	
+	.home .mobile .eventContainerHOne{
+		font-size: 25px;
+		display: inline-block;
+		color: white;
+		font-weight: 700;
+		margin-top: 1.3rem;
+		margin-right: 1rem;
+		text-transform: uppercase;
+	}
+	
+	.home .mobile .eventImage{
+		width: 350px;
+		height: 250px;
+		border-radius: 20px;
+		margin-left: 1.6rem;
+		margin-top: 0.5rem;
+	}
+	
+	.home .mobile .eventTitle{
+		color: #ffcd4d;
+		text-align: center;
+		font-size: 20px;
+		margin-top: 1rem;
+	}
+	
+	.home .mobile .eventDescription{
+		color: white;
+		text-align: justify;
+		width: 350px;
+		height: 120px;
+		margin-left: 1.5rem;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		font-size: 14px;
+	}
+	
+	.home .mobile .eventJoinButton{
+		width: 100px;
+		height: 40px;
+		border-radius: 10px;
+		margin-left: 6rem;
+		background-color: white;
+		border: none;
+		font-size: 14px;
+		margin-top: 0.5rem;
+	}
+	
+	.home .mobile .eventJoinButton:hover{
+		background-color: grey;
+		border: 1px black solid;
+	}
+	
+	.home .mobile .eventLearnButton{
+		width: 100px;
+		height: 40px;
+		border-radius: 10px;
+		margin-left: 1rem;
+		background-color: transparent;
+		border: 1px white solid;
+		font-size: 12px;
+	}
+	
+	.home .mobile .eventLearnButton:hover{
+		background-color: white;
+		border: 1px black solid;
+	}
+	
+	.home .mobile .pagination{
+		
+	}
+	
+	.home .mobile .pageItem{
+		display: none;
+	}
+	
+	.home .mobile .prevArrow{
+		width: 80px;
+		height: 80px;
+		border-radius: 50px;
+		margin-top: 2.5rem;
+		position: absolute;
+		margin-left: 3.5rem;
+	}
+	
+	.home .mobile .nextArrow{
+		width: 80px;
+		height: 80px;
+		border-radius: 50px;
+		position: absolute;
+		margin-top: 2.5rem;
+		margin-left: 17.5rem;
+	}
+	
+	.home .mobile .eventContainerWrapper {
+		opacity: 1;
+		transition: transform 0.3s cubic-bezier(0.165, 0.84, 0.44, 1),
+					opacity 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+		will-change: transform, opacity;
+		backface-visibility: hidden;
+	}
+	
+	.home .mobile .eventContainerWrapper.page-enter {
+		opacity: 0;
+		transform: translateX(10%);
+	}
+	
+	.home .mobile .eventContainerWrapper.page-enter-active {
+		opacity: 1;
+		transform: translateX(0%);
+	}
+	
+	.home .mobile .eventContainerWrapper.page-exit {
+		opacity: 1;
+		transform: translateX(0%);
+	}
+	
+	.home .mobile .eventContainerWrapper.page-exit-active {
+		opacity: 0;
+		transform: translateX(0%);
+	}
+	
+	.home .mobile .containerTwo{
+		margin-top: 5rem;
+		width: 450px;
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+	}
+	
+	.home .mobile .newsImage{
+		width: 350px;
+		height: 350px;
+		border-radius: 20px;
+		margin-bottom: 1rem;
+	}
+	
+	.home .mobile .containerTwoHOne{
+		color: grey;
+		font-size: 22px;
+		width: 155px;
+		display: inline-block;
+		margin-left: 0.5rem;
+	}
+	
+	.home .mobile .containerTwoHTwo{
+		display: inline-block;
+		color: grey;
+		font-size: 22px;
+		margin-left: 4rem;
+	}
+	
+	.home .mobile .containerTwoHThree{
+		color: white;
+		font-size: 22px;
+		width: 350px;
+		margin-top: 1rem;
+		margin-left: 0.5rem;
+	}
+	
+	.home .mobile .containerTwoPOne{
+		color: grey;
+		font-size: 22px;
+		width: 350px;
+		overflow: hidden;
+		margin-top: 1rem;
+		margin-left: 0.5rem;
+	}
+	
+	.home .mobile .readMoreButton{
+		color: #ffcc4d;
+		background-color: transparent;
+		border: none;
+		font-size: 22px;
+		margin-left: 0rem;
+	}
+	
+	.home .mobile .inline{
+		display: inline-block;
+		padding: 3rem;
+	}
+	
+	.home .mobile .paginationTwo{
+		
+	}
+	
+	.home .mobile .prevArrowTwo{
+		width: 80px;
+		height: 80px;
+		border-radius: 50px;
+		margin-left: -1rem;
+	}
+	
+	.home .mobile .nextArrowTwo{
+		width: 80px;
+		height: 80px;
+		border-radius: 50px;
+		margin-left: -1rem;
+		margin-top: -1.5rem;
+	}
+	
+	.home .mobile .newsContainerWrapper {
+		opacity: 1;
+		transition: opacity 0.5s ease-in-out;
+	  }
+	  
+	.home .mobile .newsContainerWrapper.page-enter {
+		opacity: 0;
+	}
+	
+	.home .mobile .newsContainerWrapper.page-enter-active {
+		opacity: 1;
+	}
+	
+	.home .mobile .newsContainerWrapper.page-exit {
+		opacity: 1;
+	}
+	
+	.home .mobile .newsContainerWrapper.page-exit-active {
+		opacity: 0;
+	}
+	
+	.home .mobile .containerThree{
+		width: 500px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 10rem;
+		margin-top: 15rem;
+		text-align: center;
+	}
+	
+	.home .mobile .appDemoImage{
+		width: 500px;
+	}
+	
+	.home .mobile .huntLogoTwo{
+		width: 300px;
+		margin-top: 2rem;
+		margin-bottom: 1rem;
+	}
+	
+	.home .mobile .containerThreeHOne{
+		color: white;
+		font-size: 22px;
+	}
+	
+	.home .mobile .containerThreePOne{
+		color: white;
+		font-size: 22px;
+		width: 400px;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+	}
+	
+	.home .mobile .downloadButton{
+		width: 130px;
+		height: 50px;
+		background-color: white;
+		border-radius: 10px;
+		border: 1px solid,black;
+		margin-left: 0.5rem;
+		display: inline-block;
+		color: black;
+	}
+	
+	.home .mobile .downloadH{
+		font-size: 12px;
+		text-align: left;
+		margin-left: 3rem;
+		margin-top: -2rem;
+	}
+	
+	.home .mobile .icon{
+		margin-left: -4rem;
+		margin-top: 0.5rem;
+		background-color: transparent;
+		width: 30px;
+		height: 30px;
+	}
+}

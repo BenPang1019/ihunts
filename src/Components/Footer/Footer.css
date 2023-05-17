@@ -1,0 +1,834 @@
+.footerN{
+	font-family: "Arimo", sans-serif;
+	width: 100rem;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+}
+
+a{
+	text-decoration: none;
+}
+
+.footerN .web{
+	display: block;
+}
+
+.footerN .mobile{
+	display: none;
+}
+
+.footerN .web .inline{
+	display: inline-block;
+}
+
+.footerN .web .containerOneN{
+	width: 100rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.footerN .web .containerOneNHOne{
+	color: white;
+	margin-left: 2rem;
+	font-size: 30px;
+	width: 530px;
+}
+
+.footerN .web .socialIcon{
+	width: 35px;
+	margin-left: 2rem;
+	margin-right: 2rem;
+	margin-top: 1rem;
+}
+
+.footerN .web .containerOneNHTwo{
+	color: white;
+	font-size: 20px;
+	margin-left: 2rem;
+	margin-top: 5rem;
+}
+
+.footerN .web .containerOneNHThree{
+	color: white;
+	font-size: 20px;
+	margin-left: 2rem;
+	margin-bottom: 6rem;
+}
+
+.footerN .web .containerOneNPOne{
+	color: white;
+	font-size: 20px;
+	width: 600px;
+	margin-left: 2rem;
+	margin-top: 1rem;
+}
+
+.footerN .web .submitForm{
+	width: 600px;
+	color: white;
+	border: none;
+	margin-top: 3rem;
+	margin-left: 2rem;
+}
+
+.footerN .web .submitButton{
+	background: #ffcd4d;
+    color: black;
+    padding: 10px 10px 10px 10px;
+    transition: all .2s ease-in-out;
+    font-size: 18px;
+    margin-top: 1rem;
+    border-radius: 10px;
+    border:  solid 3px;
+    border-color:#ffcd4d;
+    cursor: pointer;
+}
+
+.footerN .web .submitButton:hover{
+	transform: scale(1.1); 
+    background: black; 
+    color: yellow;
+    border:  solid 3px, yellow;
+    border-radius: 10px;
+}
+
+.footerN .web .inputLine{
+	width: 250px;
+	height: 30px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	outline: 0;
+	border-width: 0 0 2px;
+	border-color: grey;
+	background-color: transparent;
+	color: white;
+}
+
+
+.footerN .web .textArea{
+	width: 562px;
+	height: 30px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	outline: 0;
+	border-width: 0 0 2px;
+	border-color: grey;
+	background-color: transparent;
+	color: white;
+	max-height: 300px;
+}
+  
+.footerN .web .formLabel{
+	font-size: 20px;
+}
+
+.footerN .web .row {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+  
+.footerN .web .lineContainer{
+	margin-left: auto;
+	margin-right: auto;
+	width: 100rem;
+	padding-left: 1rem;
+	margin-top: 3rem;
+}
+
+.footerN .web .line{
+	position: absolute; /* Set the position property to absolute */
+	right: 1;
+	left: 1; /* Position the left edge of the underline at the center of the parent container */
+	width: 92rem; /* Set the width property to 90rem */
+	height: 1px; /* Set the height property to 1px to create a horizontal line */
+	background-color: grey; 
+}
+
+.footerN .web .termsContainer{
+	text-align: center;
+}
+
+.footerN .web .terms{
+	color: white;
+	margin-right: 10px;
+	text-decoration: underline;
+}
+
+.footerN .web .copyRightContainer{
+	width: 100rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.footerN .web .copyRight{
+	color: white;
+	font-size: 18px;
+	margin-top: 1rem;
+	margin-right: 47rem;
+	margin-left: 1rem;
+}
+
+.footerN .web .copyRightTwo{
+	color: white;
+	font-size: 18px;
+	text-align: right;
+}
+
+
+/* Mobile */
+@media (min-width: 350px) and (max-width: 480px) {
+	.footerN .web{
+		display: none;
+	}
+	
+	.footerN .mobile{
+		display: block;
+	}
+	
+	.footerN .mobile .inline{
+		display: inline-block;
+	}
+	
+	.footerN .mobile .containerOneN{
+		width: 300px;
+	}
+	
+	.footerN .mobile .containerOneNHOne{
+		color: white;
+		font-size: 14px;
+		margin-left: 3rem;
+		width: 200px;
+	}
+	
+	.footerN .mobile .socialIcon{
+		width: 30px;
+		margin-left: 3rem;
+		margin-top: 1rem;
+	}
+	
+	.footerN .mobile .containerOneNHTwo{
+		color: white;
+		font-size: 14px;
+		margin-top: 2rem;
+		margin-left: 3rem;
+	}
+	
+	.footerN .mobile .containerOneNHThree{
+		color: white;
+		font-size: 14px;
+		margin-left: 3rem;
+	}
+	
+	.footerN .mobile .containerOneNPOne{
+		color: white;
+		font-size: 14px;
+		width: 300px;
+		margin-left: 3rem;
+		margin-top: 1rem;
+	}
+
+	.footerN .mobile .right{
+		margin-top: 5rem;
+	}
+	
+	.footerN .mobile .submitForm{
+		width: 350px;
+		color: white;
+		border: none;
+		margin-top: 2rem;
+		margin-left: 3rem;
+	}
+	
+	.footerN .mobile .submitButton{
+		background: #ffcd4d;
+		color: black;
+		padding: 10px 10px 10px 10px;
+		transition: all .2s ease-in-out;
+		font-size: 14px;
+		margin-top: 1rem;
+		border-radius: 10px;
+		border:  solid 3px;
+		border-color:#ffcd4d;
+		cursor: pointer;
+	}
+	
+	.footerN .mobile .submitButton:hover{
+		transform: scale(1.1); 
+		background: black; 
+		color: yellow;
+		border:  solid 3px, yellow;
+		border-radius: 10px;
+	}
+	
+	.footerN .mobile .inputLine{
+		width: 140px;
+		height: 30px;
+		font-size: 14px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		outline: 0;
+		border-width: 0 0 2px;
+		border-color: grey;
+		background-color: transparent;
+		color: white;
+	}
+	
+	
+	.footerN .mobile .textArea{
+		width: 325px;
+		height: 30px;
+		margin-top: 20px;
+		font-size: 14px;
+		margin-bottom: 20px;
+		outline: 0;
+		border-width: 0 0 2px;
+		border-color: grey;
+		background-color: transparent;
+		color: white;
+		max-height: 120px;
+	}
+	  
+	.footerN .mobile .formLabel{
+		font-size: 14px;
+	}
+	
+	.footerN .mobile .row {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	  
+	.footerN .mobile .lineContainer{
+		margin-left: auto;
+		margin-right: auto;
+		width: 100rem;
+		padding-left: 1rem;
+		margin-top: 3rem;
+	}
+	
+	.footerN .mobile .line{
+		position: absolute; /* Set the position property to absolute */
+		right: 1;
+		left: 1; /* Position the left edge of the underline at the center of the parent container */
+		width: 75%; /* Set the width property to 90rem */
+		height: 1px; /* Set the height property to 1px to create a horizontal line */
+		background-color: grey; 
+		margin-left: 2rem;
+	}
+	
+	.footerN .mobile .termsContainer{
+		text-align: left;
+		margin-left: 3rem;
+		font-size: 14px;
+		width: 400px;
+	}
+	
+	.footerN .mobile .terms{
+		color: white;
+		margin-right: 10px;
+		text-decoration: underline;
+	}
+	
+	.footerN .mobile .copyRightContainer{
+		margin-left: 3rem;
+		width: 300px;
+	}
+	
+	.footerN .mobile .copyRight{
+		color: white;
+		font-size: 14px;
+		margin-top: 1rem;
+	}
+	
+	.footerN .mobile .copyRightTwo{
+		color: white;
+		font-size: 14px;
+	}
+	
+}
+
+/* Tablets */
+@media (min-width: 481px) and (max-width: 768px)  {
+	.footerN .web{
+		display: none;
+	}
+	
+	.footerN .mobile{
+		display: block;
+		position: relative;
+	}
+	
+	.footerN .mobile .inline{
+		display: inline-block;
+	}
+
+	.footerN .mobile .containerOneN{
+		width: 400px;
+	}
+	
+	.footerN .mobile .containerOneNHOne{
+		color: white;
+		font-size: 16px;
+		margin-left: 3rem;
+		width: 250px;
+	}
+	
+	.footerN .mobile .socialIcon{
+		width: 30px;
+		margin-left: 3rem;
+		margin-top: 1rem;
+	}
+	
+	.footerN .mobile .containerOneNHTwo{
+		color: white;
+		font-size: 16px;
+		margin-top: 2rem;
+		margin-left: 3rem;
+	}
+	
+	.footerN .mobile .containerOneNHThree{
+		color: white;
+		font-size: 16px;
+		margin-left: 3rem;
+	}
+	
+	.footerN .mobile .containerOneNPOne{
+		color: white;
+		font-size: 16px;
+		width: 350px;
+		margin-left: 3rem;
+		margin-top: 1rem;
+	}
+
+	.footerN .mobile .right{
+		margin-top: 5rem;
+	}
+	
+	.footerN .mobile .submitForm{
+		width: 400px;
+		color: white;
+		border: none;
+		margin-top: 3rem;
+		margin-left: 3rem;
+	}
+	
+	.footerN .mobile .submitButton{
+		background: #ffcd4d;
+		color: black;
+		padding: 10px 10px 10px 10px;
+		transition: all .2s ease-in-out;
+		font-size: 16px;
+		margin-top: 1rem;
+		border-radius: 10px;
+		border:  solid 3px;
+		border-color:#ffcd4d;
+		cursor: pointer;
+	}
+	
+	.footerN .mobile .submitButton:hover{
+		transform: scale(1.1); 
+		background: black; 
+		color: yellow;
+		border:  solid 3px, yellow;
+		border-radius: 10px;
+	}
+	
+	.footerN .mobile .inputLine{
+		width: 150px;
+		height: 30px;
+		font-size: 16px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		outline: 0;
+		border-width: 0 0 2px;
+		border-color: grey;
+		background-color: transparent;
+		color: white;
+	}
+	
+	
+	.footerN .mobile .textArea{
+		width: 360px;
+		height: 30px;
+		font-size: 16px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		outline: 0;
+		border-width: 0 0 2px;
+		border-color: grey;
+		background-color: transparent;
+		color: white;
+		max-height: 120px;
+	}
+	  
+	.footerN .mobile .formLabel{
+		font-size: 16px;
+	}
+	
+	.footerN .mobile .row {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	  
+	.footerN .mobile .lineContainer{
+		margin-left: auto;
+		margin-right: auto;
+		width: 100rem;
+		padding-left: 1rem;
+		margin-top: 3rem;
+	}
+	
+	.footerN .mobile .line{
+		position: absolute; /* Set the position property to absolute */
+		right: 1;
+		left: 1; /* Position the left edge of the underline at the center of the parent container */
+		width: 75%; /* Set the width property to 90rem */
+		height: 1px; /* Set the height property to 1px to create a horizontal line */
+		background-color: grey; 
+		margin-left: 2rem;
+	}
+	
+	.footerN .mobile .termsContainer{
+		text-align: left;
+		margin-left: 3rem;
+		font-size: 16px;
+		width: 400px;
+	}
+	
+	.footerN .mobile .terms{
+		color: white;
+		margin-right: 10px;
+		text-decoration: underline;
+	}
+	
+	.footerN .mobile .copyRightContainer{
+		margin-left: 3rem;
+		width: 330px;
+	}
+
+	@media (min-width: 700px) and (max-width: 768px)  {
+		.footerN .mobile .copyRightContainer{
+			margin-left: 3rem;
+			width: 600px;
+		}
+	}
+	
+	.footerN .mobile .copyRight{
+		color: white;
+		font-size: 16px;
+		margin-top: 1rem;
+	}
+	
+	.footerN .mobile .copyRightTwo{
+		color: white;
+		font-size: 16px;
+	}
+}
+
+/* Small Screen */
+@media (min-width: 769px) and (max-width: 1480px)  {
+	.footerN .web{
+		display: none;
+	}
+	
+	.footerN .mobile{
+		display: block;
+	}
+	
+	.footerN .mobile .inline{
+		display: inline-block;
+	}
+
+	.footerN .mobile .containerOneN{
+		width: 400px;
+	}
+
+	@media (min-width: 900px) and (max-width: 1480px)  {
+		.footerN .mobile .containerOneN{
+			width: 100rem;
+		}
+
+		.footerN .mobile .left{
+			vertical-align: top;
+			position: absolute;
+			left: 0;
+		}
+
+		.footerN .mobile .right{
+			vertical-align: top;
+			position: absolute;
+			right: 0;	
+			width: 500px;
+		}
+
+		@media (min-width: 1000px) and (max-width: 1480px)  {
+			.footerN .mobile .right{
+				vertical-align: top;
+				position: absolute;
+				right: 0;
+				width: 600px;
+			}
+		}
+	}
+
+	.footerN .mobile .containerOneNHOne{
+		color: white;
+		font-size: 18px;
+		margin-left: 3rem;
+		width: 350px;
+	}
+	
+	.footerN .mobile .socialIcon{
+		width: 30px;
+		margin-left: 3rem;
+		margin-top: 1rem;
+	}
+	
+	.footerN .mobile .containerOneNHTwo{
+		color: white;
+		font-size: 18px;
+		margin-top: 2rem;
+		margin-left: 3rem;
+	}
+	
+	.footerN .mobile .containerOneNHThree{
+		color: white;
+		font-size: 18px;
+		margin-left: 3rem;
+	}
+	
+	.footerN .mobile .containerOneNPOne{
+		color: white;
+		font-size: 18px;
+		width: 350px;
+		margin-left: 3rem;
+		margin-top: 1rem;
+	}
+	
+	.footerN .mobile .submitForm{
+		width: 400px;
+		color: white;
+		border: none;
+		margin-top: 3rem;
+		margin-left: 3rem;
+	}
+	
+	.footerN .mobile .submitButton{
+		background: #ffcd4d;
+		color: black;
+		padding: 10px 10px 10px 10px;
+		transition: all .2s ease-in-out;
+		font-size: 18px;
+		margin-top: 1rem;
+		border-radius: 10px;
+		border:  solid 3px;
+		border-color:#ffcd4d;
+		cursor: pointer;
+	}
+	
+	.footerN .mobile .submitButton:hover{
+		transform: scale(1.1); 
+		background: black; 
+		color: yellow;
+		border:  solid 3px, yellow;
+		border-radius: 10px;
+	}
+	
+	.footerN .mobile .inputLine{
+		width: 150px;
+		height: 30px;
+		font-size: 18px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		outline: 0;
+		border-width: 0 0 2px;
+		border-color: grey;
+		background-color: transparent;
+		color: white;
+	}
+	
+	
+	.footerN .mobile .textArea{
+		width: 360px;
+		height: 40px;
+		font-size: 18px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		outline: 0;
+		border-width: 0 0 2px;
+		border-color: grey;
+		background-color: transparent;
+		color: white;
+		max-height: 120px;
+	}
+	  
+	.footerN .mobile .formLabel{
+		font-size: 18px;
+	}
+	
+	.footerN .mobile .row {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	  
+	.footerN .mobile .lineContainer{
+		margin-left: auto;
+		margin-right: auto;
+		width: 100rem;
+		padding-left: 1rem;
+		margin-top: 3rem;
+	}
+	
+	.footerN .mobile .line{
+		position: absolute; /* Set the position property to absolute */
+		right: 1;
+		left: 1; /* Position the left edge of the underline at the center of the parent container */
+		width: 83%; /* Set the width property to 90rem */
+		height: 1px; /* Set the height property to 1px to create a horizontal line */
+		background-color: grey; 
+		margin-left: 2rem;
+
+	}
+	
+	.footerN .mobile .termsContainer{
+		text-align: left;
+		margin-left: 3rem;
+		font-size: 18px;
+		width: 500px;
+	}
+	
+	.footerN .mobile .terms{
+		color: white;
+		margin-right: 10px;
+		text-decoration: underline;
+	}
+	
+	.footerN .mobile .copyRightContainer{
+		margin-left: 3rem;
+		width: 700px;
+	}
+	
+	.footerN .mobile .copyRight{
+		color: white;
+		font-size: 18px;
+		margin-top: 1rem;
+	}
+	
+	.footerN .mobile .copyRightTwo{
+		color: white;
+		font-size: 18px;
+	}
+
+	@media (min-width: 900px) and (max-width: 1480px)  {
+		.footerN .mobile .line{
+			position: absolute; /* Set the position property to absolute */
+			margin-top: 40rem;
+			right: 1;
+			left: 1; /* Position the left edge of the underline at the center of the parent container */
+			width: 90%; /* Set the width property to 90rem */
+			height: 1px; /* Set the height property to 1px to create a horizontal line */
+			background-color: grey; 
+			margin-left: 2rem;
+		}
+
+		.footerN .mobile .termsContainer{
+			text-align: center;
+			font-size: 18px;
+			position: absolute;
+			margin-top: 40rem;
+			left: 0;
+			right: 0;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		.footerN .mobile .copyRight{
+			color: white;
+			font-size: 18px;
+			margin-top: 42rem;
+		}
+
+		.footerN .mobile .copyRightTwo{
+			color: white;
+			font-size: 18px;
+			position: absolute;
+			margin-top: 42rem;
+			right: 0;
+			margin-right: 3rem;
+		}
+
+		@media (min-width: 1000px) and (max-width: 1480px)  {
+			.footerN .mobile .right{
+				vertical-align: top;
+				position: absolute;
+				right: 0;
+				width: 610px;
+			}
+
+			.footerN .mobile .submitForm{
+				width: 550px;
+				color: white;
+				border: none;
+				margin-top: 3rem;
+				margin-left: 3rem;
+			}
+			
+			.footerN .mobile .submitButton{
+				background: #ffcd4d;
+				color: black;
+				padding: 10px 10px 10px 10px;
+				transition: all .2s ease-in-out;
+				font-size: 18px;
+				margin-top: 1rem;
+				border-radius: 10px;
+				border:  solid 3px;
+				border-color:#ffcd4d;
+				cursor: pointer;
+			}
+			
+			.footerN .mobile .submitButton:hover{
+				transform: scale(1.1); 
+				background: black; 
+				color: yellow;
+				border:  solid 3px, yellow;
+				border-radius: 10px;
+			}
+			
+			.footerN .mobile .inputLine{
+				width: 200px;
+				height: 30px;
+				font-size: 18px;
+				margin-top: 20px;
+				margin-bottom: 20px;
+				outline: 0;
+				border-width: 0 0 2px;
+				border-color: grey;
+				background-color: transparent;
+				color: white;
+			}
+			
+			
+			.footerN .mobile .textArea{
+				width: 490px;
+				height: 40px;
+				font-size: 18px;
+				margin-top: 20px;
+				margin-bottom: 20px;
+				outline: 0;
+				border-width: 0 0 2px;
+				border-color: grey;
+				background-color: transparent;
+				color: white;
+				max-height: 120px;
+			}
+			  
+			.footerN .mobile .formLabel{
+				font-size: 18px;
+			}
+		}
+	}
+} 

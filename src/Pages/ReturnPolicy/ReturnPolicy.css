@@ -1,0 +1,66 @@
+.rp{
+    font-family: "Arimo", sans-serif;
+}
+
+.rp .web{
+    display: block;
+}
+
+.rp .mobile{
+    display: none;
+}
+
+.rp .web .containerOne{
+    width: 90rem;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+}
+
+.rp .web .HOne{
+    color: #ffcd4e;
+    text-align: center;
+}
+
+
+
+/* Mobile */
+@media (min-width: 350px) and (max-width: 480px)  {
+    .rp .web .containerOne{
+        width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5rem;
+        margin-bottom: 10rem;
+        color: white;
+        text-align: justify;
+    }
+}
+
+/* Tablets */
+@media (min-width: 481px) and (max-width: 768px)  {
+    .rp .web .containerOne{
+        width: 550px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5rem;
+        margin-bottom: 10rem;
+        color: white;
+        text-align: justify;
+    }
+}
+
+/* Small Screen **/
+@media (min-width: 769px) and (max-width: 1480px)  {
+    .rp .web .containerOne{
+        width: 55rem;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5rem;
+        margin-bottom: 10rem;
+        color: white;
+        text-align: justify;
+    }
+}
